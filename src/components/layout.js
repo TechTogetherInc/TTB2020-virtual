@@ -12,7 +12,7 @@ import Helmet from "react-helmet";
 import Header from "./header";
 import Nav from "../components/navbar";
 import NavMobile from "../components/nav-mobile";
-// import Footer from "../components/"
+import Footer from "../components/footer/footer";
 import favicon from "../images/graphics/ttb-logoV2.png";
 
 import "../styles/main.scss";
@@ -41,7 +41,7 @@ const Layout = ({ children }) => (
     <Nav />
     <NavMobile />
     <div>{children}</div>
-    {/* <Footer /> */}
+    <Footer />
   </div>
 );
 
