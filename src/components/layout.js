@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Helmet from "react-helmet";
 import Header from "./header";
 import Nav from "../components/navbar";
+import NavMobile from "../components/nav-mobile";
 // import Footer from "../components/"
 import favicon from "../images/graphics/ttb-logoV2.png";
 
@@ -38,7 +39,7 @@ const Layout = ({ children }) => (
       link={[{ rel: "shortcut icon", type: "image/png", href: `${favicon}` }]}
     />
     <Nav />
-    {/* <NavMobile /> */}
+    <NavMobile />
     <div>{children}</div>
     {/* <Footer /> */}
   </div>

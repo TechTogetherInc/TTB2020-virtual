@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-
+import Video from "../components/video";
 import Layout from "../components/layout";
 import Image from "../components/image";
 import SEO from "../components/seo";
@@ -25,10 +25,15 @@ const App = () => {
             <div className="row">
               <div className="col-12 col-md-6 image-container">
                 <div className="embed-responsive embed-responsive-16by9">
-                  <iframe
+                  {/* <iframe
                     className="embed-responsive-item"
                     src="https://drive.google.com/file/d/1QsU2bSx2cDOXt4ZxL6E3x4YYekVy40d9/preview"
-                  ></iframe>
+                  ></iframe> */}
+                  <Video
+                    className="embed-responsive-item"
+                    videoSrcURL="https://drive.google.com/file/d/1QsU2bSx2cDOXt4ZxL6E3x4YYekVy40d9/preview"
+                    videoTitle="TTB2020"
+                  />
                 </div>
               </div>
               <div className="col-12 col-md-5 offset-md-0 text-section">
