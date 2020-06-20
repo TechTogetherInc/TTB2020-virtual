@@ -7,6 +7,10 @@
   width: 100%;
   background-color: #606bca;
 }
+
+* {
+  max-width: 100%;
+}
 // .nav * {
 //   max-width: 100%;
 // }
@@ -28,9 +32,9 @@
   height: 50px;
 }
 .nav__logo {
-  // width: 300px;
-  width: 55%;
-  //   height: auto;
+  width: 300px;
+  // width: 55%;
+  height: auto;
 }
 .nav__list {
   margin-top: 25px;
