@@ -5,6 +5,8 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: auto;
+
   background-color: #606bca;
 }
 
@@ -21,6 +23,7 @@
 .nav {
   display: none;
   padding: 10px 30px;
+  width: 100%;
 
   @media (min-width: $md) {
     display: flex;
@@ -28,16 +31,12 @@
   }
 }
 
-.logo_link {
-  height: 50px;
-}
 .nav__logo {
-  width: 300px;
-  // width: 55%;
+  // width: 300px;
+  width: 20%;
   height: auto;
 }
 .nav__list {
-  margin-top: 25px;
   margin-bottom: 0;
   margin-left: auto;
 }
@@ -84,6 +83,10 @@
   }
 }
 
+.nav_top {
+  display: flex;
+  justify-content: space-between;
+}
 .nav-mobile__top {
   display: flex;
   justify-content: space-between;
