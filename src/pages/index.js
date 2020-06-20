@@ -37,7 +37,7 @@ const App = () => {
               </div>
               <div className="col-12 col-md-5 offset-md-0 text-section">
                 <h1>TechTogether Boston 2020 Virtual</h1>
-                <div className="bar-sm"></div>
+                <br></br>
                 <h3>
                   Boston's largest all-female, femme, <br />
                   and non-binary hackathon.
@@ -47,11 +47,12 @@ const App = () => {
                   className="button-container"
                   style={{ justifyContent: "center" }}
                 >
-                  <div className="button1">
+                  <br></br>
+                  {/* <div className="button1">
                     <a href="/live/index.html">
                       <p>Live Site!</p>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

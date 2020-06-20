@@ -7,6 +7,12 @@
   width: 100%;
   background-color: #606bca;
 }
+// .nav * {
+//   max-width: 100%;
+// }
+// .nav-mobile * {
+//   max-width: 100%;
+// }
 
 .nav {
   display: none;
@@ -47,13 +53,16 @@
     text-decoration: none;
   }
 }
+* {
+}
 
 .nav-mobile {
-  display: inline-block;
+  display: block;
   position: fixed;
   z-index: 100;
   top: 0;
   left: 0;
+  right: 0;
   width: 100%;
   height: auto;
   background-color: #606bca;

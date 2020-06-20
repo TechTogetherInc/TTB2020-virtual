@@ -9,7 +9,7 @@ import photo4 from "../../images/project-highlights/SheNetwork.png";
 const ProjectHighlights = () => (
   <div className="row mx-auto align-items-center">
     <div className="col-12 col-md-6 order-md-2 order-1">
-      <Carousel style={{ height: "400px" }}>
+      <Carousel style={{ height: "100%", width: "auto" }}>
         <div>
           <img src={photo1} />
         </div>

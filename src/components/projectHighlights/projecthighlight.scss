@@ -11,6 +11,12 @@
 .project-showcase-container div {
   padding: 0;
 }
+.project-pic {
+  @media (mid-width: $md) {
+    padding-left: 10%;
+    padding-bottom: 10%;
+  }
+}
 
 .project-showcase-container div .about {
   padding: 4em 7.5%;
