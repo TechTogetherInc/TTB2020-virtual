@@ -3,8 +3,8 @@ import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import TeamMembers from "../components/AboutUsPage/teamMembers";
-import Mission from "../components/AboutUsPage/mission";
+import TeamMembers from "../components/AboutUsPage/teamMembers/teamMembers";
+import Mission from "../components/AboutUsPage/mission/mission";
 // const SecondPage = () => (
 //   <Layout>
 //     <SEO title="Page two" />

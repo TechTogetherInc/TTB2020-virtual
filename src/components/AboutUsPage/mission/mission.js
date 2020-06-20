@@ -1,6 +1,6 @@
 import React from "react";
 const Mission = () => (
-  <div>
+  <div className="mission">
     <h1>Our Mission</h1>
     <div className="row">
       <div className="col-12 col-md-7">
