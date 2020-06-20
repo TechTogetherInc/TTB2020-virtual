@@ -8,7 +8,7 @@ const Testimonials = () => (
     <h1>Our testimonials through the year</h1>
     <div className="bar-sm"></div>
     <div className="row">
-      <div className="col-4">
+      <div className="col-12 col-md-4">
         <img
           alt="testimonial-pic"
           className="img-fluid rounded-circle mb"
@@ -16,14 +16,14 @@ const Testimonials = () => (
         />
         <br />
         <br />
-        <h3>Melissa Lin - Organizer</h3>
+        <h3 className="testimonial-name">Melissa Lin - Organizer</h3>
 
-        <p>
+        <p className="testimonial-text">
           Being a TTB organizer was a great experience for me! I liked that I
           could help empower underepresented groups in tech and meet and
           collaborate with amazing people in the process.
         </p>
-        <p>
+        <p className="testimonial-text">
           The most rewarding for me is definitely seeing the weekend of the
           hackathon come together. We spend months of work on this event so it
           really is gratituding to see how all that work culminates into one
@@ -32,7 +32,7 @@ const Testimonials = () => (
           meetings worth it.
         </p>
       </div>
-      <div className="col-4">
+      <div className="col-12 col-md-4">
         <img
           alt="testimonial-pic"
           className="img-fluid rounded-circle mb"
@@ -40,13 +40,13 @@ const Testimonials = () => (
         />
         <br />
         <br />
-        <h3>Sarina Simon - Organizer</h3>
+        <h3 className="testimonial-name">Sarina Simon - Organizer</h3>
 
-        <p>
+        <p className="testimonial-text">
           I love being a TTB organizer. It is an amazing experience and I love
           working with such dedicated women.
         </p>
-        <p>
+        <p className="testimonial-text">
           The most rewarding part is at the event taking to the hackers. Being a
           TTB organizer, we join the team because our personal values align with
           the TTB mission. Talking to hackers, I noticed that they also have
@@ -55,7 +55,7 @@ const Testimonials = () => (
           other.
         </p>
       </div>
-      <div className="col-4">
+      <div className="col-12 col-md-4">
         <img
           alt="testimonial-pic"
           className="img-fluid rounded-circle mb"
@@ -63,10 +63,12 @@ const Testimonials = () => (
         />
         <br />
         <br />
-        <h3>Hana - Hacker</h3>
+        <h3 className="testimonial-name">Hana - Hacker</h3>
 
-        <p>TechTogether was my 4th hackathon and my favorite hackathon!</p>
-        <p>
+        <p className="testimonial-text">
+          TechTogether was my 4th hackathon and my favorite hackathon!
+        </p>
+        <p className="testimonial-text">
           I wouldn't have been able to attend the event if it weren't for the
           free bussing! Once I arrived, the entire stadium was filled with super
           supportive mentors who helped us with out project. TechTogether was
@@ -74,7 +76,7 @@ const Testimonials = () => (
           felt there. So comfortable that we decided to branch out and use
           hardware for the first time to learn something new!
         </p>
-        <p>
+        <p className="testimonial-text">
           My favorite memory meeting tech professionals who helped us with out
           project and connecting with them to learn more about the growing
           industry.
