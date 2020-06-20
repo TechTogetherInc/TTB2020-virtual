@@ -16,8 +16,11 @@
 
 .nav {
   display: none;
+  padding: 10px 30px;
+
   @media (min-width: $md) {
     display: flex;
+    align-items: center;
   }
 }
 
@@ -25,12 +28,13 @@
   height: 50px;
 }
 .nav__logo {
+  // width: 300px;
   width: 55%;
   //   height: auto;
 }
 .nav__list {
-  margin-top: 20px;
-  //   margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 0;
   margin-left: auto;
 }
 
@@ -53,8 +57,8 @@
     text-decoration: none;
   }
 }
-* {
-}
+
+// Mobile Nav
 
 .nav-mobile {
   display: block;
@@ -66,6 +70,10 @@
   width: 100%;
   height: auto;
   background-color: #606bca;
+  &.opened {
+    height: 100vh;
+    overflow-y: hidden;
+  }
 
   @media (min-width: $md) {
     display: none;
@@ -73,9 +81,12 @@
 }
 
 .nav-mobile__top {
-  // @include padding;
   display: flex;
   justify-content: space-between;
+  .closed & {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 .nav-mobile__toggle-btn {
   border: none;
@@ -95,6 +106,7 @@
 }
 
 .nav-mobile li {
+  overflow: auto;
   list-style-type: none;
   font-size: 20px;
   align-items: center;
@@ -127,9 +139,8 @@
   color: white;
   width: 100%;
   display: inline-block;
+  width: 100%;
   padding: 10px 40px;
-
-  margin: 0 auto;
   text-align: center;
 }
 .nav-mobile__list {
