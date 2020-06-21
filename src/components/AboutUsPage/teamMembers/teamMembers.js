@@ -9,7 +9,7 @@ const TeamMembers = () => (
       The TTB 2020-Virtual Organizing Team plans to host virtual hackathon for
       the upcoming hackathon season. We are working to maintain every element of
       our in-person events within a virtual platform, and to ensure that you
-      have the TechtTogether experience you love.
+      have the TechTogether experience you love.
     </p>
     <section className="leadership">
       <Directors />
