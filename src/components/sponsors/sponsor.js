@@ -29,127 +29,128 @@ import bit from "../../images/partner-logos/theBit.png";
 import stickermule from "../../images/partner-logos/sticker-mule-logo.png";
 import stringloop from "../../images/partner-logos/stringandloop_Logo_Black.png";
 
-
 const Sponsor = () => (
   <div>
     <h1>Our past sponsors</h1>
     <div className="bar-sm"></div>
     <div className="sponsor-gallery">
+      <div className="row">
+        <div className="gallery col-12 col-md-4">
+          <img src={bu} alt="Boston University" />
+        </div>
 
-      <div class="gallery">
-        <img src={bu} alt="Boston University"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={wayfair} alt="Wayfair" />
+        </div>
 
-      <div class="gallery">
-        <img src={wayfair} alt="Wayfair"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={redhat} alt="RedHat" />
+        </div>
 
-      <div class="gallery">
-        <img src={redhat} alt="RedHat"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={aws} alt="AWS" />
+        </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={dell} alt="Dell" />
+        </div>
 
-      <div class="gallery">
-        <img src={aws} alt="AWS"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={slalom} alt="Slalom" />
+        </div>
 
-      <div class="gallery">
-        <img src={dell} alt="Dell"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={atlassian} alt="Atlassian" />
+        </div>
 
-      <div class="gallery">
-        <img src={slalom} alt="Slalom"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={twosigma} alt="Two-Sigma" />
+        </div>
 
-      <div class="gallery">
-        <img src={atlassian} alt="Atlassian"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={bcbs} alt="BCBS" />
+        </div>
 
-      <div class="gallery">
-        <img src={twosigma} alt="Two-Sigma"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={mathworks} alt="Mathworks" />
+        </div>
 
-      <div class="gallery">
-        <img src={bcbs} alt="BCBS"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={capitalone} alt="Capital-One" />
+        </div>
 
-      <div class="gallery">
-        <img src={mathworks} alt="Mathworks"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={facebook} alt="Facebook" />
+        </div>
 
-      <div class="gallery">
-        <img src={capitalone} alt="Capital-One"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={ibm} alt="IBM-Research" />
+        </div>
 
-      <div class="gallery">
-        <img src={facebook} alt="Facebook"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={cbre} alt="CBRE" />
+        </div>
 
-      <div class="gallery">
-        <img src={ibm} alt="IBM-Research"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={qualcomm} alt="Qualcomm" />
+        </div>
 
-      <div class="gallery">
-        <img src={cbre} alt="CBRE"  />
-      </div>
+        <div className="gallery col-12 col-md-4">
+          <img src={bloomberg} alt="Bloomberg" />
+        </div>
 
-      <div class="gallery">
-        <img src={qualcomm} alt="Qualcomm"  />
-      </div>
+        <div class="gallery col-12 col-md-4">
+          <img src={liberty} alt="Liberty Mutual" />
+        </div>
 
-      <div class="gallery">
-        <img src={bloomberg} alt="Bloomberg"  />
-      </div>
+        <div class="gallery col-12 col-md-4">
+          <img src={northeastern} alt="Northeastern University" />
+        </div>
 
-      <div class="gallery">
-        <img src={liberty} alt="Liberty Mutual"  />
-      </div>
+        <div class="gallery col-12 col-md-4">
+          <img src={balsamiq} alt="Balsamiq" />
+        </div>
 
-      <div class="gallery">
-        <img src={northeastern} alt="Northeastern University"  />
-      </div>
+        <div class="gallery col-12 col-md-4">
+          <img src={gc} alt="General Catalyst" />
+        </div>
 
-      <div class="gallery">
-        <img src={balsamiq} alt="Balsamiq"  />
-      </div>
+        <div class="gallery col-12 col-md-4">
+          <img src={gwc} alt="Girls Who Code" />
+        </div>
 
-      <div class="gallery">
-        <img src={gc} alt="General Catalyst"  />
-      </div>
+        <div class="gallery col-12 col-md-4">
+          <img src={armoured} alt="Armoured Things" />
+        </div>
 
-      <div class="gallery">
-        <img src={gwc} alt="Girls Who Code"  />
-      </div>
+        <div class="gallery col-12 col-md-4">
+          <img src={vistaprint} alt="Vistaprint" />
+        </div>
 
-      <div class="gallery">
-        <img src={armoured} alt="Armoured Things"  />
-      </div>
+        <div class="gallery col-12 col-md-4">
+          <img src={samsonite} alt="Samsonite" />
+        </div>
 
-      <div class="gallery">
-        <img src={vistaprint} alt="Vistaprint"  />
-      </div>
+        <div class="gallery col-12 col-md-4">
+          <img src={spark} alt="Spark" />
+        </div>
 
-      <div class="gallery">
-        <img src={samsonite} alt="Samsonite"  />
-      </div>
+        <div class="gallery col-12 col-md-4">
+          <img src={bit} alt="The Bit" />
+        </div>
 
-      <div class="gallery">
-        <img src={spark} alt="Spark"  />
-      </div>
+        <div class="gallery col-12 col-md-4">
+          <img src={stickermule} alt="Sticker Mule" />
+        </div>
 
-      <div class="gallery">
-        <img src={bit} alt="The Bit"  />
-      </div>
-
-      <div class="gallery">
-        <img src={stickermule} alt="Sticker Mule"  />
-      </div>
-
-      <div class="gallery">
-        <img src={stringloop} alt="String Loop"  />
-      </div>
-
+        <div class="gallery col-12 col-md-4">
+          <img src={stringloop} alt="String Loop" />
+        </div>
       </div>
     </div>
+  </div>
+
+  //{" "}
+  // </div>
 );
 
 export default Sponsor;

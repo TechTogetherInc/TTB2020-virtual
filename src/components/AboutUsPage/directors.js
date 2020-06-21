@@ -46,9 +46,6 @@ const Directors = () => {
               headshot={section.members[2].headshot}
             />
           </div>
-        </div>
-
-        <div className="row">
           <div className="col-4">
             <DirectorMember
               name={section.members[3].name}
