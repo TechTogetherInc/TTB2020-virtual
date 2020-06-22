@@ -1,28 +1,40 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
-const Sarina = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "Sarina_Simon_Director.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 800, quality: 75) {
-            ...GatsbyImageSharpFluid
+
+// Note: You can change "images" to whatever you'd like.
+
+const Image = (props) => (
+  <StaticQuery
+    query={graphql`
+      query {
+        images: allFile {
+          edges {
+            node {
+              relativePath
+              name
+              childImageSharp {
+                fluid(maxWidth: 600) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
-    }
-  `);
-  return (
-    <Img
-      fluid={data.file.childImageSharp.fluid}
-      style={{
-        border: "2px solid rebeccapurple",
-        borderRadius: "50%",
-      }}
-      alt="teammate pic"
-    />
-  );
-};
+    `}
+    render={(data) => {
+      const image = data.images.edges.find((n) => {
+        return n.node.relativePath.includes(props.filename);
+      });
+      if (!image) {
+        return null;
+      }
 
-export default Sarina;
+      //const imageSizes = image.node.childImageSharp.sizes; sizes={imageSizes}
+      return <Img alt={props.alt} fluid={image.node.childImageSharp.fluid} />;
+    }}
+  />
+);
+
+export default Image;

@@ -1,7 +1,7 @@
 import React from "react";
 import TeamData from "../../data/team-info.json";
 import { StaticQuery, graphql } from "gatsby";
-import Sarina from "../AboutUsPage/headshots/sarina";
+import Image from "../AboutUsPage/headshots/sarina";
 import Nisha from "../AboutUsPage/headshots/nisha";
 import Jengyu from "../AboutUsPage/headshots/jengyu";
 import Kelsey from "../AboutUsPage/headshots/kelsey";
@@ -31,7 +31,8 @@ const Directors = () => {
         <div className="row">
           {section.members.map((member) => (
             <div className="col-4">
-              <Sarina />
+              {/* <Sarina imageFile="Sarina_Simon_Director.jpg" /> */}
+              <Image alt="Gatsby in Space" filename={member.headshot} />
               <DirectorMember
                 name={member.name}
                 position={member.position}
