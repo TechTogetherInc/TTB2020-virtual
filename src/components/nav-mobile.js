@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import DynamicLink from "./dynamic-link.js";
 import NavLinks from "../data/nav-links.json";
 import TTBLogoV3 from "../images/graphics/ttb-logoV3.png";
-import Hamburger from "../images/Hamburger_icon.png";
+// import Hamburger from "../images/Hamburger_icon.png";
 const NavMobile = () => {
   const [isNavOpen, setNavOpen] = useState(false);
   function toggleMenu() {
