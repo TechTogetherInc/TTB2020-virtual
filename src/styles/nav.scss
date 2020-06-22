@@ -10,6 +10,11 @@
   background-color: #606bca;
 }
 
+.nav_top {
+  display: flex;
+  justify-content: space-between;
+}
+
 * {
   max-width: 100%;
 }
@@ -32,8 +37,7 @@
 }
 
 .nav__logo {
-  // width: 300px;
-  width: 20%;
+  width: 200px;
   height: auto;
 }
 .nav__list {
@@ -61,7 +65,9 @@
   }
 }
 
-// Mobile Nav
+// -------------
+// nav-mobile
+// ------------
 
 .nav-mobile {
   display: block;
@@ -83,10 +89,6 @@
   }
 }
 
-.nav_top {
-  display: flex;
-  justify-content: space-between;
-}
 .nav-mobile__top {
   display: flex;
   justify-content: space-between;
@@ -97,15 +99,13 @@
 }
 .nav-mobile__toggle-btn {
   border: none;
-
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
+  margin: 20px 35px 20px 20px;
 }
 
 .nav-mobile .nav__logo {
-  width: 100px;
+  width: 57px;
   height: auto;
+  margin: 2px 0px 0px 35px;
 }
 
 .nav-mobile ul {
