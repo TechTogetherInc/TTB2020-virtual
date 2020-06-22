@@ -32,7 +32,18 @@ const Image = (props) => (
       }
 
       //const imageSizes = image.node.childImageSharp.sizes; sizes={imageSizes}
-      return <Img alt={props.alt} fluid={image.node.childImageSharp.fluid} />;
+      return (
+        <Img
+          alt={props.alt}
+          style={{
+            border: "2px solid rebeccapurple",
+            borderRadius: "50%",
+            height: 250,
+            width: 250,
+          }}
+          fluid={image.node.childImageSharp.fluid}
+        />
+      );
     }}
   />
 );

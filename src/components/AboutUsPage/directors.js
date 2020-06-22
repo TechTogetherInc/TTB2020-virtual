@@ -1,12 +1,8 @@
 import React from "react";
 import TeamData from "../../data/team-info.json";
 import { StaticQuery, graphql } from "gatsby";
-import Image from "../AboutUsPage/headshots/sarina";
-import Nisha from "../AboutUsPage/headshots/nisha";
-import Jengyu from "../AboutUsPage/headshots/jengyu";
-import Kelsey from "../AboutUsPage/headshots/kelsey";
-import Julie from "../AboutUsPage/headshots/julie";
-import Hannah from "../AboutUsPage/headshots/hannah";
+import Image from "./headshots/image";
+
 const DirectorMember = (props) => (
   <div className="team-member">
     <div className="team-member__image-container">
@@ -16,16 +12,16 @@ const DirectorMember = (props) => (
         {/* <img src={props.headshot} /> */}
       </div>
       <p className="team-member__name">{props.name}</p>
+      <p>{props.position}</p>
     </div>
     <span className="team-member__school_year">{props.school}</span>
     <br />
     <span className="team-member__school_year">{props.year}</span>
-    <p>{props.position}</p>
   </div>
 );
 
 const Directors = () => {
-  function renderLeadership(section) {
+  function renderTeammates(section) {
     return (
       <div>
         <div className="row">
@@ -51,7 +47,18 @@ const Directors = () => {
     <div>
       <h1>Leadership</h1>
 
-      {renderLeadership(TeamData[0])}
+      {renderTeammates(TeamData[0])}
+
+      <h2>Marketing</h2>
+      {renderTeammates(TeamData[1])}
+      <h2>Operations</h2>
+      {renderTeammates(TeamData[2])}
+      <h2>Partnerships</h2>
+      {renderTeammates(TeamData[3])}
+      <h3>Outreach</h3>
+      {renderTeammates(TeamData[4])}
+      <h2>Technology</h2>
+      {renderTeammates(TeamData[5])}
     </div>
   );
 };
