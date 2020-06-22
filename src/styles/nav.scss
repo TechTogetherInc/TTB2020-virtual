@@ -122,16 +122,8 @@
 .nav-mobile__toggle-btn {
   border-radius: 50%;
   width: 50px;
-  color: navy;
-  > .close-icon {
-    color: white;
-    text-align: center;
-  }
-
-  > .menu-icon {
-    color: white;
-    text-align: center;
-  }
+  background-color: #606bca;
+  margin: auto 35px auto 0px;
 }
 .nav_mobile__item {
   margin-top: 20%;
