@@ -1,14 +1,19 @@
 import React from "react";
 import TeamData from "../../data/team-info.json";
 import { StaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
-
+import Sarina from "../AboutUsPage/headshots/sarina";
+import Nisha from "../AboutUsPage/headshots/nisha";
+import Jengyu from "../AboutUsPage/headshots/jengyu";
+import Kelsey from "../AboutUsPage/headshots/kelsey";
+import Julie from "../AboutUsPage/headshots/julie";
+import Hannah from "../AboutUsPage/headshots/hannah";
 const DirectorMember = (props) => (
   <div className="team-member">
     <div className="team-member__image-container">
       <div className="team-member__image">
         <div className="team-member__circle" />
-        <img src={props.headshot} />
+        {/* <Sarina /> */}
+        {/* <img src={props.headshot} /> */}
       </div>
       <p className="team-member__name">{props.name}</p>
     </div>
@@ -23,6 +28,7 @@ const Directors = () => {
       <div>
         <div className="row">
           <div className="col-4">
+            <Sarina />
             <DirectorMember
               name={section.members[0].name}
               position={section.members[0].position}
@@ -31,6 +37,7 @@ const Directors = () => {
             />
           </div>
           <div className="col-4">
+            <Nisha />
             <DirectorMember
               name={section.members[1].name}
               position={section.members[1].position}
@@ -39,6 +46,7 @@ const Directors = () => {
             />
           </div>
           <div className="col-4">
+            <Jengyu />
             <DirectorMember
               name={section.members[2].name}
               position={section.members[2].position}
@@ -47,6 +55,7 @@ const Directors = () => {
             />
           </div>
           <div className="col-4">
+            <Kelsey />
             <DirectorMember
               name={section.members[3].name}
               position={section.members[3].position}
@@ -55,6 +64,7 @@ const Directors = () => {
             />
           </div>
           <div className="col-4">
+            <Julie />
             <DirectorMember
               name={section.members[4].name}
               position={section.members[4].position}
@@ -63,6 +73,7 @@ const Directors = () => {
             />
           </div>
           <div className="col-4">
+            <Hannah />
             <DirectorMember
               name={section.members[5].name}
               position={section.members[5].position}
