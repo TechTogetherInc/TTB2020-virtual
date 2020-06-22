@@ -4,38 +4,44 @@
     "members": [
       {
         "name": "Sarina Simon",
-        "school_year": "Boston University / 2021",
-        "headshot": "../../images/team-members/Sarina_Simon_Director.jpg",
+        "school": "Boston University",
+        "year": "Class of 2021",
+        "headshot": "Sarina_Simon_Director.jpg",
         "position": "Executive Director"
       },
       {
         "name": "Nisha Goel",
-        "school_year": "Worcester Polytechnic Insitute / 2022",
-        "headshot": "../../images/team-members/Nisha_Goel_Operations.jpg",
+        "school": "Worcester Polytechnic Insitute",
+        "year": "Class of 2022",
+        "headshot": "Nisha_Goel_Operations.jpg",
         "position": "Director of Operations & Finance"
       },
       {
         "name": "JengYu Chou",
-        "school_year": "University of Massachusetts Amherst / 2022",
-        "headshot": "../../images/team-members/jengyu_chou_outreach.jpg",
+        "school": "University of Massachusetts Amherst",
+        "year": "Class of 2022",
+        "headshot": "jengyu_chou_outreach.jpg",
         "position": "Director of Outreach"
       },
       {
         "name": "Kelsey Myton",
-        "school_year": "Boston University / 2021",
-        "headshot": "../../images/team-members/Kelsey_Myton_Partnerships.jpg",
+        "school": "Boston University",
+        "year": "Class of 2021",
+        "headshot": "Kelsey_Myton_Partnerships.jpg",
         "position": "Partnerships Director"
       },
       {
         "name": "Julie Le",
-        "school_year": "Boston University / 2023",
-        "headshot": "../../images/team-members/Julie_Le_Marketing.jpg",
+        "school": "Boston University",
+        "year": "Class of 2023",
+        "headshot": "Julie_Le_Marketing.jpg",
         "position": "Director of Marketing"
       },
       {
         "name": "Hannah Huang",
-        "school_year": "Boston University / 2021",
-        "headshot": "../../images/team-members/hannah_huang_technology.jpg",
+        "school": "Boston University",
+        "year": "Class of 2021",
+        "headshot": "hannah_huang_technology.jpg",
         "position": "Director of Technology"
       }
     ]
@@ -45,8 +51,9 @@
     "members": [
       {
         "name": "Shimli Satpathy",
-        "school_year": "Boston University/ 2023",
-        "headshot": "../../images/team-members/Shimli_Satpathy_Marketing.jpg",
+        "school": "Boston University",
+        "year": "Class of 2023",
+        "headshot": "Shimli_Satpathy_Marketing.jpg",
         "position": "Marketing Team/ Social Media Manager"
       }
     ]
