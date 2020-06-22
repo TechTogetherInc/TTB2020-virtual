@@ -34,7 +34,7 @@
         "name": "Julie Le",
         "school": "Boston University",
         "year": "Class of 2023",
-        "headshot": "Julie_Le_Marketing.JPG",
+        "headshot": "Julie_Le_Marketing.jpg",
         "position": "Director of Marketing"
       },
       {
@@ -54,14 +54,14 @@
         "school": "Boston University",
         "year": "Class of 2023",
         "headshot": "Shimli_Satpathy_Marketing.JPG",
-        "position": "Marketing Team/ Social Media Manager"
+        "position": "Marketing Team / Social Media Manager"
       },
       {
         "name": "Emme Enojado",
         "school": "Boston University",
         "year": "Class of 2021",
         "headshot": "NULL",
-        "position": "Marketing Team/Digital Media Manager"
+        "position": "Marketing Team / Digital Media Manager"
       }
     ]
   },
@@ -80,7 +80,7 @@
         "school": "Northeastern University",
         "year": "Class of 2021",
         "headshot": "NULL",
-        "position": "Operations/ Event Coordinator "
+        "position": "Operations / Event Coordinator "
       },
       {
         "name": "Wenyan Zhang",
@@ -94,14 +94,14 @@
         "school": "Boston University",
         "year": "Class of 2021",
         "headshot": "Melissa_Lin_Operations.jpg",
-        "position": "Operations/ BU Point Person "
+        "position": "Operations / BU Point Person "
       },
       {
         "name": "Aashi Goel",
         "school": "Winchester High School",
         "year": "Class of 2021",
         "headshot": "Aashi_Goel_Operations.jpg",
-        "position": "Operations/ Communications Organizer "
+        "position": "Operations / Communications Organizer "
       },
       {
         "name": "Anum Ahmad",
@@ -127,7 +127,7 @@
         "school": "Boston University",
         "year": "Class of 2022",
         "headshot": "Araceli_Guartazaca_Vega_Partnerships.jpg",
-        "position": "Partnerships/Title Sponser Coordinator"
+        "position": "Partnerships / Title Sponser Coordinator"
       },
       {
         "name": "Lena Cassidy",
@@ -146,14 +146,14 @@
         "school": " Worcester Polytechnic Institute",
         "year": "Class of 2024",
         "headshot": "Elisabeth_whittemore_outreach.jpg",
-        "position": "Outreach Team/Head of Brand Ambassadors"
+        "position": "Outreach Team / Head of Brand Ambassadors"
       },
       {
         "name": "Mariyam Simon",
         "school": "Lexington High School",
         "year": "Class of 2022",
         "headshot": "mariyam_simon_outreach.jpg",
-        "position": "Outreach Team/High School Outreach"
+        "position": "Outreach Team / High School Outreach"
       },
       {
         "name": "Pooja Chainani",
@@ -198,7 +198,7 @@
       },
       {
         "name": "Sonia Pascua",
-        "school": "Drexel University / 2023",
+        "school": "Drexel University",
         "year": "Class of 2023",
         "headshot": "Sonia_Pascua_Technology.png",
         "position": "Tech Organizer"

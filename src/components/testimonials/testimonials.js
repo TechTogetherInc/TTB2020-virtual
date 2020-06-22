@@ -8,10 +8,10 @@ const Testimonials = () => (
     <h1>Our testimonials through the year</h1>
     <div className="bar-sm"></div>
     <div className="row">
-      <div className="col-12 col-md-4">
+      <div className="col-12 col-md-4 testimonial">
         <img
           alt="testimonial-pic"
-          className="img-fluid rounded-circle mb"
+          className="img-fluid rounded-circle mb testimonial-pic"
           src={photo1}
         />
         <br />
@@ -32,10 +32,10 @@ const Testimonials = () => (
           meetings worth it.
         </p>
       </div>
-      <div className="col-12 col-md-4">
+      <div className="col-12 col-md-4 testimonial">
         <img
           alt="testimonial-pic"
-          className="img-fluid rounded-circle mb"
+          className="img-fluid rounded-circle mb testimonial-pic"
           src={photo2}
         />
         <br />
@@ -58,12 +58,12 @@ const Testimonials = () => (
       <div className="col-12 col-md-4">
         <img
           alt="testimonial-pic"
-          className="img-fluid rounded-circle mb"
+          className="img-fluid rounded-circle mb testimonial-pic"
           src={photo3}
         />
         <br />
         <br />
-        <h3 className="testimonial-name">Hana - Hacker</h3>
+        <h3 className="testimonial-name testimonial">Hana - Hacker</h3>
 
         <p className="testimonial-text">
           TechTogether was my 4th hackathon and my favorite hackathon!

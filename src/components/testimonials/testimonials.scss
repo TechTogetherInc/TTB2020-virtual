@@ -1,7 +1,7 @@
 .testimonial-container {
   background-color: #808cfb;
   /* background-color: white; */
-  padding: 5em 5%;
+  padding: 80px 30px 80px 60px;
 }
 
 .testimonial-container h1 {
@@ -14,8 +14,17 @@
   width: 3em;
   height: 0.35em;
   background-color: #041888;
-  margin: 1em 0 1.5em 0;
+  margin: 10px 0;
 }
+.testimonial {
+  margin: 10px 0 10px 0;
+}
+
+.testimonial-pic {
+  display: block;
+  margin: auto;
+}
+
 .testimonial-name {
   color: white;
 }

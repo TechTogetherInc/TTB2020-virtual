@@ -5,18 +5,16 @@ import Image from "./headshots/image";
 
 const DirectorMember = (props) => (
   <div className="team-member">
-    <div className="team-member__image-container">
-      <div className="team-member__image">
-        <div className="team-member__circle" />
-        {/* <Sarina /> */}
-        {/* <img src={props.headshot} /> */}
-      </div>
-      <p className="team-member__name">{props.name}</p>
-      <p>{props.position}</p>
-    </div>
-    <span className="team-member__school_year">{props.school}</span>
+    <p>
+      <i>{props.position}</i>
+    </p>
+
+    <span className="team-member__name">{props.name}</span>
     <br />
-    <span className="team-member__school_year">{props.year}</span>
+    <span className="team-member__school">{props.school}</span>
+
+    <br />
+    <span className="team-member__year">{props.year}</span>
   </div>
 );
 
@@ -26,9 +24,11 @@ const Directors = () => {
       <div>
         <div className="row">
           {section.members.map((member) => (
-            <div className="col-4">
+            <div className="col-12 col-md-4 member-container">
               {/* <Sarina imageFile="Sarina_Simon_Director.jpg" /> */}
-              <Image alt="Gatsby in Space" filename={member.headshot} />
+              <div class="member-image">
+                <Image alt="Gatsby in Space" filename={member.headshot} />
+              </div>
               <DirectorMember
                 name={member.name}
                 position={member.position}
