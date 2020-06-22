@@ -3,6 +3,8 @@ import DynamicLink from "./dynamic-link.js";
 import NavLinks from "../data/nav-links.json";
 import TTBLogoV3 from "../images/graphics/ttb-logoV3.png";
 import Hamburger from "../images/graphics/hamburger_icon.png";
+import Exit from "../images/graphics/exit_icon.png";
+
 const NavMobile = () => {
   const [isNavOpen, setNavOpen] = useState(false);
   function toggleMenu() {
@@ -24,7 +26,14 @@ const NavMobile = () => {
               // : "mdi mdi-24px mdi-menu menu-icon"
             }
           />
-          <img src={Hamburger} />
+          <img
+            src={Hamburger}
+            style={isNavOpen ? { display: "none" } : { display: "block" }}
+          />
+          <img
+            src={Exit}
+            style={isNavOpen ? { display: "block" } : { display: "none" }}
+          />
         </button>
       </div>
       <ul
