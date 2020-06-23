@@ -1,16 +1,29 @@
 .footer {
   background-color: #606bca;
+  padding: 4%;
+  margin: auto;
 }
+
+.footer .footer-logo-container {
+  width: auto;
+  margin: auto;
+}
+
 .footer_logo {
   width: 55%;
+  margin: auto;
+  display: block;
 }
 
 .footer .social-media {
-  padding-left: 4%;
+  padding: 0 4%;
+  margin: auto;
+  display: block;
+  width: 430px;
 }
 
 .footer .sm-icons {
-  margin: 0 1vw;
+  margin: auto;
 }
 .footer p {
   text-align: center;
