@@ -115,7 +115,7 @@ const Sponsor = () => (
         </div>
 
         <div class="gallery col-12 col-md-4">
-          <img src={bit} alt="The Bit" />
+          <img src={gwc} alt="Girls Who Code" />
         </div>
 
         <div class="gallery col-12 col-md-4">
@@ -131,7 +131,7 @@ const Sponsor = () => (
         </div>
 
         <div class="gallery col-12 col-md-4">
-          <img src={stringloop} alt="String Loop" />
+          <img src={spark} alt="Spark" />
         </div>
 
         <div class="gallery col-12 col-md-4">
@@ -139,11 +139,11 @@ const Sponsor = () => (
         </div>
 
         <div class="gallery col-12 col-md-4">
-          <img src={gwc} alt="Girls Who Code" />
+          <img src={bit} alt="The Bit" />
         </div>
 
         <div class="gallery col-12 col-md-4">
-          <img src={spark} alt="Spark" />
+          <img src={stringloop} alt="String Loop" />
         </div>
       </div>
     </div>
