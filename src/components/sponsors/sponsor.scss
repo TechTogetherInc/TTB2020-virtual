@@ -25,5 +25,11 @@
   // padding-bottom: 5px;
   width: 275px;
   height: auto;
+  margin: 15px auto;
+  object-fit: scale-down;
+}
+
+.sponsor-gallery .gallery img {
+  display: block;
   margin: auto;
 }
