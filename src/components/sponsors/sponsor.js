@@ -67,7 +67,7 @@ const Sponsor = () => (
         </div>
 
         <div className="gallery col-12 col-md-4">
-          <img src={bcbs} alt="BCBS" />
+          <img src={facebook} alt="Facebook" />
         </div>
 
         <div className="gallery col-12 col-md-4">
@@ -79,7 +79,7 @@ const Sponsor = () => (
         </div>
 
         <div className="gallery col-12 col-md-4">
-          <img src={facebook} alt="Facebook" />
+          <img src={bcbs} alt="BCBS" />
         </div>
 
         <div className="gallery col-12 col-md-4">
@@ -135,11 +135,11 @@ const Sponsor = () => (
         </div>
 
         <div class="gallery col-12 col-md-4">
-          <img src={bit} alt="The Bit" />
+          <img src={stickermule} alt="Sticker Mule" />
         </div>
 
         <div class="gallery col-12 col-md-4">
-          <img src={stickermule} alt="Sticker Mule" />
+          <img src={bit} alt="The Bit" />
         </div>
 
         <div class="gallery col-12 col-md-4">
