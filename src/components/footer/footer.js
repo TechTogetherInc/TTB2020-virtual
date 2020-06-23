@@ -4,16 +4,22 @@ import Facebook from "../../images/graphics/facebook_white.png";
 import Instagram from "../../images/graphics/instagram_white.png";
 import Twitter from "../../images/graphics/twitter_white.png";
 import LinkedIn from "../../images/graphics/linkedin_white.png";
-import Medium from "../../images/medium_article2.png";
+// import Medium from "../../images/medium_article2.png";
 const Footer = () => (
-  // <div></div>
   <section className="footer">
     <div className="row mx-auto align-items-center">
       <div className="col-5">
         <img src={logo} className="img-fluid footer_logo" />
       </div>
       <div className="col-7">
-        <p> Follow Us on Social Media! </p>
+        <a className="sm-icons" href="https://www.facebook.com/TechTogetherBoston/" target="_blank"><img
+                                src={Facebook} alt="Facebook Logo" /></a>
+        <a className="sm-icons" href="https://www.instagram.com/techtogetherboston/" target="_blank"><img
+                                src={Instagram} alt="Instagram Logo" /></a>
+        <a className="sm-icons" href="https://twitter.com/techtogetherbos" target="_blank"><img
+                                src={Twitter} alt="Twitter Logo" /></a>
+        <a className="sm-icons" href="https://www.linkedin.com/company/techtogetherboston/" target="_blank"><img
+                                src={LinkedIn} alt="LinkedIn Logo" /></a>                                
       </div>
     </div>
   </section>
