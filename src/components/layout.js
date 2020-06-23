@@ -20,12 +20,12 @@ import "../styles/main.scss";
 const Layout = ({ children }) => (
   <div>
     <Helmet
-      title="TechTogether 2020 Virtual"
+      title="TechTogether Boston 2020 Virtual"
       meta={[
         {
           name: "description",
           content:
-            "Boston's largest all-female, femme, and non-binary hackathon",
+            "Quarantine can't stop the party! Join us at TechTogether Boston 2020 Virtual, Boston's largest all-female, femme, and non-binary hackathon",
         },
         {
           name: "keywords",

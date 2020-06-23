@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import Video from "../components/video";
 import Layout from "../components/layout";
 import Image from "../components/image";
-import SEO from "../components/seo";
+// import SEO from "../components/seo";
 import Sponsor from "../components/sponsors/sponsor";
 import Testimonials from "../components/testimonials/testimonials";
 import ProjectHighlights from "../components/projectHighlights/projecthighlights";
