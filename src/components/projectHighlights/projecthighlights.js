@@ -2,26 +2,22 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "../../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
-import photo1 from "../../images/project-highlights/aurora.png";
-import photo2 from "../../images/project-highlights/safeSpace.jpg";
-import photo3 from "../../images/project-highlights/moodring.png";
-import photo4 from "../../images/project-highlights/SheNetwork.png";
+// import photo1 from "../../images/project-highlights/aurora.png";
+import ProjectImage from "../../components/projectHighlights/projectimage";
+
+// import photo2 from "../../images/project-highlights/safeSpace.jpg";
+// import photo3 from "../../images/project-highlights/moodring.png";
+// import photo4 from "../../images/project-highlights/SheNetwork.png";
 const ProjectHighlights = () => (
   <div className="row mx-auto align-items-center">
     <div className="col-12 col-md-6 order-md-2 order-1">
-      <Carousel style={{ height: "100%", width: "auto" }}>
+      <Carousel style={{ width: 250 }}>
         <div>
-          <img src={photo1} />
+          <ProjectImage filename="aurora.png" />
         </div>
-        <div>
-          <img src={photo2} />
-        </div>
-        <div>
-          <img src={photo4} />
-        </div>
-        <div>
-          <img src={photo3} />
-        </div>
+        <ProjectImage filename="safeSpace.jpg" />
+        <ProjectImage filename="moodring.png" />
+        <ProjectImage filename="sheNetwork.png" />
       </Carousel>
     </div>
     <div className="col-12 col-md-5 about">
