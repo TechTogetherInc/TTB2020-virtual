@@ -5,11 +5,10 @@ import Image from "./headshots/image";
 
 const DirectorMember = (props) => (
   <div className="team-member">
-    <p>
-      <i>{props.position}</i>
-    </p>
-
-    <span className="team-member__name">{props.name}</span>
+    <p className="team-member__name">{props.name}</p>
+    <span>
+      <i style={{ color: "black", fontWeight: "bold" }}>{props.position}</i>
+    </span>
     <br />
     <span className="team-member__school">{props.school}</span>
 
