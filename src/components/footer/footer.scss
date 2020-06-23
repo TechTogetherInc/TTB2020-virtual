@@ -5,10 +5,22 @@
   width: 55%;
 }
 
-.sm-icons {
-  margin: 0 1vw;
+.footer .social-media {
+  padding-left: 4%;
 }
 
-.sm-icons img {
+.footer .sm-icons {
+  margin: 0 1vw;
+}
+.footer p {
+  text-align: center;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer .sm-icons img {
   height: 2em
 }
