@@ -1,78 +1,43 @@
 import React from "react";
 import TeamData from "../../data/team-info.json";
 import { StaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import Image from "./headshots/image";
 
 const DirectorMember = (props) => (
   <div className="team-member">
-    <div className="team-member__image-container">
-      <div className="team-member__image">
-        <div className="team-member__circle" />
-        <img src={props.headshot} />
-      </div>
-      <p className="team-member__name">{props.name}</p>
-    </div>
-    <span className="team-member__school_year">{props.school_year}</span>
-    <p>{props.position}</p>
+    <p>
+      <i>{props.position}</i>
+    </p>
+
+    <span className="team-member__name">{props.name}</span>
+    <br />
+    <span className="team-member__school">{props.school}</span>
+
+    <br />
+    <span className="team-member__year">{props.year}</span>
   </div>
 );
 
 const Directors = () => {
-  function renderLeadership(section) {
+  function renderTeammates(section) {
     return (
       <div>
         <div className="row">
-          <div className="col-4">
-            <DirectorMember
-              name={section.members[0].name}
-              position={section.members[0].position}
-              school_year={section.members[0].school_year}
-              headshot={section.members[0].headshot}
-            />
-          </div>
-          <div className="col-4">
-            <DirectorMember
-              name={section.members[1].name}
-              position={section.members[1].position}
-              school_year={section.members[1].school_year}
-              headshot={section.members[1].headshot}
-            />
-          </div>
-          <div className="col-4">
-            <DirectorMember
-              name={section.members[2].name}
-              position={section.members[2].position}
-              school_year={section.members[2].school_year}
-              headshot={section.members[2].headshot}
-            />
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-4">
-            <DirectorMember
-              name={section.members[3].name}
-              position={section.members[3].position}
-              school_year={section.members[3].school_year}
-              headshot={section.members[3].headshot}
-            />
-          </div>
-          <div className="col-4">
-            <DirectorMember
-              name={section.members[4].name}
-              position={section.members[4].position}
-              school_year={section.members[4].school_year}
-              headshot={section.members[4].headshot}
-            />
-          </div>
-          <div className="col-4">
-            <DirectorMember
-              name={section.members[5].name}
-              position={section.members[5].position}
-              school_year={section.members[5].school_year}
-              headshot={section.members[5].headshot}
-            />
-          </div>
+          {section.members.map((member) => (
+            <div className="col-12 col-md-4 member-container">
+              {/* <Sarina imageFile="Sarina_Simon_Director.jpg" /> */}
+              <div class="member-image">
+                <Image alt="Gatsby in Space" filename={member.headshot} />
+              </div>
+              <DirectorMember
+                name={member.name}
+                position={member.position}
+                school={member.school}
+                year={member.year}
+                headshot={member.headshot}
+              />
+            </div>
+          ))}
         </div>
       </div>
     );
@@ -82,7 +47,18 @@ const Directors = () => {
     <div>
       <h1>Leadership</h1>
 
-      {renderLeadership(TeamData[0])}
+      {renderTeammates(TeamData[0])}
+
+      <h2>Marketing</h2>
+      {renderTeammates(TeamData[1])}
+      <h2>Operations</h2>
+      {renderTeammates(TeamData[2])}
+      <h2>Partnerships</h2>
+      {renderTeammates(TeamData[3])}
+      <h3>Outreach</h3>
+      {renderTeammates(TeamData[4])}
+      <h2>Technology</h2>
+      {renderTeammates(TeamData[5])}
     </div>
   );
 };

@@ -17,9 +17,20 @@
 1. pull from master
 2. create your new branch
 3. do the coding
-4. git add -A
-5. git commit -m "your commit messages"
-6. git push origin your_branch_name
+4. `git add -A`
+5. `git commit -m "your commit messages"`
+6. `git push origin your_branch_name`
+
+
+### To test locally
+
+1. run `gatsby develop`
+2. go to your localhost:8000
+
+### After you've done working
+
+1. On your own branch, commit and push your code
+2. Open a new pull request
 
 ### Git worktree How-To
 
