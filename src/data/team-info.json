@@ -7,42 +7,48 @@
         "school": "Boston University",
         "year": "Class of 2021",
         "headshot": "Sarina_Simon_Director.jpg",
-        "position": "Director"
+        "position": "Director",
+        "linkedin": "https://www.linkedin.com/in/sarina-simon/"
       },
       {
         "name": "Nisha Goel",
         "school": "Worcester Polytechnic Insitute",
         "year": "Class of 2022",
         "headshot": "Nisha_Goel_Operations.jpg",
-        "position": "Director of Operations & Finance"
+        "position": "Director of Operations & Finance",
+        "linkedin": "https://www.linkedin.com/in/nishagoel2000"
       },
       {
         "name": "JengYu Chou",
         "school": "University of Massachusetts Amherst",
         "year": "Class of 2022",
         "headshot": "jengyu_chou_outreach.jpg",
-        "position": "Director of Outreach"
+        "position": "Director of Outreach",
+        "linkedin": "https://www.linkedin.com/in/jelchou/"
       },
       {
         "name": "Kelsey Myton",
         "school": "Boston University",
         "year": "Class of 2021",
         "headshot": "Kelsey_Myton_Partnerships.jpg",
-        "position": "Partnerships Director"
+        "position": "Partnerships Director",
+        "linkedin": "https://www.linkedin.com/in/kelsey-m-93b5aa126/"
       },
       {
         "name": "Julie Le",
         "school": "Boston University",
         "year": "Class of 2023",
         "headshot": "Julie_Le_Marketing.JPG",
-        "position": "Director of Marketing"
+        "position": "Director of Marketing",
+        "linkedin": "http://www.linkedin.com/in/julietle"
       },
       {
         "name": "Hannah Huang",
         "school": "Boston University",
         "year": "Class of 2021",
         "headshot": "hannah.JPG",
-        "position": "Director of Technology"
+        "position": "Director of Technology",
+        "linkedin": "https://www.linkedin.com/in/hannah-yunhan-huang-007520165/"
       }
     ]
   },
@@ -54,14 +60,16 @@
         "school": "Boston University",
         "year": "Class of 2023",
         "headshot": "Shimli_Satpathy_Marketing.JPG",
-        "position": "Marketing Team / Social Media Manager"
+        "position": "Marketing Team / Social Media Manager",
+        "linkedin": "http://www.linkedin.com/in/shimlisatpathy"
       },
       {
         "name": "Emme Enojado",
         "school": "Boston University",
         "year": "Class of 2021",
         "headshot": "Emme_Enojado_Marketing.jpg",
-        "position": "Marketing Team / Digital Media Manager"
+        "position": "Marketing Team / Digital Media Manager",
+        "linkedin": "https://www.linkedin.com/in/emme-enojado/"
       }
     ]
   },
@@ -73,49 +81,56 @@
         "school": "Mount Sinai High School",
         "year": "Class of 2022",
         "headshot": "snigdha_operations.png",
-        "position": "Operations / Finance "
+        "position": "Operations / Finance",
+        "linkedin": "https://www.linkedin.com/in/snigdha-roy-7302bb190"
       },
       {
         "name": "Nesanne Tam",
         "school": "Northeastern University",
         "year": "Class of 2021",
         "headshot": "NULL",
-        "position": "Operations / Event Coordinator "
+        "position": "Operations / Event Coordinator",
+        "linkedin": ""
       },
       {
         "name": "Wenyan Zhang",
         "school": "Boston University",
         "year": "Class of 2023",
         "headshot": "Wenyan_Zhang_operations.jpeg",
-        "position": "Operations / Finance "
+        "position": "Operations / Finance",
+        "linkedin": "https://www.linkedin.com/in/wenyan-zhang-154a56185/"
       },
       {
         "name": "Melissa Lin",
         "school": "Boston University",
         "year": "Class of 2021",
         "headshot": "Melissa_Lin_Operations.jpg",
-        "position": "Operations / BU Point Person "
+        "position": "Operations / BU Point Person",
+        "linkedin": "http://www.linkedin.com/in/melyxlin"
       },
       {
         "name": "Aashi Goel",
         "school": "Winchester High School",
         "year": "Class of 2021",
         "headshot": "Aashi_Goel_Operations.jpg",
-        "position": "Operations / Communications Organizer "
+        "position": "Operations / Communications Organizer",
+        "linkedin": ""
       },
       {
         "name": "Anum Ahmad",
         "school": "Noor Ul Iman HS",
         "year": "Class of 2022",
         "headshot": "Anum_Ahmad_Operations.jpg",
-        "position": "Operations Team"
+        "position": "Operations Team",
+        "linkedin": "https://www.linkedin.com/in/anumqahmad"
       },
       {
         "name": "John Gervasi",
         "school": "Pratt Institute BK",
         "year": "Class of 2014",
         "headshot": "John_Gervasi_Marketing copy.jpg",
-        "position": "Operations / Mentor & Judge Coordinator"
+        "position": "Operations / Mentor & Judge Coordinator",
+        "linkedin": "https://www.linkedin.com/in/john-gervasi"
       }
     ]
   },
@@ -127,21 +142,24 @@
         "school": "Boston University",
         "year": "Class of 2022",
         "headshot": "Araceli_Partnerships.jpg",
-        "position": "Partnerships / Title Sponser Coordinator"
+        "position": "Partnerships / Title Sponser Coordinator",
+        "linkedin": "https://www.linkedin.com/in/araceli-guartazaca/"
       },
       {
         "name": "Lena Cassidy",
         "school": "Lexington High School",
         "year": "Class of 2022",
         "headshot": "Lena_Partnerships.jpg",
-        "position": "Partnerships Team"
+        "position": "Partnerships Team",
+        "linkedin": ""
       },
       {
         "name": "Margarita Zias",
         "school": "Wilmington University",
         "year": "2022",
         "headshot": "margarita_zias_partnerships.jpeg",
-        "position": "Sponsor Coordinator"
+        "position": "Sponsor Coordinator",
+        "linkedin": "https://www.linkedin.com/in/margarita-zias"
       }
     ]
   },
@@ -153,21 +171,24 @@
         "school": " Worcester Polytechnic Institute",
         "year": "Class of 2024",
         "headshot": "Elisabeth_whittemore_outreach.jpg",
-        "position": "Outreach Team / Head of Brand Ambassadors"
+        "position": "Outreach Team / Head of Brand Ambassadors",
+        "linkedin": ""
       },
       {
         "name": "Mariyam Simon",
         "school": "Lexington High School",
         "year": "Class of 2022",
         "headshot": "mariyam_simon_outreach.jpg",
-        "position": "Outreach Team / High School Outreach"
+        "position": "Outreach Team / High School Outreach",
+        "linkedin": ""
       },
       {
         "name": "Pooja Chainani",
         "school": "Boston University",
         "year": "Class of 2021",
         "headshot": "Pooja_Chainani_outreach.jpeg",
-        "position": "Outreach Team"
+        "position": "Outreach Team",
+        "linkedin": "https://www.linkedin.com/in/poojachainani/"
       }
     ]
   },
@@ -180,35 +201,40 @@
         "school": "Northeastern University",
         "year": "Class of 2020",
         "headshot": "Mitali_Salvi_Technology.PNG",
-        "position": "Web Development"
+        "position": "Web Development",
+        "linkedin": "https://www.linkedin.com/in/mitali-salvi/"
       },
       {
         "name": "Annie Liu",
         "school": "MIT",
         "year": "Class of 2023",
         "headshot": "Annie_Liu_technology.jpg",
-        "position": "Web Development"
+        "position": "Web Development",
+        "linkedin": "https://www.linkedin.com/in/liuannie01"
       },
       {
         "name": "Asha Saini",
         "school": "Northeastern University",
         "year": "Class of 2016",
         "headshot": "Asha_Saini_Tech.JPG",
-        "position": "Tech Organizer"
+        "position": "Tech Organizer",
+        "linkedin": "https://www.linkedin.com/in/ashasaini"
       },
       {
         "name": "Frances Mulligan",
         "school": "Johnson & Wales University",
         "year": "Class of 2020",
         "headshot": "Frances_Mulligan_Technology.jpg",
-        "position": "Event Tech Support"
+        "position": "Event Tech Support",
+        "linkedin": "https://www.linkedin.com/in/frances-mulligan"
       },
       {
         "name": "Sonia Pascua",
         "school": "Drexel University",
         "year": "Class of 2023",
         "headshot": "Sonia_Pascua_Technology.png",
-        "position": "Tech Organizer"
+        "position": "Tech Organizer",
+        "linkedin": "https://www.linkedin.com/in/soniapascua/"
       }
     ]
   }

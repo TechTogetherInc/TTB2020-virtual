@@ -5,7 +5,10 @@ import Image from "./headshots/image";
 
 const DirectorMember = (props) => (
   <div className="team-member">
-    <p className="team-member__name">{props.name}</p>
+    <a href={props.linkedin} target="_blank" className="team-member__name">
+      {props.name}
+    </a>
+    <br />
     <span>
       <i style={{ color: "black", fontWeight: "bold" }}>{props.position}</i>
     </span>
@@ -34,6 +37,7 @@ const Directors = () => {
                 school={member.school}
                 year={member.year}
                 headshot={member.headshot}
+                linkedin={member.linkedin}
               />
             </div>
           ))}
