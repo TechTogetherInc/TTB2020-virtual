@@ -7,7 +7,7 @@
         "school": "Boston University",
         "year": "Class of 2021",
         "headshot": "Sarina_Simon_Director.jpg",
-        "position": "Executive Director"
+        "position": "Director"
       },
       {
         "name": "Nisha Goel",
@@ -126,7 +126,7 @@
         "name": "Araceli Guartazaca Vega",
         "school": "Boston University",
         "year": "Class of 2022",
-        "headshot": "Araceli_Guartazaca_Vega_Partnerships.jpg",
+        "headshot": "Araceli_Partnerships.jpg",
         "position": "Partnerships / Title Sponser Coordinator"
       },
       {
@@ -135,6 +135,13 @@
         "year": "Class of 2022",
         "headshot": "Lena_Partnerships.jpg",
         "position": "Partnerships Team"
+      },
+      {
+        "name": "Margarita Zias",
+        "school": "",
+        "year": "",
+        "headshot": "margarita_zias_partnerships.jpeg",
+        "position": "Sponsor Coordinator"
       }
     ]
   },

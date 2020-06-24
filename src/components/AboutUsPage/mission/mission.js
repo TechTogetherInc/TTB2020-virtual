@@ -9,13 +9,12 @@ const Mission = () => (
       <div className="col-12 col-md-6">
         <div className="aboutus-statement">
           <p>
-            TechTogether Boston, previously known as SheHacks Boston, is
-            Boston's largest student-run hackathon open to all female, femme,
-            and non-binary individuals
+            TechTogether Boston is Boston's largest student-run hackathon open
+            to all female, femme, and non-binary individuals
           </p>
         </div>
         <div className="mission-statement">
-          <h2 style={{ color: "rgb(0, 12, 84)" }}>Mission Statement</h2>
+          <h2 style={{ color: "rgb(0, 12, 84)" }}>Our Mission</h2>
           {/* <div className="bar-sm"></div> */}
           <ul>
             <li>

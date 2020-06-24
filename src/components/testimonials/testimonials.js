@@ -40,7 +40,7 @@ const Testimonials = () => (
         />
         <br />
         <br />
-        <h3 className="testimonial-name">Sarina Simon - Organizer</h3>
+        <h3 className="testimonial-name">Sarina Simon - Director</h3>
 
         <p className="testimonial-text">
           I love being a TTB organizer. It is an amazing experience and I love
