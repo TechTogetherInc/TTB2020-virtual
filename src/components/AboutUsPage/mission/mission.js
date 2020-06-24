@@ -29,8 +29,11 @@ const Mission = () => (
           </ul>
         </div>
       </div>
-      <div className="col-12 col-md-6">
-        <MissionImage filename="about-us.jpg" className="img-fluid" />
+      <div className="col-12 col-md-6 ">
+        <MissionImage
+          filename="about-us.jpg"
+          className=" missionimage img-fluid"
+        />
       </div>
     </div>
   </div>

@@ -36,8 +36,6 @@ const MissionImage = (props) => (
         <Img
           alt={props.alt}
           style={{
-            // border: "2px solid rebeccapurple",
-            // borderRadius: "50%",
             height: 400,
             width: "auto",
           }}

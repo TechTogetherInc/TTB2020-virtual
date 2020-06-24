@@ -45,18 +45,26 @@ const Directors = () => {
   return (
     <div>
       <h1>Leadership</h1>
-
       {renderTeammates(TeamData[0])}
-
-      <h2>Marketing</h2>
+      <br />
+      <br />
+      <h1>Marketing</h1>
       {renderTeammates(TeamData[1])}
-      <h2>Operations</h2>
+      <br />
+      <br />
+      <h1>Operations</h1>
       {renderTeammates(TeamData[2])}
-      <h2>Partnerships</h2>
+      <br />
+      <br />
+      <h1>Partnerships</h1>
       {renderTeammates(TeamData[3])}
-      <h3>Outreach</h3>
+      <br />
+      <br />
+      <h1>Outreach</h1>
       {renderTeammates(TeamData[4])}
-      <h2>Technology</h2>
+      <br />
+      <br />
+      <h1>Technology</h1>
       {renderTeammates(TeamData[5])}
     </div>
   );

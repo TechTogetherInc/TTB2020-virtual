@@ -11,13 +11,20 @@ import ProjectImage from "../../components/projectHighlights/projectimage";
 const ProjectHighlights = () => (
   <div className="row mx-auto align-items-center">
     <div className="col-12 col-md-6 order-md-2 order-1">
-      <Carousel style={{ width: 250 }}>
+      <Carousel className="projectimages" style={{ width: 250 }}>
+        <div>
+          <ProjectImage filename="sheNework.png" />
+        </div>
+
         <div>
           <ProjectImage filename="aurora.png" />
         </div>
-        <ProjectImage filename="safeSpace.jpg" />
-        <ProjectImage filename="moodring.png" />
-        <ProjectImage filename="sheNetwork.png" />
+        <div>
+          <ProjectImage filename="safeSpace.jpg" />
+        </div>
+        <div>
+          <ProjectImage filename="moodring.png" />
+        </div>
       </Carousel>
     </div>
     <div className="col-12 col-md-5 about">
