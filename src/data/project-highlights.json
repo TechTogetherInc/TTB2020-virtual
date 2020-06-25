@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Aurora",
+    "link": "https://devpost.com/software/aurora-pyoei7",
+    "image": "../../images/project-highlights/aurora.png",
+    "description": "A multifaceted program that connects individuals in need of legal aid and guidance with those who share the tools and generosity to assist them. Assisting those who need their help the most, Aurora also has the ability to identify and reach out to local government officials to incite change."
+  },
+  {
+    "title": "SafeSpace",
+    "link": "https://devpost.com/software/safespace-ya7v0n",
+    "image": "../../images/project-highlights/safeSpace.jpg",
+    "description": "A tool that helps tackle impostor syndrome and to create a more inclusive space and also provided resources or help to those victimized."
+  },
+  {
+    "title": "SheNetwork",
+    "link": "https://devpost.com/software/shenetwork",
+    "image": "../../images/project-highlights/SheNetwork.png",
+    "description": "A platform for women in the tech field to be empowered and connect. We want young women to develop their passion for tech by turning their dreams into a reality--by growing their network."
+  },
+  {
+    "title": "moodring",
+    "link": "https://devpost.com/software/moodring",
+    "image": "../../images/project-highlights/moodring.png",
+    "description": "Pools together the sentiment of the anonymous thoughts of everyone who uses it—no matter their language—to create a visual representation of the world’s honest emotions over the course of a day."
+  }
+]

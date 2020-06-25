@@ -35,7 +35,7 @@ const App = () => {
                   />
                 </div>
               </div>
-              <div className="col-12 col-md-5 offset-md-0 text-section">
+              <div className="col-12 col-md-6 offset-md-0 text-section">
                 <h1>TechTogether Boston 2020 Virtual</h1>
                 <br></br>
                 <h3>

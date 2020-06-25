@@ -29,7 +29,7 @@ const Directors = () => {
             <div className="col-12 col-md-4 member-container">
               {/* <Sarina imageFile="Sarina_Simon_Director.jpg" /> */}
               <div class="member-image">
-                <Image alt="Gatsby in Space" filename={member.headshot} />
+                <Image alt="headshot" filename={member.headshot} />
               </div>
               <DirectorMember
                 name={member.name}
