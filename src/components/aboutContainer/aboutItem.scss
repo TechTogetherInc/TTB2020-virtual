@@ -11,10 +11,12 @@ $gray: #c4c4c4;
 $gray2: #6b7373;
 
 .about-container {
-  padding: 0 0 0 5px;
-  height: 40em;
   height: 100%;
   width: 100%;
+  background-color: white;
+  padding: 50px 3%;
+  text-align: center;
+  margin: auto;
 
   h2 {
     color: #808cfb;
@@ -31,5 +33,15 @@ $gray2: #6b7373;
     color: #808cfb;
     font-weight: 500;
     font-size: 18px;
+  }
+
+  .text-section {
+    padding-right: 15px;
+    margin: auto;
+  }
+
+  .carousel div {
+    padding: 0;
+    margin: auto;
   }
 }
