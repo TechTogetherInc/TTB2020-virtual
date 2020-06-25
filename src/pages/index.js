@@ -30,7 +30,7 @@ const App = () => {
                   ></iframe> */}
                   <Video
                     className="embed-responsive-item"
-                    videoSrcURL="https://drive.google.com/file/d/1QsU2bSx2cDOXt4ZxL6E3x4YYekVy40d9/preview"
+                    videoSrcURL="https://www.youtube.com/embed/lcR29DyWLHg"
                     videoTitle="TTB2020"
                   />
                 </div>
