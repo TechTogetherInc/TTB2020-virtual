@@ -4,6 +4,10 @@
     "path": "/"
   },
   {
+    "name": "About Us",
+    "path": "/aboutUs"
+  },
+  {
     "name": "Attend",
     "path": "/attend"
   },
@@ -14,9 +18,5 @@
   {
     "name": "FAQ",
     "path": "/FAQ"
-  },
-  {
-    "name": "About Us",
-    "path": "/aboutUs"
   }
 ]

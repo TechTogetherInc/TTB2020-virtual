@@ -7,13 +7,14 @@
   // position: relative;
   color: white;
   background-color: #808cfb;
-  padding: 150px 10px 0px 10px;
+  padding: 125px 3% 50px 3%;
   text-align: center;
-  margin: 0;
+  margin: auto;
 }
 
 .header__content {
   width: 100%;
+  padding: 0;
 
   //   @media (min-width: $lg) {
   //     width: 60%;
@@ -25,17 +26,13 @@
   //     margin-right: 50px;
   //   }
 }
-.image-container {
-  padding-left: 50px;
-  padding-bottom: 50px;
+
+.row {
+  margin: auto;
 }
 
-.embed-responsive-item {
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 10%;
-  //   margin-left: 10%;
-  //   margin-right: 10%;
+.embed-responsive {
+  margin: auto;
 }
 
 .header .bar-sm {
@@ -80,57 +77,34 @@
 }
 
 .header .text-section {
-  margin: 2em 0 0 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+  height: 100%;
+  margin: auto;
+  padding: 20px 0px 0px 0px;
   justify-content: center;
 }
+// .footer {
+//   grid-template-columns: 100%;
+//   grid-template-rows: auto auto auto;
+//   row-gap: 2em;
+//   padding: 2em 5% 1em 5%;
 
-.headline .text-section p {
-  margin: 0;
-}
-.text-section {
-  padding-left: 5%;
-}
+//   .col1 {
+//     order: 1;
+//     padding: 0.5em 0;
+//   }
 
-// ---------------------------------------------------------------------------
-// about-container
-// ---------------------------------------------------------------------------
-.about-container {
-  padding: 0 5%;
-  background-color: white;
-}
+//   .col2 {
+//     order: 3;
+//     display: block;
+//     padding: 0.5em 0;
+//   }
 
-.footer {
-  grid-template-columns: 100%;
-  grid-template-rows: auto auto auto;
-  row-gap: 2em;
-  padding: 2em 5% 1em 5%;
+//   .col3 {
+//     order: 2;
+//     padding: 0.5em 0;
+//   }
 
-  .col1 {
-    order: 1;
-    padding: 0.5em 0;
-  }
-
-  .col2 {
-    order: 3;
-    display: block;
-    padding: 0.5em 0;
-  }
-
-  .col3 {
-    order: 2;
-    padding: 0.5em 0;
-  }
-
-  .divider {
-    display: none;
-  }
-}
+//   .divider {
+//     display: none;
+//   }
+// }

@@ -2,6 +2,22 @@
   width: 100%;
   padding: 5% 5% 5% 5%;
 }
+.team h1 {
+  color: #808cfb;
+  text-align: center;
+}
+.team p,
+.team a {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  color: navy;
+  font-size: 20px;
+}
+
+.team span {
+  color: #8f98fb;
+}
 
 .team-intro {
   margin: 0 0 40px 0;

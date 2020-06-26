@@ -1,21 +1,22 @@
 .sponsors-container {
   /* background-color: #000C54; */
   background-color: white;
-  padding: 5em 5%;
-}
+  padding: 50px 3%;
 
-.sponsors-container h1 {
-  font-weight: 600;
-  margin-bottom: 0;
-  /* color: white; */
-  color: #000c54;
-}
+  h1 {
+    font-weight: 600;
+    color: #000c54;
+    // margin: 0;
+    // padding: 0;
+  }
 
-.sponsors-container .bar-sm {
-  width: 3em;
-  height: 0.35em;
-  background-color: #0025f8;
-  margin: 1em 0 1.5em 0;
+  // .bar-sm {
+  //   width: 3em;
+  //   height: 0.35em;
+  //   background-color: #0025f8;
+  //   margin: 10px 15px;
+  //   padding: 0 10px;
+  // }
 }
 
 .sponsor-gallery .gallery {
@@ -23,7 +24,55 @@
   // border: 1px solid #ccc;
   // float: left;
   // padding-bottom: 5px;
-  width: 275px;
-  height: auto;
   margin: auto;
+  object-fit: scale-down;
+}
+
+.sponsor-gallery .gallery img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.be-sponsor p {
+  color: #808cfb;
+  padding: 10px 10px 0px 0px;
+  font-size: 20px;
+}
+
+.be-sponsor h4 {
+  color: #2236f0;
+}
+.sponsor-button {
+  font-size: 25px;
+  color: navy;
+  text-decoration: none;
+  background-color: #ef7060;
+  border-radius: 15px;
+  border: none;
+  width: 250px;
+  height: 45px;
+  text-align: center;
+  font-size: 30px;
+  display: block;
+  margin: 3px auto 10px auto;
+
+  :hover {
+    background-color: #f88c7d;
+    color: #808cfb;
+  }
+}
+.be-sponsor.sponsor-photo {
+  padding: 2%;
+}
+
+.be-sponsor a {
+  text-decoration: none;
+}
+.sponsor-photo {
+  display: block;
+  margin: auto;
+  padding: 0;
+  text-align: center;
 }

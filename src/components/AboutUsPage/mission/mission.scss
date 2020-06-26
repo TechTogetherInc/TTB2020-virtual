@@ -1,9 +1,14 @@
 .mission {
-  padding: 0 5% 10% 5%;
-}
+  padding: 0px 3% 0px 3%;
+  margin: 0;
 
-.mission h1 {
-  margin-bottom: 50px;
+  h1 {
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    text-align: center;
+  }
 }
 
 .aboutus-statement {
@@ -28,3 +33,8 @@
 .mission-statement li {
   font-size: 20px;
 }
+// .missionimage {
+//   height: auto;
+//   display: block;
+//   margin: 0 auto 20px auto;
+// }

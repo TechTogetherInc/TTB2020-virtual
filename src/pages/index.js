@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import Video from "../components/video";
 import Layout from "../components/layout";
 import Image from "../components/image";
-import SEO from "../components/seo";
+// import SEO from "../components/seo";
 import Sponsor from "../components/sponsors/sponsor";
 import Testimonials from "../components/testimonials/testimonials";
 import ProjectHighlights from "../components/projectHighlights/projecthighlights";
@@ -30,19 +30,19 @@ const App = () => {
                   ></iframe> */}
                   <Video
                     className="embed-responsive-item"
-                    videoSrcURL="https://drive.google.com/file/d/1QsU2bSx2cDOXt4ZxL6E3x4YYekVy40d9/preview"
+                    videoSrcURL="https://www.youtube.com/embed/lcR29DyWLHg"
                     videoTitle="TTB2020"
                   />
                 </div>
               </div>
-              <div className="col-12 col-md-5 offset-md-0 text-section">
+              <div className="col-12 col-md-6 offset-md-0 text-section">
                 <h1>TechTogether Boston 2020 Virtual</h1>
-                <br></br>
-                <h3>
+                <br />
+                <h3 style={{ fontWeight: "bold" }}>
                   Boston's largest all-female, femme, <br />
                   and non-binary hackathon.
                 </h3>
-                <p>November 6 - November 7, 2020</p>
+                <h3>November 6 - November 7, 2020</h3>
                 <div
                   className="button-container"
                   style={{ justifyContent: "center" }}

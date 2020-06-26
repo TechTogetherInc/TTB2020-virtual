@@ -11,16 +11,18 @@ $gray: #c4c4c4;
 $gray2: #6b7373;
 
 .about-container {
-  padding: 0 0 0 5px;
-  height: 40em;
   height: 100%;
   width: 100%;
+  background-color: white;
+  padding: 50px 3%;
+  text-align: center;
+  margin: auto;
 
   h2 {
     color: #808cfb;
     font-weight: 600;
     margin: 1.5em 0;
-    font-size: 2.25em;
+    font-size: 30px;
 
     span {
       color: #fd7361;
@@ -30,6 +32,16 @@ $gray2: #6b7373;
   p {
     color: #808cfb;
     font-weight: 500;
-    font-size: 1.25em;
+    font-size: 18px;
+  }
+
+  .text-section {
+    padding: 0 15px 0 0;
+    margin: 0 auto;
+  }
+
+  .carousel div {
+    padding: 0;
+    margin: auto;
   }
 }
