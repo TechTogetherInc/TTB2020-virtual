@@ -4,17 +4,14 @@ import teamPhoto from "../../../images/about-us.jpg";
 import MissionImage from "./missionphoto";
 const Mission = () => (
   <div className="mission">
-    <h1>About Us</h1>
+    <h1>
+      Boston's largest student-run hackathon open to all female, femme, and
+      non-binary individuals
+    </h1>
     <div className="row">
       <div className="col-12 col-md-6">
-        <div className="aboutus-statement">
-          <p>
-            TechTogether Boston is Boston's largest student-run hackathon open
-            to all female, femme, and non-binary individuals
-          </p>
-        </div>
         <div className="mission-statement">
-          <h2 style={{ color: "rgb(0, 12, 84)" }}>Our Mission</h2>
+          <h2>Our Mission</h2>
           {/* <div className="bar-sm"></div> */}
           <ul>
             <li>

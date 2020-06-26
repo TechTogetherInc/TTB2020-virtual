@@ -13,10 +13,24 @@
   // }
 
   .project {
+    background-color: #d2d2ff;
+    color: #606bca;
     border: 1px solid black;
     border-radius: 10px;
     margin: 5px;
     padding: 10px;
+  }
+  .project-text a {
+    text-decoration: none;
+    font-size: 30px;
+    margin: auto;
+    display: block;
+    color: #606bca;
+    text-align: center;
+
+    &:hover {
+      color: navy;
+    }
   }
 }
 

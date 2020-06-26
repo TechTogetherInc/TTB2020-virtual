@@ -16,7 +16,7 @@ const photos = {
 const Project = (props) => (
   <div className="project-text">
     <img src={photos[props.title]} className="project-pic" />
-    <a href={props.link} target="_blank">
+    <a className="project-title" href={props.link} target="_blank">
       {props.title}
     </a>
     <p>{props.description}</p>
