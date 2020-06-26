@@ -48,7 +48,7 @@ const Sponsor = () => (
           <br />
           <a
             type="button"
-            href="sponsor-boston@techtogether.io"
+            href="mailto:sponsor-boston@techtogether.io"
             className="sponsor-button"
           >
             Be a Sponsor!
