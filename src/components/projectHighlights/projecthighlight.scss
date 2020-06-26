@@ -1,22 +1,23 @@
 .project-showcase-container {
   background-color: #808cfb;
   margin: 0;
-  padding: 50px 4%;
+  padding: 50px 3%;
   color: white;
-}
 
-.project-showcase-container .bar-sm {
-  width: 3em;
-  height: 0.35em;
-  background-color: #0025f8;
-  margin: 1em 0 1.5em 0;
-}
+  // .bar-sm {
+  //   width: 3em;
+  //   height: 0.35em;
+  //   background-color: #0025f8;
+  //   margin: 10px 15px;
+  //   padding: 0 10px;
+  // }
 
-.project {
-  border: 1px solid black;
-  border-radius: 10px;
-  margin: 5px;
-  padding: 10px;
+  .project {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+  }
 }
 
 // .project-pic {

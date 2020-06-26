@@ -37,12 +37,12 @@ const App = () => {
               </div>
               <div className="col-12 col-md-6 offset-md-0 text-section">
                 <h1>TechTogether Boston 2020 Virtual</h1>
-                <br></br>
-                <h3>
+                <br />
+                <h3 style={{ fontWeight: "bold" }}>
                   Boston's largest all-female, femme, <br />
                   and non-binary hackathon.
                 </h3>
-                <p>November 6 - November 7, 2020</p>
+                <h3>November 6 - November 7, 2020</h3>
                 <div
                   className="button-container"
                   style={{ justifyContent: "center" }}

@@ -1,11 +1,24 @@
 import React from "react";
 import ProjectsData from "../../data/project-highlights.json";
 import ProjectImage from "../../components/projectHighlights/projectimage";
+import Aurora from "../../images/aurora.png";
+import SafeSpace from "../../images/safeSpace.jpg";
+import SheNetwork from "../../images/SheNework.png";
+import moodring from "../../images/moodring.png";
+
+const photos = {
+  Aurora,
+  SafeSpace,
+  SheNetwork,
+  moodring,
+};
 
 const Project = (props) => (
   <div className="project-text">
-    <img src={props.image} className="project-pic" />
-    <a href={props.link}>{props.title}</a>
+    <img src={photos[props.title]} className="project-pic" />
+    <a href={props.link} target="_blank">
+      {props.title}
+    </a>
     <p>{props.description}</p>
   </div>
 );
@@ -19,7 +32,6 @@ const ProjectHighlights = () => (
         <div className="project col-sm">
           <Project
             title={project.title}
-            image={project.image}
             link={project.link}
             description={project.description}
           />
