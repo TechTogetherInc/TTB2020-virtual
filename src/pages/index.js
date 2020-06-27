@@ -42,7 +42,7 @@ const App = () => {
                   Boston's largest all-female, femme, <br />
                   and non-binary hackathon.
                 </h3>
-                <h3>November 6 - November 7, 2020</h3>
+                <h3>November 6 - November 8, 2020</h3>
                 <div
                   className="button-container"
                   style={{ justifyContent: "center" }}
