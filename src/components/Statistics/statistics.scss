@@ -14,17 +14,23 @@
     // padding-right: 10%;
     // padding-top: 5%;
   }
+
+  .thumbs {
+    text-align: center;
+  }
   .carousel .thumb img {
     background: none;
+    display: inline-block;
 
     width: 100% !important;
     height: 100% !important;
+    margin: auto;
   }
   .carousel .slide {
     background: none;
   }
   .carousel .slide img {
-    max-height: 630px;
+    max-height: 650px;
     width: auto;
     // height: 100%;
     background-color: #606bca;
