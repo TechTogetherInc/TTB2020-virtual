@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import Video from "../components/video";
 import Layout from "../components/layout";
 import Image from "../components/image";
-// import SEO from "../components/seo";
 import Sponsor from "../components/sponsors/sponsor";
 import Testimonials from "../components/testimonials/testimonials";
 import ProjectHighlights from "../components/projectHighlights/projecthighlights";
@@ -24,10 +23,6 @@ const App = () => {
             <div className="row">
               <div className="col-12 col-md-6 image-container">
                 <div className="embed-responsive embed-responsive-16by9">
-                  {/* <iframe
-                    className="embed-responsive-item"
-                    src="https://drive.google.com/file/d/1QsU2bSx2cDOXt4ZxL6E3x4YYekVy40d9/preview"
-                  ></iframe> */}
                   <Video
                     className="embed-responsive-item"
                     videoSrcURL="https://www.youtube.com/embed/lcR29DyWLHg"
@@ -79,19 +74,3 @@ const App = () => {
     </div>
   );
 };
-
-// const IndexPage = () => (
-//   <Layout>
-//     <SEO title="Home" />
-//     <h1>Hi people</h1>
-//     <p>Welcome to your new Gatsby site.</p>
-//     <p>Now go build something great.</p>
-//     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-//       <Image />
-//     </div>
-//     <Link to="/page-2/">Go to page 2</Link> <br />
-//     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-//   </Layout>
-// )
-
-// export default IndexPage
