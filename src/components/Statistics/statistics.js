@@ -9,7 +9,7 @@ import photo4 from "../../images/stats4.png";
 import photo5 from "../../images/stats5.png";
 const Statistics = () => (
   <div>
-    <h1>2020 TTB Statistics</h1>
+    <h1>TechTogether 2020 Statistics</h1>
     <div className=" carousel">
       <Carousel>
         <div>

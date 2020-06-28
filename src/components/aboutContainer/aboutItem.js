@@ -39,12 +39,7 @@ const PhotoCarousel = () => {
           <div>
             <img src={photo1} />
           </div>
-          <div>
-            <img src={photo2} />
-          </div>
-          <div>
-            <img src={photo3} />
-          </div>
+
           <div>
             <img src={photo4} />
           </div>
