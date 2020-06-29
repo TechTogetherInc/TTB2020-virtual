@@ -16,14 +16,14 @@
 }
 
 .footer .social-media {
-  padding: 0 4%;
   margin: auto;
   display: block;
-  width: 430px;
+  padding-inline-start: inherit;
 }
 
 .footer .sm-icons {
   margin: auto;
+  padding: 2%;
 }
 .footer p {
   text-align: center;
@@ -36,4 +36,11 @@
 
 .footer .sm-icons img {
   height: 2em
+}
+
+@media only screen and (max-width: 600px) {
+  .footer .sm-icons {
+    margin: auto;
+    padding: 3%;
+  }
 }

@@ -25,11 +25,11 @@
     font-size: 30px;
     margin: auto;
     display: block;
-    color: #606bca;
+    color: navy;
     text-align: center;
 
     &:hover {
-      color: navy;
+      text-decoration: underline navy;
     }
   }
 }
