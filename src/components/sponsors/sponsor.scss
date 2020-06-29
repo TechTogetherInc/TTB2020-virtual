@@ -45,6 +45,9 @@
   color: #2236f0;
 }
 .sponsor-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   font-size: 25px;
   color: rgb(255, 255, 255);
   text-decoration: none;
