@@ -15,7 +15,7 @@ const Footer = () => (
       </div>
 
       <div className="col-12 col-md-4">
-        <p>Developed with &#x1F90D; by TechTogetherBoston team</p>
+        <p>Developed with &#x1F90D; by TechTogether Boston Team</p>
         <p>
           <a href="https://techtogether.io/" target="_blank">
             About TechTogether
