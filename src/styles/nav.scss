@@ -1,3 +1,7 @@
+* {
+  max-width: 100%;
+}
+
 .nav,
 .nav-mobile {
   position: fixed;
@@ -11,10 +15,6 @@
 .nav_top {
   display: flex;
   justify-content: space-between;
-}
-
-* {
-  max-width: 100%;
 }
 // .nav * {
 //   max-width: 100%;
@@ -58,7 +58,6 @@
   &:hover {
     // color: $hbp-navy;
     // border-bottom: 2px solid $hbp-navy;
-    margin-bottom: -2px;
     text-decoration: none;
     color: #808cfb;
   }
@@ -69,17 +68,15 @@
 // ------------
 
 .nav-mobile {
-  display: block;
   position: fixed;
   z-index: 100;
   top: 0;
   left: 0;
   right: 0;
-  width: 100%;
-  height: auto;
   background-color: #606bca;
+  padding: 10px;
   &.opened {
-    height: 100vh;
+    height: 100%;
     overflow-y: hidden;
   }
 
@@ -91,10 +88,6 @@
 .nav-mobile__top {
   display: flex;
   justify-content: space-between;
-  .closed & {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
 }
 .nav-mobile__toggle-btn {
   border: none;
