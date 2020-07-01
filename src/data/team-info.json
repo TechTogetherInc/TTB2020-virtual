@@ -70,6 +70,14 @@
         "headshot": "Emme_Enojado_Marketing.jpg",
         "position": "Digital Media Manager",
         "linkedin": "https://www.linkedin.com/in/emme-enojado/"
+      },
+      {
+        "name": "Kala Campbell",
+        "school": "Parsons School of Design & Ohio State University",
+        "year": "Class of 2007",
+        "headshot": "K.Campbell_2019_Final",
+        "position": "Graphic Design Advisor",
+        "linkedin": "https://www.linkedin.com/in/kalacampbell"
       }
     ]
   },
@@ -123,6 +131,14 @@
         "headshot": "John_Gervasi_Marketing copy.jpg",
         "position": "Mentor & Judge Coordinator",
         "linkedin": "https://www.linkedin.com/in/john-gervasi"
+      },
+      {
+        "name": "Nesanne Tam",
+        "school": "Northeastern University",
+        "year": "Class of 2021",
+        "headshot": "Nesanne_TAM_Operations.jpg",
+        "position": "Events Coordinator",
+        "linkedin": ""
       }
     ]
   },
