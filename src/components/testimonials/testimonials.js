@@ -47,12 +47,12 @@ const Testimonials = () => (
           working with such dedicated women.
         </p>
         <p className="testimonial-text">
-          The most rewarding part is at the event taking to the hackers. Being a
-          TTB organizer, we join the team because our personal values align with
-          the TTB mission. Talking to hackers, I noticed that they also have
-          similar values and it's great to see that for 36 hours women and femme
-          non-binary from around the country come together and empower each
-          other.
+          The most rewarding part is at the event talking to the hackers. Being
+          a TTB organizer, we join the team because our personal values align
+          with the TTB mission. Talking to hackers, I noticed that they also
+          have similar values and it's great to see that for 36 hours women and
+          femme non-binary from around the country come together and empower
+          each other.
         </p>
       </div>
       <div className="col-12 col-md-4">
