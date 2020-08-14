@@ -5,20 +5,24 @@ import photo3 from "../../images/testimonial-pics/hacker_picture.jpg";
 
 const Testimonials = () => (
   <div>
-    <h1>Our testimonials through the year</h1>
+    <h1>Testimonials through the years</h1>
     <div className="bar-sm"></div>
     <div className="row">
-      <div className="col-12 col-md-4 testimonial">
+      <div className="col-12 col-md-4 ">
         <img
           alt="testimonial-pic"
-          className="img-fluid rounded-circle mb testimonial-pic"
+          className="img-fluid mb testimonial-pic"
           src={photo1}
         />
         <br />
         <br />
-        <h3 className="testimonial-name">Melissa Lin - Organizer</h3>
+        <div className="testimonial">
+          <h3 className="testimonial-name">Melissa Lin</h3>
+          <p className="testimonial-position">Organizer</p>
+        </div>
 
         <p className="testimonial-text">
+          <br></br>
           Being a TTB organizer was a great experience for me! I liked that I
           could help empower underepresented groups in tech and meet and
           collaborate with amazing people in the process.
@@ -32,15 +36,18 @@ const Testimonials = () => (
           meetings worth it.
         </p>
       </div>
-      <div className="col-12 col-md-4 testimonial">
+      <div className="col-12 col-md-4">
         <img
           alt="testimonial-pic"
-          className="img-fluid rounded-circle mb testimonial-pic"
+          className="img-fluid mb testimonial-pic"
           src={photo2}
         />
         <br />
         <br />
-        <h3 className="testimonial-name">Sarina Simon - Director</h3>
+        <div className="testimonial">
+          <h3 className="testimonial-name">Sarina Simon</h3>
+          <p className="testimonial-position">Director</p>
+        </div>
 
         <p className="testimonial-text">
           I love being a TTB organizer. It is an amazing experience and I love
@@ -58,12 +65,15 @@ const Testimonials = () => (
       <div className="col-12 col-md-4">
         <img
           alt="testimonial-pic"
-          className="img-fluid rounded-circle mb testimonial-pic"
+          className="img-fluid mb testimonial-pic"
           src={photo3}
         />
         <br />
         <br />
-        <h3 className="testimonial-name testimonial">Hana - Hacker</h3>
+        <div className="testimonial">
+          <h3 className="testimonial-name">Hana</h3>
+          <p className="testimonial-position">Hacker</p>
+        </div>
 
         <p className="testimonial-text">
           TechTogether was my 4th hackathon and my favorite hackathon!

@@ -8,6 +8,10 @@
     "path": "/aboutUs"
   },
   {
+    "name": "Learn More",
+    "path": "/learnMore"
+  },
+  {
     "name": "Attend",
     "path": "/attend"
   },

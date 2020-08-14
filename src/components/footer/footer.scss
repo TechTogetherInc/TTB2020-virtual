@@ -1,5 +1,7 @@
+@import "../../styles/constants";
+
 .footer {
-  background-color: #606bca;
+  background-color: $footercolor;
   padding: 4%;
   margin: auto;
 }
@@ -35,7 +37,7 @@
 }
 
 .footer .sm-icons img {
-  height: 2em
+  height: 2em;
 }
 
 @media only screen and (max-width: 600px) {

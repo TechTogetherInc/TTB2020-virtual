@@ -1,13 +1,9 @@
 import React from "react";
-import { Link } from "gatsby";
 import Video from "../components/video";
 import Layout from "../components/layout";
-import Image from "../components/image";
 import Sponsor from "../components/sponsors/sponsor";
-import Testimonials from "../components/testimonials/testimonials";
-import ProjectHighlights from "../components/projectHighlights/projecthighlights";
-import Statistics from "../components/Statistics/statistics";
-import PhotoCarousel from "../components/aboutContainer/aboutItem";
+import Tracks from "../components/trackContainer/tracks";
+
 export default () => (
   <Layout>
     <App />
@@ -53,19 +49,8 @@ const App = () => {
             </div>
           </div>
         </section>
-
-        <section className="about-container">
-          <PhotoCarousel />
-        </section>
-
-        <section className="project-showcase-container">
-          <ProjectHighlights />
-        </section>
-        <section className="stats-container">
-          <Statistics />
-        </section>
-        <section className="testimonial-container">
-          <Testimonials />
+        <section className="tracks-container">
+          <Tracks />
         </section>
         <section className="sponsors-container">
           <Sponsor />

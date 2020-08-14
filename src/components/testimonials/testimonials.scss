@@ -1,3 +1,5 @@
+@import "../../styles/_constants.scss";
+
 .testimonial-container {
   background-color: #808cfb;
   /* background-color: white; */
@@ -5,7 +7,8 @@
 
   h1 {
     font-weight: 600;
-    color: white;
+    color: $navcolor;
+    margin: 0px 0px 25px 10px;
   }
 
   // .bar-sm {
@@ -18,20 +21,33 @@
 }
 
 .testimonial {
-  margin: 0;
+  margin: 0px;
+  color: white;
+  background-color: $navcolor;
+  padding: 10px 50px 10px 10px;
+  width: auto;
+  display: inline-block;
+
+  .testimonial-name {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .testimonial-position {
+    margin: 0;
+    font-size: 20px;
+    color: $testimonialcolor;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }
 
 .testimonial-pic {
   display: block;
-  margin: auto;
-}
-
-.testimonial-name {
-  color: white;
-  text-align: center;
+  margin: 0 auto;
 }
 
 .testimonial-text {
-  color: rgb(3, 3, 151);
+  color: $navcolor;
   font-size: 17px;
 }
