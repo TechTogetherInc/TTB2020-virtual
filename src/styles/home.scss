@@ -2,10 +2,12 @@
 // Header
 // ---------------------------------------------------------------------------
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+@import "../styles/constants";
+
 .header {
   // position: relative;
   color: white;
-  background-color: #808cfb;
+  background-color: $backgroundcolor;
   padding: 125px 3% 50px 3%;
   text-align: center;
   margin: auto;
