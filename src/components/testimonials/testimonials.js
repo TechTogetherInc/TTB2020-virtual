@@ -28,6 +28,7 @@ const Testimonials = () => (
           collaborate with amazing people in the process.
         </p>
         <p className="testimonial-text">
+          <br></br>
           The most rewarding for me is definitely seeing the weekend of the
           hackathon come together. We spend months of work on this event so it
           really is gratituding to see how all that work culminates into one
@@ -54,6 +55,7 @@ const Testimonials = () => (
           working with such dedicated women.
         </p>
         <p className="testimonial-text">
+          <br></br>
           The most rewarding part is at the event talking to the hackers. Being
           a TTB organizer, we join the team because our personal values align
           with the TTB mission. Talking to hackers, I noticed that they also
