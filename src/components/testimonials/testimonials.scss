@@ -3,12 +3,12 @@
 .testimonial-container {
   background-color: #808cfb;
   /* background-color: white; */
-  padding: 50px 3%;
+  padding: 100px 3%;
 
   h1 {
     font-weight: 600;
     color: $navcolor;
-    margin: 0px 0px 25px 10px;
+    margin: 0px 0px 25px 40px;
   }
 
   // .bar-sm {
@@ -18,10 +18,15 @@
   //   margin: 0 5px;
   //   padding: 0 10px;
   // }
+
+  .testimonial {
+    padding: 0 50px;
+  }
 }
 
-.testimonial {
-  margin: 0px;
+.testimonial-head {
+  position: absolute;
+  margin: -75px 0 0 0;
   color: white;
   background-color: $navcolor;
   padding: 10px 50px 10px 10px;
@@ -45,9 +50,11 @@
 .testimonial-pic {
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
 
 .testimonial-text {
   color: $navcolor;
   font-size: 17px;
+  margin-top: 25px;
 }
