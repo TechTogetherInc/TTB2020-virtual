@@ -2,6 +2,8 @@ import React from "react";
 
 import teamPhoto from "../../../images/about-us.jpg";
 import MissionImage from "./missionphoto";
+import "./mission.scss";
+
 const Mission = () => (
   <div className="mission">
     <h1>

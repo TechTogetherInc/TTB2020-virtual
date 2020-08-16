@@ -1,15 +1,17 @@
+@import "../../styles/_constants.scss";
+
 .stats-container {
-  background-color: white;
-  padding: 50px 3%;
+  background-color: $backgroundcolor;
+  padding: 75px 5%;
 
   h1 {
     display: inline-block;
-    color: #041888;
+    color: white;
     font-weight: 600;
   }
   .carousel {
     width: 100%;
-    margin: auto;
+    margin: 50px auto;
     // padding-left: 10%;
     // padding-right: 10%;
     // padding-top: 5%;
@@ -33,7 +35,7 @@
     max-height: 650px;
     width: auto;
     // height: 100%;
-    background-color: #606bca;
+    background-color: $backgroundcolor2;
 
     /* Add this */
     // position: fixed;

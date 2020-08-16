@@ -10,9 +10,11 @@ import photo4 from "../../images/photogallery/4.jpg";
 import photo5 from "../../images/photogallery/5.jpg";
 import photo6 from "../../images/photogallery/6.jpg";
 
+import "../aboutContainer/aboutItem.scss";
+
 const PhotoCarousel = () => {
   return (
-    <div className="row mx-auto align-items-center">
+    <div className="row mx-auto align-items-center about-container">
       <div className="col-12 col-md-5 offset-md-0 text-section">
         <h2>
           At TechTogether Boston, we're looking to shape the way
