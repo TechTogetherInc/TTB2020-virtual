@@ -32,11 +32,9 @@ import Organizers from "../../images/organizer.jpg";
 const Sponsor = () => (
   <div>
     <div className="be-sponsor">
-      <h1>Sponsor TechTogether Boston</h1>
-
       <div className="row">
-        <div className="col-12 col-md-8">
-          <br />
+        <div className="col-12 col-md-6 be-sponsor-text">
+          <h1>Sponsor TechTogether Boston</h1>
 
           <p>
             Our event would not be possible without our amazing sponsors and
@@ -46,15 +44,13 @@ const Sponsor = () => (
             sponsors to help you get the most out of our event.
           </p>
           <br />
-          <a
-            type="button"
-            href="mailto:sponsor-boston@techtogether.io"
-            className="sponsor-button"
-          >
-            Be a Sponsor!
-          </a>
+          <div className="sponsor-button">
+            <a type="button" href="mailto:sponsor-boston@techtogether.io">
+              Apply
+            </a>
+          </div>
         </div>
-        <div className="col-12 col-md-4 sponsor-photo">
+        <div className="col-12 col-md-6 sponsor-photo">
           <img src={Organizers} alt="oops" />
         </div>
       </div>
@@ -62,9 +58,9 @@ const Sponsor = () => (
       <br />
     </div>
 
-    <h1>Our past sponsors</h1>
     <div className="bar-sm"></div>
     <div className="sponsor-gallery">
+      <h1>Our past sponsors</h1>
       <div className="row">
         <div className="gallery col-6 col-md-2">
           <img src={bu} alt="Boston University" />

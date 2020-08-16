@@ -1,25 +1,14 @@
-$pink: #fd7361;
-$purple: #808cfb;
-$blue: #52d9f6;
-$red: #e73f33;
-$dark-blue: #000c54;
-$ocean-blue: #0025f8;
-$light-purple: rgba(128, 140, 251, 0.2);
-$button-radius: 100px;
-$green: #0aa895;
-$gray: #c4c4c4;
-$gray2: #6b7373;
+@import "../../styles/_constants.scss";
 
 .about-container {
   height: 100%;
   width: 100%;
-  background-color: white;
   padding: 50px 3%;
   text-align: center;
   margin: auto;
 
   h2 {
-    color: #808cfb;
+    color: white;
     font-weight: 600;
     margin: 1.5em 0;
     font-size: 30px;
@@ -30,7 +19,7 @@ $gray2: #6b7373;
   }
 
   p {
-    color: #808cfb;
+    color: white;
     font-weight: 500;
     font-size: 18px;
   }

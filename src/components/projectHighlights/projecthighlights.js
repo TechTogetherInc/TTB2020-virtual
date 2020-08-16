@@ -25,7 +25,7 @@ const Project = (props) => (
 
 const ProjectHighlights = () => (
   <div>
-    <h1>TTB 2020 Project Highlights</h1>
+    <h1 className="project-head">TTB 2020 Project Highlights</h1>
     <div className="bar-sm"></div>
     <div className="projects-container row">
       {ProjectsData.map((project) => (
