@@ -8,15 +8,15 @@
     "path": "/aboutUs"
   },
   {
+    "name": "Learn More",
+    "path": "/learnMore"
+  },
+  {
     "name": "Attend",
     "path": "/attend"
   },
   {
     "name": "Sponsor",
-    "path": "/sponsor"
-  },
-  {
-    "name": "FAQ",
-    "path": "/FAQ"
+    "path": "mailto:sponsor-boston@techtogether.io"
   }
 ]

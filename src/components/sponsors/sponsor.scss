@@ -1,13 +1,9 @@
-.sponsors-container {
-  /* background-color: #000C54; */
-  background-color: white;
-  padding: 50px 3%;
+@import "../../styles/_constants.scss";
 
+.sponsors-container {
   h1 {
     font-weight: 600;
-    color: #000c54;
-    // margin: 0;
-    // padding: 0;
+    color: $navcolor;
   }
 
   // .bar-sm {
@@ -19,60 +15,80 @@
   // }
 }
 
-.sponsor-gallery .gallery {
-  // margin: 15px;
-  // border: 1px solid #ccc;
-  // float: left;
-  // padding-bottom: 5px;
-  margin: auto;
-  object-fit: scale-down;
-}
+.be-sponsor {
+  background-color: $backgroundcolor2;
+  padding: 75px 5% 50px 5%;
 
-.sponsor-gallery .gallery img {
-  width: 200px;
-  height: auto;
-  display: block;
-  margin: auto;
-}
+  h1 {
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
 
-.be-sponsor p {
-  color: #808cfb;
-  padding: 10px 10px 0px 0px;
-  font-size: 20px;
-}
+  .be-sponsor-text {
+    margin: 5px 0 0 0;
+  }
 
-.be-sponsor h4 {
-  color: #2236f0;
-}
-.sponsor-button {
-  font-size: 25px;
-  color: navy;
-  text-decoration: none;
-  background-color: #ef7060;
-  border-radius: 15px;
-  border: none;
-  width: 250px;
-  height: 45px;
-  text-align: center;
-  font-size: 30px;
-  display: block;
-  margin: 3px auto 10px auto;
+  p {
+    color: $navcolor;
+    padding: 10px 10px 0px 0px;
+    font-size: 20px;
+  }
 
-  :hover {
-    background-color: #f88c7d;
-    color: #808cfb;
+  .sponsor-button {
+    text-decoration: none;
+    background-color: #ef7060;
+    border: none;
+    font-size: 20px;
+    margin: 0px auto;
+    padding: 10px 25px;
+    display: inline-block;
+
+    a {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    a:hover {
+      background-color: #f88c7d;
+      color: navy;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+  .sponsor-photo {
+    display: block;
+    margin: 10px auto;
+    padding: 0;
+    text-align: center;
   }
 }
-.be-sponsor.sponsor-photo {
-  padding: 2%;
-}
 
-.be-sponsor a {
-  text-decoration: none;
-}
-.sponsor-photo {
-  display: block;
-  margin: auto;
-  padding: 0;
-  text-align: center;
+.sponsor-gallery {
+  padding: 75px 5%;
+
+  h1 {
+    margin-bottom: 25px;
+    color: $backgroundcolor;
+  }
+
+  .gallery {
+    // margin: 15px;
+    // border: 1px solid #ccc;
+    // float: left;
+    // padding-bottom: 5px;
+    margin: auto;
+    object-fit: scale-down;
+  }
+
+  .gallery img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
 }

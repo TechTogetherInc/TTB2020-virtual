@@ -1,53 +1,45 @@
+@import "../../styles/_constants.scss";
+
 .stats-container {
-  background-color: white;
-  padding: 50px 3%;
+  background-color: $backgroundcolor;
+  padding: 75px 5%;
 
   h1 {
     display: inline-block;
-    color: #041888;
+    color: white;
     font-weight: 600;
   }
-
-  // .bar-sm {
-  //   width: 3em;
-  //   height: 0.35em;
-  //   background-color: #0059ff;
-  //   margin: 1px 10px;
-  //   padding: 0 10px;
-  // }
-
-  .carousel-inner,
-  .carousel-item {
-    height: 100%;
-  }
-
-  img {
-    height: 100%;
-    object-fit: cover;
-  }
-
-  li {
-    height: 1em;
-    width: 1em;
-    border-radius: 50%;
-    background-color: #808cfb;
-  }
-
-  .carousel-control-prev {
-    background: transparent;
-  }
-
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    filter: invert(25%);
-  }
-
-  .carousel-container {
-    display: flex;
-    justify-content: center;
-  }
-
   .carousel {
-    width: 60%;
+    width: 100%;
+    margin: 50px auto;
+    // padding-left: 10%;
+    // padding-right: 10%;
+    // padding-top: 5%;
+  }
+
+  .thumbs {
+    text-align: center;
+  }
+  .carousel .thumb img {
+    background: none;
+    display: inline-block;
+
+    width: 100% !important;
+    height: 100% !important;
+    margin: auto;
+  }
+  .carousel .slide {
+    background: none;
+  }
+  .carousel .slide img {
+    max-height: 650px;
+    width: auto;
+    // height: 100%;
+    background-color: $backgroundcolor2;
+
+    /* Add this */
+    // position: fixed;
+    top: 0;
+    left: 0;
   }
 }

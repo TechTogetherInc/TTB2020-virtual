@@ -2,6 +2,8 @@ import React from "react";
 
 import teamPhoto from "../../../images/about-us.jpg";
 import MissionImage from "./missionphoto";
+import "./mission.scss";
+
 const Mission = () => (
   <div className="mission">
     <h1>
@@ -9,7 +11,7 @@ const Mission = () => (
       non-binary individuals
     </h1>
     <div className="row">
-      <div className="col-12 col-md-6">
+      <div className="col-12 col-md-5">
         <div className="mission-statement">
           <h2>Our Mission</h2>
           {/* <div className="bar-sm"></div> */}
@@ -25,7 +27,7 @@ const Mission = () => (
           </ul>
         </div>
       </div>
-      <div className="col-12 col-md-6 ">
+      <div className="col-12 col-md-7 ">
         <MissionImage
           filename="about-us.jpg"
           className=" missionimage img-fluid"

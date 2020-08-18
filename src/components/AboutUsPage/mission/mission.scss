@@ -1,9 +1,9 @@
 .mission {
-  padding: 0px 3% 0px 3%;
+  padding: 0px 5% 20px 5%;
   margin: 0;
 
   h1 {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   h2 {
@@ -25,14 +25,14 @@
 }
 
 .mission-statement {
-  text-align: left !important;
+  text-align: left;
   display: inline-block;
-  padding-top: 30px;
+  vertical-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  height: 100%;
 }
 
-.mission-statement li {
-  font-size: 20px;
-}
 // .missionimage {
 //   height: auto;
 //   display: block;

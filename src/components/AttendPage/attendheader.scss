@@ -1,28 +1,29 @@
 .attend-button {
-    font-size: 25px;
-    color: navy;
-    text-decoration: none;
-    background-color: #ef7060;
-    border-radius: 15px;
-    border: none;
-    width: 250px;
-    height: 45px;
-    text-align: center;
-    display: block;
-    margin: 3px auto 10px auto;
-  
-    :hover {
-      background-color: #f88c7d;
-      color: #808cfb;
-    }
-  }
+  -webkit-appearance: none;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: #ef7060;
+  border-radius: 15px;
+  border: none;
+  width: 250px;
+  height: 45px;
+  text-align: center;
+  display: block;
+  margin: 3px auto 10px auto;
 
-  .attend-email {
-    text-decoration: none;
-    border-radius: 15px;
-    border: none;
-    text-align: center;
-    width: 400px;
-    height: 45px;
-    margin: 3px auto 10px auto;
+  :hover {
+    background-color: #f88c7d;
+    color: #808cfb;
   }
+}
+
+.attend-email {
+  text-decoration: none;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  width: 400px;
+  height: 45px;
+  margin: 3px auto 10px auto;
+}
