@@ -1,0 +1,32 @@
+@import "../../styles/_constants.scss";
+
+.faq-container {
+  padding: 50px 3%;
+  font-size: 20px;
+
+  h1 {
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+
+  dt {
+    padding: 10px;
+    border: 1px solid #ccc;
+
+    button {
+      background-color: transparent;
+      border: none;
+      width: 100%;
+      text-align: left;
+    }
+
+    button:focus {
+      outline: 0;
+    }
+  }
+
+  dd {
+    padding: 10px 30px;
+    background-color: #ccc;
+  }
+}

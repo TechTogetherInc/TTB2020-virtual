@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "gatsby";
 
 import Layout from "../components/layout";
-import Sponsor from "../components/sponsors/sponsor";
 import ProjectHighlights from "../components/projectHighlights/projecthighlights";
 import Statistics from "../components/Statistics/statistics";
 import PhotoCarousel from "../components/aboutContainer/aboutItem";
+import FAQContainer from "../components/FAQContainer/FAQContainer";
 
 export default () => (
   <Layout>
@@ -30,8 +30,8 @@ const LearnMore = () => {
         <section className="stats-container">
           <Statistics />
         </section>
-        <section className="sponsors-container">
-          <Sponsor />
+        <section className="faq-container">
+          <FAQContainer />
         </section>
       </div>
     </div>
