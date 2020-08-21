@@ -1,20 +1,36 @@
 import React from "react";
+import TrackChallengesData from "../../data/track-challenges.json";
+import Aurora from "../../images/aurora.png";
+
+const photos = {
+  Aurora,
+  Aurora,
+  Aurora,
+};
+
+const Track = (props) => (
+  <div className="track-text">
+    <img src={photos[props.title]} className="track-pic" />
+    <h3 className="track-title">{props.title}</h3>
+    <br />
+    <p>{props.description}</p>
+  </div>
+);
 
 const Tracks = () => {
   return (
     <div className="tracks-container">
-      <h1>Tracks for this year</h1>
-      <div className="row">
-        <div className="col-12 col-md-4 ">
-          <p className="testimonial-text">Track 1</p>
+      <h1>Challenges</h1>
+      <div className="tracks-container row">
+      {TrackChallengesData.map((track) => (
+        <div className="track col-sm" key={track.title}>
+          <Track
+            title={track.title}
+            description={track.description}
+          />
         </div>
-        <div className="col-12 col-md-4">
-          <p className="testimonial-text">Track 2</p>
-        </div>
-        <div className="col-12 col-md-4">
-          <p className="testimonial-text">Track 3</p>
-        </div>
-      </div>
+      ))}
+    </div>
     </div>
   );
 };

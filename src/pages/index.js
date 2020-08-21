@@ -18,13 +18,22 @@ const App = () => {
           <div className="header__content">
             <div className="row">
               <div className="col-12 col-md-6 offset-md-0 text-section">
-                <h1 style={{ fontWeight: "bold" }}>TechTogether Boston 2020 Virtual</h1>
+                <h1 style={{ fontWeight: "bold", padding: "0px" }}>TechTogether Boston 2020 Virtual</h1>
+                <h3 style={{ fontWeight: "bold" }}>November 6th - November 8th, 2020</h3>
                 <br />
                 <h3>
                   Boston's largest all-female, femme, <br />
                   and non-binary hackathon.
                 </h3>
-                <h3 style={{ fontWeight: "bold" }}>November 6th - November 8th, 2020</h3>
+                <br />
+                <div className="attend-header">
+                  <form class="form"
+                    action="https://shehacks.us17.list-manage.com/subscribe/post?u=34946c2c134f07563cac527a4&amp;id=d441aab50c"
+                    method="post" id="subscribe-form" name="subscribe-form" target="_blank" novalidate>
+                    <input type="email" name="EMAIL" className="attend-header-email" size="50" placeholder="Notify me when applications open" />
+                    <input type="submit" value="Subscribe" className="attend-header-button" />
+                  </form>
+                </div>
                 <div
                   className="button-container"
                   style={{ justifyContent: "center" }}

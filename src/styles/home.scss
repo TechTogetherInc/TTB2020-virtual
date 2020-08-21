@@ -9,7 +9,7 @@
   color: white;
   background-color: $navcolor;
   padding: 125px 3% 50px 3%;
-  text-align: center;
+  // text-align: center;
   margin: auto;
 }
 
@@ -26,6 +26,23 @@
   //     width: 45%;
   //     margin-right: 50px;
   //   }
+}
+
+.attend-header-email {
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  width: 400px;
+  height: 45px;
+  margin: 3px auto 10px auto;
+}
+
+.attend-header-button {
+  background-color: #ef7060;
+  height: 45px;
+  width: 115px;
+  color: white;
+  margin: 3px auto 10px 25px;
 }
 
 .row {
