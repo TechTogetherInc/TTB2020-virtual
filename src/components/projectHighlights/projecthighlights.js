@@ -29,7 +29,7 @@ const ProjectHighlights = () => (
     <div className="bar-sm"></div>
     <div className="projects-container row">
       {ProjectsData.map((project) => (
-        <div className="project col-sm">
+        <div className="project col-sm" key={project.title}>
           <Project
             title={project.title}
             link={project.link}

@@ -19,7 +19,7 @@ const NavMobile = () => {
           <img className="nav__logo" src={TTBLogoV3} />{" "}
         </DynamicLink>
         <button onClick={toggleMenu} className="nav-mobile__toggle-btn">
-          <i className={isNavOpen} />
+          <i className={isNavOpen ? "opened" : "closed"} />
           <img
             src={Hamburger}
             style={isNavOpen ? { display: "none" } : { display: "block" }}
