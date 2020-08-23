@@ -3,15 +3,18 @@
 .faq-container {
   padding: 50px 3%;
   font-size: 20px;
+  background-color: $navcolor;
 
   h1 {
     font-weight: bold;
     margin-bottom: 25px;
+    color: white;
   }
 
   dt {
     padding: 10px;
     border: 1px solid #ccc;
+    background-color: white;
 
     button {
       background-color: transparent;
