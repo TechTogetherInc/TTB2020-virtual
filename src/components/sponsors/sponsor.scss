@@ -36,7 +36,7 @@
 
   .sponsor-button {
     text-decoration: none;
-    background-color: #ef7060;
+    background-color: $orange;
     border: none;
     font-size: 20px;
     margin: 0px auto;
@@ -52,7 +52,7 @@
     }
 
     a:hover {
-      background-color: #f88c7d;
+      background-color: $orange;
       color: navy;
     }
   }
