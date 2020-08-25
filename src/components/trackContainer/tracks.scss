@@ -3,11 +3,11 @@
 .tracks-container {
   margin: 0;
   padding: 50px 3%;
-  margin: 0;
+  background-color: $backgroundcolor;
 
   h1 {
     font-weight: 600;
-    color: #ef7060;
+    color: white;
   }
 
   .row {
@@ -15,12 +15,9 @@
   }
 
   .track {
-    background-color: white;
     color: $backgroundcolor;
-    box-shadow: 0px 0px 5px 1px #ccc;
-    border-radius: 10px;
-    margin: 20px 10px;
-    padding: 10px;
+    margin: 20px 0px;
+    padding: 0px;
   }
 
   .track-head {
@@ -33,12 +30,12 @@
     font-size: 30px;
     margin: auto;
     display: block;
-    color: $navcolor;
+    color: white;
     font-weight: bold;
   }
 
   .track-text {
     padding: 8px;
-    color: $navcolor;
+    color: white;
   }
 }

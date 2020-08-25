@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import Sponsor from "../components/sponsors/sponsor";
 import Tracks from "../components/trackContainer/tracks";
 import FAQContainer from "../components/FAQContainer/FAQContainer";
-
+import PastSponsor from "../components/sponsors/pastSponsor";
 export default () => (
   <Layout>
     <App />
@@ -87,6 +87,9 @@ const App = () => {
         </section>
         <section className="faq-container">
           <FAQContainer />
+        </section>
+        <section className="past-sponsor-container">
+          <PastSponsor />
         </section>
       </div>
     </div>

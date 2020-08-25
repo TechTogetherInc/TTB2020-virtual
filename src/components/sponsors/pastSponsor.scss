@@ -1,0 +1,48 @@
+@import "../../styles/_constants.scss";
+
+.sponsors-container {
+  h1 {
+    font-weight: 600;
+    color: $orange;
+  }
+
+  // .bar-sm {
+  //   width: 3em;
+  //   height: 0.35em;
+  //   background-color: #0025f8;
+  //   margin: 10px 15px;
+  //   padding: 0 10px;
+  // }
+}
+.sponsor-photo {
+  display: block;
+  margin: 10px auto;
+  padding: 0;
+  text-align: center;
+}
+
+.sponsor-gallery {
+  padding: 75px 5%;
+
+  h1 {
+    margin-bottom: 25px;
+    color: $orange;
+    font-weight: bold;
+  }
+
+  .gallery {
+    // margin: 15px;
+    // border: 1px solid #ccc;
+    // float: left;
+    // padding-bottom: 5px;
+    margin: auto;
+    object-fit: scale-down;
+  }
+
+  .gallery img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+}

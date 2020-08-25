@@ -1,22 +1,30 @@
+@import "../../../styles/constants";
+
 .team {
   width: 100%;
-  padding: 50px 5% 5% 5%;
+  padding: 75px 5% 5% 5%;
 }
 .team h1 {
-  color: #808cfb;
-  text-align: center;
+  color: $orange;
+  font-weight: bold;
 }
-.team p,
-.team a {
+
+.team p {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
-  color: navy;
+  color: black;
+  font-size: 20px;
+}
+
+.team a {
+  color: $backgroundcolor;
+  font-weight: bold;
   font-size: 20px;
 }
 
 .team span {
-  color: #8f98fb;
+  color: $backgroundcolor2;
 }
 
 .team-intro {
@@ -36,4 +44,8 @@
   height: auto;
   display: block;
   margin: 0 auto 20px auto;
+}
+
+.teamMemberContainer {
+  text-align: center;
 }

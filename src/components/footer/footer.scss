@@ -1,48 +1,69 @@
 @import "../../styles/constants";
 
 .footer {
-  background-color: $footercolor;
-  padding: 4%;
+  background-color: $navcolor;
+  padding: 50px 5%;
   margin: auto;
+
+  a {
+    color: white;
+  }
+
+  .footer-logo-container {
+    width: auto;
+    color: white;
+
+    img {
+      margin-bottom: 20px;
+      width: 55%;
+      display: block;
+    }
+
+    p {
+      margin-left: 15px;
+    }
+  }
+
+  .social-media {
+    width: 300px;
+    display: block;
+    padding-inline-start: inherit;
+    float: right;
+
+    .sm-icons {
+      padding: 2%;
+
+      img {
+        height: 2em;
+      }
+    }
+  }
 }
 
-.footer .footer-logo-container {
-  width: auto;
-  margin: auto;
-}
+@media only screen and (max-width: 800px) {
+  .footer {
+    .footer-logo-container {
+      text-align: center;
+      img {
+        margin: auto;
+      }
+    }
 
-.footer_logo {
-  width: 55%;
-  margin: auto;
-  display: block;
-}
+    .social-media {
+      margin: auto;
+      display: block;
+      padding-inline-start: inherit;
+      float: none;
 
-.footer .social-media {
-  margin: auto;
-  display: block;
-  padding-inline-start: inherit;
-}
+      .sm-icons {
+        margin: auto;
+        padding: 2%;
+        text-align: center;
 
-.footer .sm-icons {
-  margin: auto;
-  padding: 2%;
-}
-.footer p {
-  text-align: center;
-  color: white;
-}
-
-.footer a {
-  color: white;
-}
-
-.footer .sm-icons img {
-  height: 2em;
-}
-
-@media only screen and (max-width: 600px) {
-  .footer .sm-icons {
-    margin: auto;
-    padding: 3%;
+        img {
+          height: 2em;
+        }
+      }
+    }
   }
 }
