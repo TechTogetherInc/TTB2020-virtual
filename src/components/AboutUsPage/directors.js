@@ -47,7 +47,7 @@ const Directors = () => {
   }
 
   return (
-    <div>
+    <div className="teamMemberContainer">
       <h1>Leadership</h1>
       {renderTeammates(TeamData[0])}
       <br />
