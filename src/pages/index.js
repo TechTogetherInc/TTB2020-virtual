@@ -4,6 +4,7 @@ import Sponsor from "../components/sponsors/sponsor";
 import Tracks from "../components/trackContainer/tracks";
 import FAQContainer from "../components/FAQContainer/FAQContainer";
 import PastSponsor from "../components/sponsors/pastSponsor";
+import Speaker from "../components/speaker/speaker";
 import DFM from "../images/DFM.jpeg";
 export default () => (
   <Layout>
@@ -93,6 +94,9 @@ const App = () => {
         </section>
         <section className="sponsors-container">
           <Sponsor />
+        </section>
+        <section className="speaker-container">
+          <Speaker />
         </section>
         <section className="faq-container">
           <FAQContainer />

@@ -1,0 +1,48 @@
+@import "./_constants.scss";
+.be-speaker {
+  background-color: $backgroundcolor;
+  padding: 75px 5% 50px 5%;
+  h1 {
+    padding-top: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  .be-speaker-text {
+    margin: 5px 0 0 0;
+  }
+  p {
+    color: white;
+    padding: 10px 10px 0px 10px;
+    font-size: 20px;
+  }
+
+  .speaker-button {
+    text-decoration: none;
+    background-color: $orange;
+    border: none;
+    font-size: 20px;
+    margin: 0px auto;
+    padding: 10px 25px;
+    display: inline-block;
+
+    a {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    a:hover {
+      background-color: $orange;
+      color: navy;
+    }
+  }
+
+  .speaker-img {
+    display: block;
+    margin: 10px auto;
+
+    text-align: center;
+  }
+}
