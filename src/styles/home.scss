@@ -8,7 +8,7 @@
   // position: relative;
   color: white;
   background-color: $navcolor;
-  padding: 175px 5.5% 75px 5.5%;
+  padding: 90px 0px 0px 5.5%;
   // text-align: center;
   margin: auto;
 }
@@ -99,6 +99,17 @@
   margin: auto;
   padding: 0 3px 0 0;
   justify-content: center;
+}
+
+.dfm {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 1121px) {
+  .dfm {
+    display: none;
+  }
 }
 // .footer {
 //   grid-template-columns: 100%;

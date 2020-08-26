@@ -1,10 +1,10 @@
 import React from "react";
-import Video from "../components/video";
 import Layout from "../components/layout";
 import Sponsor from "../components/sponsors/sponsor";
 import Tracks from "../components/trackContainer/tracks";
 import FAQContainer from "../components/FAQContainer/FAQContainer";
 import PastSponsor from "../components/sponsors/pastSponsor";
+import DFM from "../images/DFM.jpeg";
 export default () => (
   <Layout>
     <App />
@@ -33,13 +33,13 @@ const App = () => {
                 <br />
                 <div className="attend-header">
                   <form
-                    class="form"
+                    className="form"
                     action="https://shehacks.us17.list-manage.com/subscribe/post?u=34946c2c134f07563cac527a4&amp;id=d441aab50c"
                     method="post"
                     id="subscribe-form"
                     name="subscribe-form"
                     target="_blank"
-                    novalidate
+                    noValidate
                   >
                     <input
                       type="email"
@@ -60,6 +60,7 @@ const App = () => {
                   style={{ justifyContent: "center" }}
                 >
                   <br></br>
+
                   {/* <div className="button1">
                     <a href="/live/index.html">
                       <p>Live Site!</p>
@@ -67,14 +68,22 @@ const App = () => {
                   </div> */}
                 </div>
               </div>
-              <div className="col-12 col-md-6 image-container">
-                <div className="embed-responsive embed-responsive-16by9">
+              <div className="image-container ">
+                {/* <div className="embed-responsive embed-responsive-16by9">
                   <Video
                     className="embed-responsive-item"
                     videoSrcURL="https://www.youtube.com/embed/lcR29DyWLHg"
                     videoTitle="TTB2020"
                   />
-                </div>
+                  
+                </div> */}
+                <img
+                  className="dfm"
+                  src={DFM}
+                  alt="dear future me pic is broken! "
+                  // style={{ border: "10px solid red" }}
+                  align="right"
+                />{" "}
               </div>
             </div>
           </div>
