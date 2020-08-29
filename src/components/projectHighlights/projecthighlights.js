@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectsData from "../../data/project-highlights.json";
-import ProjectImage from "../../components/projectHighlights/projectimage";
+// import ProjectImage from "../../components/projectHighlights/projectimage";
 import Aurora from "../../images/aurora.png";
 import SafeSpace from "../../images/safeSpace.jpg";
 import SheNetwork from "../../images/SheNework.png";

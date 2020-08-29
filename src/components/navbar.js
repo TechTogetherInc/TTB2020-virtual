@@ -7,7 +7,7 @@ import TTBLogoV2 from "../images/graphics/ttb-logoV2.png";
 const Nav = () => (
   <nav className="nav">
     <DynamicLink to="/" className=" nav__logo">
-      <img className="img-fluid " src={TTBLogoV2} />
+      <img className="img-fluid " src={TTBLogoV2} alt="oops" />
     </DynamicLink>
     <ul className="nav__list">
       {NavLinks.map((link, index) => {

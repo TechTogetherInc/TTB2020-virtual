@@ -1,7 +1,7 @@
 import React from "react";
 
-import teamPhoto from "../../../images/about-us.jpg";
-import MissionImage from "./missionphoto";
+// import teamPhoto from "../../../images/about-us.jpg";
+// import MissionImage from "./missionphoto";
 import "./mission.scss";
 import Video from "../../video.js";
 

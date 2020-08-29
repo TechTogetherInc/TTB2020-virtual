@@ -5,7 +5,7 @@ import Tracks from "../components/trackContainer/tracks";
 import FAQContainer from "../components/FAQContainer/FAQContainer";
 import PastSponsor from "../components/sponsors/pastSponsor";
 import Speaker from "../components/speaker/speaker";
-import DFM from "../images/DFM.jpeg";
+import DFM from "../images/DFM.png";
 export default () => (
   <Layout>
     <App />
@@ -55,18 +55,6 @@ const App = () => {
                       className="attend-header-button"
                     />
                   </form>
-                </div>
-                <div
-                  className="button-container"
-                  style={{ justifyContent: "center" }}
-                >
-                  <br></br>
-
-                  {/* <div className="button1">
-                    <a href="/live/index.html">
-                      <p>Live Site!</p>
-                    </a>
-                  </div> */}
                 </div>
               </div>
               <div className="image-container ">

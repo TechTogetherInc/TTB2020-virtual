@@ -1,22 +1,22 @@
 [
   {
+    "question": "What is a hackathon?",
+    "answer": "A TechTogether Boston hackathon 36-hour event where individuals or teams work on technical projects in a short period of time. With the help of workshops and mentors you can build an app, a website, a robot, the possibilities are endless!"
+  },
+  {
+    "question": "How will TechTogether Boston be run during the COVID-19 pandemic",
+    "answer": "TechTogether Boston is going to be completely virtual due to the COVID-19 pandemic. We are doing our best to provide the same experience as an in-person event would with one added perk: Hacking from Home this Year!"
+  },
+  {
+    "question": "How can I prepare for a hacakthon?",
+    "answer": "Our hackathons are very beginner friendly! We have intro workshops tailored to first-time hackers and a unique high school program to help assimilate all our hackers! If you want to fine tune your skills, here are some fun Python projects you can work on."
+  },
+  {
     "question": "Will there still be sponsors for us to talk to?",
-    "answer": "a"
+    "answer": "Yes! We will be organizing numerous networking sessions for you to talk to sponsors during the hackathon weekend."
   },
   {
     "question": "Will there be food?",
-    "answer": "b"
-  },
-  {
-    "question": "Will it still be as awesome and interactive?",
-    "answer": "c"
-  },
-  {
-    "question": "Will there still be swag?",
-    "answer": "d"
-  },
-  {
-    "question": "How will mentoring work?",
-    "answer": "e"
+    "answer": "Since we will be having a virtual event, there will be no food provided."
   }
 ]
