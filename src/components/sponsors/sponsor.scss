@@ -50,11 +50,9 @@
       color: white;
       font-weight: bold;
     }
-
-    a:hover {
-      background-color: $orange;
-      color: navy;
-    }
+  }
+  .sponsor-button:hover {
+    background-color: $darkerorange;
   }
 
   a {

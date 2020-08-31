@@ -21,7 +21,7 @@ const FAQ = ({ question, answer }) => {
         </button>
       </dt>
       <dd style={showAnswer ? { display: "block" } : { display: "none" }}>
-        {answer}
+        <span dangerouslySetInnerHTML={{ __html: answer }}></span>
       </dd>
     </>
   );
