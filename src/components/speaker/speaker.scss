@@ -32,10 +32,12 @@
       color: white;
       font-weight: bold;
     }
+  }
+  .speaker-button:hover {
+    background-color: $darkerorange;
 
     a:hover {
-      background-color: $orange;
-      color: navy;
+      text-decoration: none;
     }
   }
 
