@@ -16,7 +16,7 @@ const Speaker = () => (
         </p>
         <br />
         <div className="speaker-button">
-          <a type="button" href="mailto:sponsor-boston@techtogether.io">
+          <a type="button" href="https://techtogether.typeform.com/to/pbAZS3I4">
             Apply
           </a>
         </div>

@@ -1,15 +1,15 @@
 [
   {
     "question": "What is a hackathon?",
-    "answer": "A TechTogether Boston hackathon is a 36-hour event where individuals or teams work on technical projects in a short period of time. With the help of workshops and mentors you can build an app, a website, a robot; the possibilities are endless!"
+    "answer": "A TechTogether Boston hackathon 36-hour event where individuals or teams work on technical projects in a short period of time. With the help of workshops and mentors you can build an app, a website, a robot, the possibilities are endless!"
   },
   {
     "question": "How will TechTogether Boston be run during the COVID-19 pandemic?",
-    "answer": "TechTogether Boston is going to be completely virtual due to the pandemic. We are doing our best to provide the same experience as an in-person event would with one added perk: Hacking from Home this Year!"
+    "answer": "TechTogether Boston is going to be completely virtual due to the COVID-19 pandemic. We are doing our best to provide the same experience as an in-person event would with one added perk: Hacking from Home this Year!"
   },
   {
     "question": "How can I prepare for a hacakthon?",
-    "answer": "Our hackathons are very beginner friendly! We have intro workshops tailored to first-time hackers and a unique high school program to help assimilate all our hackers. If you want to fine tune your skills, <a href='https://www.linkedin.com/posts/techtogetherboston_pythonprojects-python-coding-activity-6702731391915851776-O4rI' target='_blank' style='color: #808cfb'>here</a> are some fun Python projects you can work on."
+    "answer": "Our hackathons are very beginner friendly! We have intro workshops tailored to first-time hackers and a unique high school program to help assimilate all our hackers! If you want to fine tune your skills, <a href='https://www.linkedin.com/posts/techtogetherboston_pythonprojects-python-coding-activity-6702731391915851776-O4rI' target='_blank' style='color: #808cfb'>here</a> are some fun Python projects you can work on."
   },
   {
     "question": "Will there still be sponsors for us to talk to?",
@@ -18,5 +18,21 @@
   {
     "question": "Will there be food?",
     "answer": "Since we will be having a virtual event, there will be no food provided."
+  },
+  {
+    "question": "Will it still be as awesome and interactive?",
+    "answer": "Yes absolutely! There will be organizer hangouts, open session hacker chats, and networking sessions to talk to one another as well as interactive workshops hosted by our awesome sponsors."
+  },
+  {
+    "question": "Will there still be swag?",
+    "answer": "Yes! We have a strong team researching the best swag given our virtual event."
+  },
+  {
+    "question": "How will mentoring work?",
+    "answer": "Mentoring will all be done through Discord which, similar to past events, will allow you to message a specific mentor or send a general message."
+  },
+  {
+    "question": "What software will I need?",
+    "answer": "We will have our main communication over Discord and  Zoom. We recommend a place with stable internet connection so that you can attend all workshops and communicate effectively with your team. We are working on solutions for those who do not have access to a place with a stable internet connection."
   }
 ]
