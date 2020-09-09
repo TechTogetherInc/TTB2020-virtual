@@ -6,6 +6,7 @@ import FAQContainer from "../components/FAQContainer/FAQContainer";
 import PastSponsor from "../components/sponsors/pastSponsor";
 import Speaker from "../components/speaker/speaker";
 import DFM from "../images/DFM.png";
+
 export default () => (
   <Layout>
     <App />

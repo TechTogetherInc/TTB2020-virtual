@@ -8,6 +8,10 @@
     "answer": "TechTogether Boston is going to be completely virtual due to the COVID-19 pandemic. We are doing our best to provide the same experience as an in-person event would with one added perk: Hacking from Home this Year!"
   },
   {
+    "question": "What is Pinnacle?",
+    "answer": "Pinnacle is a competitive collegiate hackathon where the world’s top 200 hackers get together in San Francisco for a 36-hour hackathon. The top 4 hackers from TTB will be flown out to SF to participate in Pinnacle 2021."
+  },
+  {
     "question": "How can I prepare for a hacakthon?",
     "answer": "Our hackathons are very beginner friendly! We have intro workshops tailored to first-time hackers and a unique high school program to help assimilate all our hackers! If you want to fine tune your skills, <a href='https://www.linkedin.com/posts/techtogetherboston_pythonprojects-python-coding-activity-6702731391915851776-O4rI' target='_blank' style='color: #808cfb'>here</a> are some fun Python projects you can work on."
   },

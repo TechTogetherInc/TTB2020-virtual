@@ -9,6 +9,7 @@ const Nav = () => (
     <DynamicLink to="/" className=" nav__logo">
       <img className="img-fluid " src={TTBLogoV2} alt="oops" />
     </DynamicLink>
+
     <ul className="nav__list">
       {NavLinks.map((link, index) => {
         return (

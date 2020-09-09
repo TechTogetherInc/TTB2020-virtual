@@ -64,6 +64,14 @@ const Footer = () => (
           >
             <img src={Email} alt="Email Logo" />
           </a>
+          <img
+            src={require("../../images/PinnacleBadge_BlackGold.png")}
+            style={{
+              width: "250px",
+              align: "right",
+              margin: "10px 0 0 0",
+            }}
+          />
         </div>
       </div>
     </div>
