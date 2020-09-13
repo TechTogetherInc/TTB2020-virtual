@@ -14,7 +14,7 @@ const Attend = () => {
   return (
     <div className="page-body">
       <div className="attend">
-        <section className="header">
+        <section className="attend-section">
           <AttendHeader />
         </section>
       </div>

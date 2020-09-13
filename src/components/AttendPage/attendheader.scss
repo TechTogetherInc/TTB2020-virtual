@@ -1,21 +1,44 @@
+@import "../styles/constants";
 .attendContainer {
   text-align: center;
   padding: 75px 0;
 }
+.attend-section {
+  // position: relative;
+  color: white;
+  background-image: url("../images/Register/4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  // background-color: #111745;
+  padding: 90px 0px 0px 5.5%;
+  // text-align: center;
+  margin: auto;
+}
 
 .attend-button {
   -webkit-appearance: none;
-  font-size: 25px;
-  color: rgb(255, 255, 255);
+  // font-size: 25px;
+  // color: rgb(255, 255, 255);
+  // background-color: #ef7060;
+  // border-radius: 15px;
+  // border: none;
+  // width: 175px;
+  // height: 45px;
+  // text-align: center;
+  // display: block;
+  // font-weight: bold;
+  // margin: 3px auto 10px auto;
   text-decoration: none;
-  background-color: #ef7060;
   border-radius: 15px;
+  background-color: $orange;
   border: none;
-  width: 250px;
-  height: 45px;
-  text-align: center;
-  display: block;
-  margin: 3px auto 10px auto;
+  font-size: 20px;
+  margin: 0px auto;
+  padding: 10px 25px;
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
 
   :hover {
     background-color: #f88c7d;
@@ -31,4 +54,26 @@
   width: 400px;
   height: 45px;
   margin: 3px auto 10px auto;
+}
+
+.register-button {
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: $orange;
+  border: none;
+  font-size: 20px;
+  margin: 0px auto;
+  padding: 10px 25px;
+  display: inline-block;
+
+  a {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: white;
+    font-weight: bold;
+  }
+}
+.register-button:hover {
+  background-color: $darkerorange;
 }

@@ -2,7 +2,19 @@ import React from "react";
 
 const AttendHeader = () => (
   <div className="attendContainer">
-    <h1>Coming Soon</h1>
+    <h1>Hacker Registration is Open</h1>
+
+    <div className="register-button">
+      <a
+        type="button"
+        target="_blank"
+        href="https://techtogetherboston.eventbrite.com/"
+      >
+        REGISTER
+      </a>
+    </div>
+    <br />
+    <br />
     <br />
     <form
       class="form"
@@ -18,11 +30,20 @@ const AttendHeader = () => (
         name="EMAIL"
         className="attend-email"
         size="50"
-        placeholder="Notify me when applications open"
+        placeholder="include me in event specific emails"
       />
       <br />
-      <input type="submit" value="Subscribe" className="attend-button" />
+      <input type="submit" value="SUBSCRIBE" className="attend-button" />
     </form>
+    {/* <div className="image-container ">
+      <img
+        className="dfm_attend"
+        src={DFM}
+        alt="dear future me pic is broken! "
+        // style={{ border: "10px solid red" }}
+        align="right"
+      />{" "}
+    </div> */}
   </div>
 );
 export default AttendHeader;
