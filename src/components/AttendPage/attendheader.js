@@ -9,12 +9,8 @@ const AttendHeader = () => (
       <div className="col-12 col-md-6 attend-text ">
         <h1>Hacker Registration is Open</h1>
         <p>
-          Let’s admit, 2020 has been a YEAR. We have faced many social,
-          emotional, and environmental challenges this year and it’s time we
-          start writing our future to ignite change!
-          <br />
           <br /> Whether you attend TechTogether Boston to build a project,
-          network, or attend workshops, we want you to attend! Register Now!
+          network, or attend workshops, we want you to attend!
         </p>
 
         <br />
@@ -24,7 +20,7 @@ const AttendHeader = () => (
             target="_blank"
             href="https://techtogetherboston.eventbrite.com/"
           >
-            REGISTER
+            REGISTER NOW
           </a>
         </div>
         <br />
