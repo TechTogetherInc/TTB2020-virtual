@@ -35,28 +35,15 @@ const App = () => {
                 </h3>
                 <br />
                 <div className="attend-header">
-                  <form
-                    className="form"
-                    action="https://shehacks.us17.list-manage.com/subscribe/post?u=34946c2c134f07563cac527a4&amp;id=d441aab50c"
-                    method="post"
-                    id="subscribe-form"
-                    name="subscribe-form"
-                    target="_blank"
-                    noValidate
-                  >
-                    <input
-                      type="email"
-                      name="EMAIL"
-                      className="attend-header-email"
-                      size="50"
-                      placeholder="Notify me when applications open"
-                    />
-                    <input
-                      type="submit"
-                      value="Subscribe"
-                      className="attend-header-button"
-                    />
-                  </form>
+                  <div className="register-button">
+                    <a
+                      type="button"
+                      target="_blank"
+                      href="https://techtogetherboston.eventbrite.com/"
+                    >
+                      REGISTER NOW
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="image-container ">
