@@ -16,7 +16,7 @@
 }
 
 .be-sponsor {
-  background-color: white;
+  background-color: $backgroundcolor;
   padding: 75px 5% 50px 5%;
 
   h1 {
@@ -29,7 +29,7 @@
   }
 
   p {
-    color: $navcolor;
+    color: white;
     padding: 10px 10px 0px 0px;
     font-size: 20px;
   }

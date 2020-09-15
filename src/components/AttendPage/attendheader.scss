@@ -1,54 +1,71 @@
 @import "../styles/constants";
-.attendContainer {
-  text-align: center;
-  padding: 75px 0;
-}
 .attend-section {
   // position: relative;
   color: white;
-  background-image: url("../images/Register/4.png");
   background-repeat: no-repeat;
   background-size: cover;
 
-  // background-color: #111745;
-  padding: 90px 0px 0px 5.5%;
+  background-color: #111745;
+  padding-top: 90px;
   // text-align: center;
   margin: auto;
 }
+.attend-text {
+  margin: 5px 0 0 0;
+  color: $navcolor;
 
-.attend-button {
-  -webkit-appearance: none;
-  // font-size: 25px;
-  // color: rgb(255, 255, 255);
-  // background-color: #ef7060;
-  // border-radius: 15px;
-  // border: none;
-  // width: 175px;
-  // height: 45px;
+  p {
+    color: $navcolor;
+    padding: 10px 10px 0px 10px;
+    font-size: 20px;
+  }
+}
+
+.attendContainer {
   // text-align: center;
-  // display: block;
-  // font-weight: bold;
-  // margin: 3px auto 10px auto;
+  padding: 75px 5% 50px 5%;
+  color: white;
+  background-color: white;
+
+  h1 {
+    padding-top: 10px;
+    font-weight: bold;
+    color: $orange;
+  }
+
+  .attend-img {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+.attend-button {
   text-decoration: none;
-  border-radius: 15px;
   background-color: $orange;
   border: none;
   font-size: 20px;
   margin: 0px auto;
   padding: 10px 25px;
   display: inline-block;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
 
-  :hover {
-    background-color: #f88c7d;
-    color: #808cfb;
+  a {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: white;
+    font-weight: bold;
   }
 }
+.attend-button:hover {
+  background-color: $darkerorange;
 
+  a:hover {
+    text-decoration: none;
+  }
+}
 .attend-email {
   text-decoration: none;
-  border-radius: 15px;
+  // border-radius: 15px;
   border: none;
   text-align: center;
   width: 400px;
@@ -58,7 +75,6 @@
 
 .register-button {
   text-decoration: none;
-  border-radius: 15px;
   background-color: $orange;
   border: none;
   font-size: 20px;
@@ -76,4 +92,8 @@
 }
 .register-button:hover {
   background-color: $darkerorange;
+
+  a:hover {
+    text-decoration: none;
+  }
 }
