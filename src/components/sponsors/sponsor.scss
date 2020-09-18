@@ -3,7 +3,7 @@
 .sponsors-container {
   h1 {
     font-weight: 600;
-    color: $orange;
+    color: white;
   }
 
   // .bar-sm {
@@ -16,12 +16,13 @@
 }
 
 .be-sponsor {
-  background-color: $backgroundcolor;
+  background-color: #181D46;
   padding: 75px 5% 50px 5%;
 
   h1 {
     padding: 0;
     margin: 0 0 20px 0;
+    color: white;
   }
 
   .be-sponsor-text {
@@ -42,6 +43,7 @@
     margin: 0px auto;
     padding: 10px 25px;
     display: inline-block;
+    border-radius:25px;
 
     a {
       -webkit-appearance: none;

@@ -8,16 +8,17 @@
     font-weight: bold;
     margin-bottom: 25px;
     text-align: center;
-    color: $orange;
+    color: #181D46;
   }
 
   dt,
   dd {
-    border: 1px solid #ccc;
+    border: 1px solid #EFEFF4;
   }
 
   dt {
     padding: 10px;
+    margin: 10px;
 
     button {
       background-color: transparent;

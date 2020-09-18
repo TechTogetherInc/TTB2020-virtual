@@ -11,13 +11,13 @@
   margin: auto;
 }
 .attend-text {
-  margin: 5px 0 0 0;
+  margin: 0px;
   color: $navcolor;
 
   p {
     color: $navcolor;
-    padding: 10px 10px 0px 10px;
-    font-size: 20px;
+    padding: 0px;
+    font-size: 16px;
   }
 }
 
@@ -28,9 +28,9 @@
   background-color: white;
 
   h1 {
-    padding-top: 10px;
+    padding: 10px 0px 10px 0px;
     font-weight: bold;
-    color: $orange;
+    color: #181D46;
   }
 
   .attend-img {
