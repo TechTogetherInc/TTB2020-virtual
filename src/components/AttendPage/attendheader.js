@@ -7,16 +7,18 @@ const AttendHeader = () => (
         <img src={SpeakerImg} alt="oops" />
       </div>
       <div className="col-12 col-md-6 attend-text ">
-        <h1>Why Dear Future Me</h1>
+        <h1>TechTogether's Largest Hackathon</h1>
         <p>
-          <br /> Let’s admit, 2020 has been a YEAR. We have faced many social,
+          <b>Let’s admit, 2020 has been a YEAR.</b> We have faced many social,
           emotional, and environmental challenges this year and it’s time we
-          start writing our future to ignite change! The theme Dear Future Me is
-          a testament to this change. On the weekend of our hackathon,
+          start writing our future to ignite change. The theme Dear Future Me is about reflecting on our past
+          and acting on our future.{" "}
+        </p>
+        <p>
+          On the weekend of our hackathon,
           brainstorm and build a project that will impact your future. This
           project can be a hack to benefit your personal, social, and
-          environmental wellness. Dear Future Me is about reflecting on our past
-          and acting on our future.{" "}
+          environmental wellness.
         </p>
 
         <br />

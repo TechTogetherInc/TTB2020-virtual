@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Sponsor from "../components/sponsors/sponsor";
 import Tracks from "../components/trackContainer/tracks";
 import FAQContainer from "../components/FAQContainer/FAQContainer";
-import PastSponsor from "../components/sponsors/pastSponsor";
+// import PastSponsor from "../components/sponsors/pastSponsor";
 import Speaker from "../components/speaker/speaker";
 import DFM from "../images/DFM.png";
 import AttendHeader from "../components/AttendPage/attendheader";
@@ -22,11 +22,11 @@ const App = () => {
           <div className="header__content">
             <div className="row">
               <div className="col-12 col-md-6 offset-md-0 text-section">
-                <h1 style={{ fontWeight: "bold", padding: "0px" }}>
-                  TechTogether Boston 2020 Virtual
+                <h1 style={{ fontWeight: "bold", padding: "0px", fontSize: "45px" }}>
+                  TechTogether Boston
                 </h1>
                 <h3 style={{ fontWeight: "bold" }}>
-                  November 6th - November 8th, 2020
+                  Virtual · November 6-8th, 2020
                 </h3>
                 <br />
                 <h3>
@@ -41,7 +41,7 @@ const App = () => {
                       target="_blank"
                       href="https://techtogetherboston.eventbrite.com/"
                     >
-                      REGISTER NOW
+                      REGISTER
                     </a>
                   </div>
                 </div>
@@ -66,9 +66,6 @@ const App = () => {
             </div>
           </div>
         </section>
-        <section className="tracks-container">
-          <Tracks />
-        </section>
         <section className="attend">
           <AttendHeader />
         </section>
@@ -81,9 +78,6 @@ const App = () => {
         </section> */}
         <section className="faq-container">
           <FAQContainer />
-        </section>
-        <section className="past-sponsor-container">
-          <PastSponsor />
         </section>
       </div>
     </div>
