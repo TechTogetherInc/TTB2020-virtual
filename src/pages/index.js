@@ -22,7 +22,13 @@ const App = () => {
           <div className="header__content">
             <div className="row">
               <div className="col-12 col-md-6 offset-md-0 text-section">
-                <h1 style={{ fontWeight: "bold", padding: "0px", fontSize: "45px" }}>
+                <h1
+                  style={{
+                    fontWeight: "bold",
+                    padding: "0px",
+                    fontSize: "45px",
+                  }}
+                >
                   TechTogether Boston
                 </h1>
                 <h3 style={{ fontWeight: "bold" }}>
@@ -69,11 +75,14 @@ const App = () => {
         <section className="attend">
           <AttendHeader />
         </section>
+        <section className="tracks">
+          <Tracks />
+        </section>
         <section className="sponsors-container">
           <Sponsor />
         </section>
-
-        {/* <section className="speaker-container">
+        {/* 
+        <section className="speaker-container">
           <Speaker />
         </section> */}
         <section className="faq-container">
