@@ -1,11 +1,11 @@
 import React from "react";
 
-import SpeakerImg from "../../images/speakerimg.jpg";
+import GetInvolvedImg from "../../images/get-involved.jpg";
 const Speaker = () => (
   <div className="be-speaker">
     <div className="row">
       <div className="col-12 col-md-6 speaker-img">
-        <img src={SpeakerImg} alt="oops" />
+        <img src={GetInvolvedImg} alt="oops" />
       </div>
       <div className="col-12 col-md-6 be-speaker-text ">
         <h1>Interested in helping?</h1>

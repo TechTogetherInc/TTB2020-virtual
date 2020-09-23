@@ -81,10 +81,10 @@ const App = () => {
         <section className="sponsors-container">
           <Sponsor />
         </section>
-        {/* 
+        
         <section className="speaker-container">
           <Speaker />
-        </section> */}
+        </section>
         <section className="faq-container">
           <FAQContainer />
         </section>
