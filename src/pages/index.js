@@ -20,13 +20,14 @@ const App = () => {
       <div className="home">
         <section className="header">
           <div className="header__content">
-            <div className="row">
-              <div className="col-12 col-md-6 offset-md-0 text-section">
+            <div className="row" >
+              <div className="col-12 col-md-7 offset-md-0 text-section">
                 <h1
                   style={{
                     fontWeight: "bold",
                     padding: "0px",
                     fontSize: "45px",
+                    margin: "0px",
                   }}
                 >
                   TechTogether Boston

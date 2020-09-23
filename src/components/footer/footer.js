@@ -17,6 +17,10 @@ const Footer = () => (
           <a href="https://techtogether.io/" target="_blank">
             About TechTogether
           </a>
+          <br />
+          <a href="http://mlh.io/code-of-conduct" target="_blank">
+            MLH Code of Conduct
+          </a>
         </p>
       </div>
 
