@@ -16,16 +16,18 @@ const NavMobile = () => {
     <nav className={`nav-mobile ${isNavOpen ? "opened" : "closed"}`}>
       <div className="nav-mobile__top">
         <DynamicLink to="/" className="nav_logo">
-          <img className="nav__logo" src={TTBLogoV3} />{" "}
+          <img className="nav__logo" src={TTBLogoV3} alt="oops" />{" "}
         </DynamicLink>
         <button onClick={toggleMenu} className="nav-mobile__toggle-btn">
           <i className={isNavOpen ? "opened" : "closed"} />
           <img
             src={Hamburger}
+            alt="oops"
             style={isNavOpen ? { display: "none" } : { display: "block" }}
           />
           <img
             src={Exit}
+            alt="oops"
             style={isNavOpen ? { display: "block" } : { display: "none" }}
           />
         </button>

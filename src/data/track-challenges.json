@@ -1,15 +1,17 @@
 [
-    {
-      "title": "Environmental",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-    },
-    {
-      "title": "Social",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-    },
-    {
-      "title": "Personal",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-    }
-  ]
-  
+  {
+    "title": "Environmental",
+    "image": "environmental.png",
+    "description": "“Future me, I want to recycle more in hopes to reduce my carbon footprint.” Create a hack to spread awareness about climate change! The Environmental track emphasizes how our actions impact the world as individuals and global citizens."
+  },
+  {
+    "title": "Social",
+    "image": "social2.png",
+    "description": " “Future me, I want to empower and support the people around me.” The Social track is focused on helping your community. Projects can be focused on addressing the current Black Lives Matter movement, educating your peers, helping the elderly community."
+  },
+  {
+    "title": "Personal",
+    "image": "personal.png",
+    "description": "“Future me, I want to be confident in my own skin and abilities.” The Personal track is about creating a hack that will benefit YOU! Whether this is a health and wellness app, a productivity website, or a robot to help you around the house, the possibilities are endless."
+  }
+]

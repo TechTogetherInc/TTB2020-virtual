@@ -1,6 +1,6 @@
 import React from "react";
 import TeamData from "../../data/team-info.json";
-import { StaticQuery, graphql } from "gatsby";
+// import { StaticQuery, graphql } from "gatsby";
 import Image from "./headshots/image";
 
 const DirectorMember = (props) => (
@@ -47,7 +47,7 @@ const Directors = () => {
   }
 
   return (
-    <div>
+    <div className="teamMemberContainer">
       <h1>Leadership</h1>
       {renderTeammates(TeamData[0])}
       <br />

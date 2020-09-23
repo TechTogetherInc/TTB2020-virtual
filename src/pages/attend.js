@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 // import SEO from "../components/seo";
@@ -14,7 +14,7 @@ const Attend = () => {
   return (
     <div className="page-body">
       <div className="attend">
-        <section className="header">
+        <section className="attend-section">
           <AttendHeader />
         </section>
       </div>

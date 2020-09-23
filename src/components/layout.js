@@ -1,8 +1,8 @@
 import React from "react";
-import PropTypes from "prop-types";
-import { useStaticQuery, graphql } from "gatsby";
+// import PropTypes from "prop-types";
+// import { useStaticQuery, graphql } from "gatsby";
 import Helmet from "react-helmet";
-import Header from "./header";
+// import Header from "./header";
 import Nav from "../components/navbar";
 import NavMobile from "../components/nav-mobile";
 import Footer from "../components/footer/footer";

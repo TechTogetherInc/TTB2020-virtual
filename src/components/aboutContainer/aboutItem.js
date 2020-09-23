@@ -4,8 +4,8 @@ import { Carousel } from "react-responsive-carousel";
 import "../../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 import photo1 from "../../images/photogallery/1.jpg";
-import photo2 from "../../images/photogallery/2.jpg";
-import photo3 from "../../images/photogallery/3.jpg";
+// import photo2 from "../../images/photogallery/2.jpg";
+// import photo3 from "../../images/photogallery/3.jpg";
 import photo4 from "../../images/photogallery/4.jpg";
 import photo5 from "../../images/photogallery/5.jpg";
 import photo6 from "../../images/photogallery/6.jpg";
@@ -36,17 +36,17 @@ const PhotoCarousel = () => {
       <div className="col-12 col-md-7 carousel">
         <Carousel style={{ height: "400px" }}>
           <div>
-            <img src={photo6} />
+            <img src={photo6} alt="oops" />
           </div>
           <div>
-            <img src={photo1} />
+            <img src={photo1} alt="oops" />
           </div>
 
           <div>
-            <img src={photo4} />
+            <img src={photo4} alt="oops" />
           </div>
           <div>
-            <img src={photo5} />
+            <img src={photo5} alt="oops" />
           </div>
         </Carousel>
       </div>

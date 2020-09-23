@@ -7,8 +7,8 @@
 .header {
   // position: relative;
   color: white;
-  background-color: $navcolor;
-  padding: 125px 3% 50px 3%;
+  background-color: #111745;
+  padding: 90px 0px 0px 5.5%;
   // text-align: center;
   margin: auto;
 }
@@ -43,6 +43,10 @@
   width: 115px;
   color: white;
   margin: 3px auto 10px 25px;
+}
+
+.register-button {
+  border-radius: 25px;
 }
 
 .row {
@@ -97,8 +101,24 @@
 .header .text-section {
   height: 100%;
   margin: auto;
-  padding: 20px 0px 0px 0px;
+  padding: 0 3px 0 0;
   justify-content: center;
+}
+
+.dfm {
+  // border: 10px solid red;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 1058px) {
+  .header {
+    padding-top: 150px;
+    padding-bottom: 60px;
+  }
+  .dfm {
+    display: none;
+  }
 }
 // .footer {
 //   grid-template-columns: 100%;

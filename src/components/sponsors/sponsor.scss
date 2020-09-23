@@ -3,7 +3,7 @@
 .sponsors-container {
   h1 {
     font-weight: 600;
-    color: $navcolor;
+    color: white;
   }
 
   // .bar-sm {
@@ -16,12 +16,13 @@
 }
 
 .be-sponsor {
-  background-color: $backgroundcolor2;
+  background-color: #181D46;
   padding: 75px 5% 50px 5%;
 
   h1 {
     padding: 0;
     margin: 0 0 20px 0;
+    color: white;
   }
 
   .be-sponsor-text {
@@ -29,19 +30,20 @@
   }
 
   p {
-    color: $navcolor;
-    padding: 10px 10px 0px 0px;
-    font-size: 20px;
+    color: white;
+    padding: 10px 20% 0px 0px;
+    font-size: 16px;
   }
 
   .sponsor-button {
     text-decoration: none;
-    background-color: #ef7060;
+    background-color: $orange;
     border: none;
     font-size: 20px;
     margin: 0px auto;
     padding: 10px 25px;
     display: inline-block;
+    border-radius:25px;
 
     a {
       -webkit-appearance: none;
@@ -50,11 +52,9 @@
       color: white;
       font-weight: bold;
     }
-
-    a:hover {
-      background-color: #f88c7d;
-      color: navy;
-    }
+  }
+  .sponsor-button:hover {
+    background-color: $darkerorange;
   }
 
   a {
@@ -73,7 +73,7 @@
 
   h1 {
     margin-bottom: 25px;
-    color: $backgroundcolor;
+    color: $orange;
   }
 
   .gallery {

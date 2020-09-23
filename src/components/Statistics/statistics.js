@@ -13,19 +13,19 @@ const Statistics = () => (
     <div className=" carousel">
       <Carousel>
         <div>
-          <img src={photo1} />
+          <img src={photo1} alt="oops" />
         </div>
         <div>
-          <img src={photo2} />
+          <img src={photo2} alt="oops" />
         </div>
         <div>
-          <img src={photo3} />
+          <img src={photo3} alt="oops" />
         </div>
         <div>
-          <img src={photo4} />
+          <img src={photo4} alt="oops" />
         </div>
         <div>
-          <img src={photo5} />
+          <img src={photo5} alt="oops" />
         </div>
       </Carousel>
     </div>

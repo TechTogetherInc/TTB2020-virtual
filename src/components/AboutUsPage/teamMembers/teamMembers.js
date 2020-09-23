@@ -5,7 +5,7 @@ import Directors from "../directors";
 const TeamMembers = () => (
   <div className="team">
     <div classname="team-intro">
-      <h1>Meet the Team behind TTB 2020-Virtual</h1>
+      <h1>Meet the Team behind TTB 2020 Virtual</h1>
       <div className="bar-sm"></div>
       <p>
         The TTB 2020-Virtual Organizing Team plans to host virtual hackathon for

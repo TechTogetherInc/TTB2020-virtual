@@ -1,12 +1,12 @@
 @import "../../styles/_constants.scss";
 
 .testimonial-container {
-  background-color: $backgroundcolor2;
-  padding: 100px 3%;
+  background-color: $footercolor;
+  padding: 75px 3%;
 
   h1 {
     font-weight: 600;
-    color: $navcolor;
+    color: white;
     margin: 0px 0px 25px 40px;
   }
 
@@ -53,7 +53,7 @@
 }
 
 .testimonial-text {
-  color: $navcolor;
+  color: white;
   font-size: 17px;
   margin-top: 25px;
 }

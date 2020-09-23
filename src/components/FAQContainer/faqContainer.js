@@ -6,7 +6,7 @@ import "./faq.scss";
 const FAQContainer = () => {
   return (
     <div className="faq-container">
-      <h1>FAQ Questions</h1>
+      <h1>Frequently Asked Questions</h1>
       <dl>
         {faqData.map((data) => (
           <FAQ
