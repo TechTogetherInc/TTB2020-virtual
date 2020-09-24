@@ -21,7 +21,7 @@ const App = () => {
         <section className="header">
           <div className="header__content">
             <div className="row" >
-              <div className="col-12 col-md-7 offset-md-0 text-section">
+              <div className="col-12 col-md-6 offset-md-0 text-section">
                 <h1
                   style={{
                     fontWeight: "bold",
