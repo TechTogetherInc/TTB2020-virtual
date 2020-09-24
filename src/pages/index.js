@@ -20,7 +20,7 @@ const App = () => {
       <div className="home">
         <section className="header">
           <div className="header__content">
-            <div className="row" >
+            <div className="row">
               <div className="col-12 col-md-6 offset-md-0 text-section">
                 <h1
                   style={{
@@ -82,10 +82,10 @@ const App = () => {
         <section className="sponsors-container">
           <Sponsor />
         </section>
-        
-        <section className="speaker-container">
+
+        {/* <section className="speaker-container">
           <Speaker />
-        </section>
+        </section> */}
         <section className="faq-container">
           <FAQContainer />
         </section>
