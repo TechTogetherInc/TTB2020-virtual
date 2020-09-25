@@ -83,9 +83,9 @@ const App = () => {
           <Sponsor />
         </section>
 
-        {/* <section className="speaker-container">
+        <section className="speaker-container">
           <Speaker />
-        </section> */}
+        </section>
         <section className="faq-container">
           <FAQContainer />
         </section>
