@@ -1,6 +1,6 @@
 import React from "react";
 
-import GetInvolvedImg from "../../images/get-involved.jpg";
+// import GetInvolvedImg from "../../images/get-involved.jpg";
 const Speaker = () => (
   <div className="be-speaker">
     <div className="row">
@@ -18,7 +18,7 @@ const Speaker = () => (
         </p>
         <br />
         <div className="speaker-button">
-          <a type="button" href="https://techtogether.typeform.com/to/pbAZS3I4">
+          <a type="button" href="https://techtogether.typeform.com/to/JMlZXU75">
             Sign Up
           </a>
         </div>
@@ -46,8 +46,9 @@ const Speaker = () => (
           will help on different aspects of the event and coordinate with the
           organizing team to help hackers have a positive experience.
         </p>
+        <br />
         <div className="speaker-button">
-          <a type="button" href="https://techtogether.typeform.com/to/pbAZS3I4">
+          <a type="button" href="https://techtogether.typeform.com/to/VswfUvuJ">
             Sign Up
           </a>
         </div>
