@@ -1,6 +1,6 @@
 import React from "react";
 
-import Organizers from "../../images/organizer.jpg";
+import Organizers from "../../images/newsponsor-img.png";
 const Sponsor = () => (
   <div>
     <div className="be-sponsor">
@@ -22,6 +22,7 @@ const Sponsor = () => (
             </a>
           </div>
         </div>
+
         <div className="col-12 col-md-6 sponsor-photo">
           <img src={Organizers} alt="oops" />
         </div>
