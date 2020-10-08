@@ -52,6 +52,22 @@ const App = () => {
                     </a>
                   </div>
                 </div>
+                {/* <img
+                  src={require("../images/PinnacleBadge_BlackGold.png")}
+                  style={{
+                    width: "250px",
+                    align: "right",
+                    margin: "10px 0 0 0",
+                  }}
+                /> */}
+                <img
+                  src={require("../images/PinnacleBadge_TTB.png")}
+                  style={{
+                    width: "250px",
+                    align: "right",
+                    margin: "20px 0 0 -15px",
+                  }}
+                />
               </div>
               <div className="image-container ">
                 {/* <div className="embed-responsive embed-responsive-16by9">
