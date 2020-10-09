@@ -60,14 +60,19 @@ const App = () => {
                     margin: "10px 0 0 0",
                   }}
                 /> */}
-                <img
-                  src={require("../images/PinnacleBadge_TTB.png")}
-                  style={{
-                    width: "250px",
-                    align: "right",
-                    margin: "20px 0 0 -15px",
-                  }}
-                />
+                <a
+                  target="_blank"
+                  href="https://pinnacle.us.org/"
+                >
+                  <img
+                    src={require("../images/PinnacleBadge_TTB.png")}
+                    style={{
+                      width: "250px",
+                      align: "right",
+                      margin: "20px 0 0 -15px",
+                    }}
+                  />
+                </a>
               </div>
               <div className="image-container ">
                 {/* <div className="embed-responsive embed-responsive-16by9">
