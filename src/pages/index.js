@@ -27,6 +27,7 @@ const App = () => {
                     fontWeight: "bold",
                     padding: "0px",
                     fontSize: "45px",
+                    margin: "0px",
                   }}
                 >
                   TechTogether Boston
@@ -51,6 +52,27 @@ const App = () => {
                     </a>
                   </div>
                 </div>
+                {/* <img
+                  src={require("../images/PinnacleBadge_BlackGold.png")}
+                  style={{
+                    width: "250px",
+                    align: "right",
+                    margin: "10px 0 0 0",
+                  }}
+                /> */}
+                <a
+                  target="_blank"
+                  href="https://pinnacle.us.org/"
+                >
+                  <img
+                    src={require("../images/PinnacleBadge_TTB.png")}
+                    style={{
+                      width: "250px",
+                      align: "right",
+                      margin: "20px 0 0 -15px",
+                    }}
+                  />
+                </a>
               </div>
               <div className="image-container ">
                 {/* <div className="embed-responsive embed-responsive-16by9">
@@ -81,7 +103,7 @@ const App = () => {
         <section className="sponsors-container">
           <Sponsor />
         </section>
-        
+
         <section className="speaker-container">
           <Speaker />
         </section>

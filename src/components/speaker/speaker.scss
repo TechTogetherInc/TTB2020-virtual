@@ -17,6 +17,7 @@
   }
 
   .speaker-button {
+    // border-radius: 25px;
     text-decoration: none;
     background-color: $orange;
     border: none;
@@ -46,5 +47,9 @@
     margin: 10px auto;
 
     text-align: center;
+  }
+  .involved-title {
+    font-weight: bold;
+    color: white;
   }
 }

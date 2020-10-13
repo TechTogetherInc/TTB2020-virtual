@@ -17,6 +17,10 @@ const Footer = () => (
           <a href="https://techtogether.io/" target="_blank">
             About TechTogether
           </a>
+          <br />
+          <a href="http://mlh.io/code-of-conduct" target="_blank">
+            MLH Code of Conduct
+          </a>
         </p>
       </div>
 
@@ -64,14 +68,7 @@ const Footer = () => (
           >
             <img src={Email} alt="Email Logo" />
           </a>
-          <img
-            src={require("../../images/PinnacleBadge_BlackGold.png")}
-            style={{
-              width: "250px",
-              align: "right",
-              margin: "10px 0 0 0",
-            }}
-          />
+
         </div>
       </div>
     </div>
