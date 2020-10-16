@@ -4,16 +4,16 @@ import Image from "./trackImages/image";
 
 const Track = (props) => {
   return (
-    <div className="track-text">
+    <div>
+      <Image alt={props.title} filename={props.image} className="track-pic" />
       <h3 className="track-title">{props.title}</h3>
       <br/>
-      <p>{props.description}</p>
-      <Image alt={props.title} filename={props.image} className="track-pic" />
+      <p className="track-text">{props.description}</p>
+      <br />
       {props.challenges.map((challenge) => (
           <div key={challenge.name}>
-            <h4 className="challenge-name">{challenge.name}</h4>
-            <p>{challenge.description}</p>
-            <br/>
+            <h4 className="challenge-title">{challenge.name}</h4>
+            <p className="challenge-text">{challenge.description}</p>
           </div>
         ))}
     </div>
