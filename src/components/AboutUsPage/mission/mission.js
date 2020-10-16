@@ -32,7 +32,7 @@ const Mission = () => (
         <div className="embed-responsive embed-responsive-16by9 video">
           <Video
             className="embed-responsive-item"
-            videoSrcURL="https://www.youtube.com/embed/lcR29DyWLHg"
+            videoSrcURL="https://www.youtube.com/embed/8XeKABwrokY"
             videoTitle="TTB2020"
           />
         </div>

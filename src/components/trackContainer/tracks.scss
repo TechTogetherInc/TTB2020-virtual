@@ -18,7 +18,10 @@
 
   .track {
     color: $backgroundcolor;
-    margin: 20px 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
     padding: 0px;
   }
 
@@ -29,7 +32,6 @@
 
   .track-title {
     text-decoration: none;
-    font-size: 30px;
     margin: auto;
     display: block;
     color: white;
@@ -37,7 +39,27 @@
   }
 
   .track-text {
-    padding: 8px;
+    padding-top: 8px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    color: white;
+  }
+
+  .challenge-title {
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .challenge-text {
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    padding-left: 0px;
     color: white;
   }
 }

@@ -2,16 +2,46 @@
   {
     "title": "Environmental",
     "image": "environmental.png",
-    "description": "“Future me, I want to recycle more in hopes to reduce my carbon footprint.” Create a hack to spread awareness about climate change! The Environmental track emphasizes how our actions impact the world as individuals and global citizens."
+    "description": "“Future me, I want to recycle more in hopes to reduce my carbon footprint.” Create a hack to spread awareness about climate change! The Environmental track emphasizes how our actions impact the world as individuals and global citizens.",
+    "challenges": [
+      {
+        "name": "challenge 1",
+        "description": "“Future me, I want to recycle more in hopes to reduce my carbon footprint.” Create a hack to spread awareness about climate change! The Environmental track emphasizes how our actions impact the world as individuals and global citizens."
+      },
+      {
+        "name": "challenge 2",
+        "description": "“Future me, I want to recycle more in hopes to reduce my carbon footprint.” Create a hack to spread awareness about climate change! The Environmental track emphasizes how our actions impact the world as individuals and global citizens."
+      }
+    ]
   },
   {
     "title": "Social",
     "image": "social2.png",
-    "description": " “Future me, I want to empower and support the people around me.” The Social track is focused on helping your community. Projects can be focused on addressing the current Black Lives Matter movement, educating your peers, helping the elderly community."
+    "description": " “Future me, I want to empower and support the people around me.” The Social track is focused on helping your community. Projects can be focused on addressing the current Black Lives Matter movement, educating your peers, helping the elderly community.",
+    "challenges": [
+      {
+        "name": "challenge 3",
+        "description": "“Future me, I want to recycle more in hopes to reduce my carbon footprint.” Create a hack to spread awareness about climate change! The Environmental track emphasizes how our actions impact the world as individuals and global citizens."
+      },
+      {
+        "name": "challenge 4",
+        "description": "“Future me, I want to recycle more in hopes to reduce my carbon footprint.” Create a hack to spread awareness about climate change! The Environmental track emphasizes how our actions impact the world as individuals and global citizens."
+      }
+    ]
   },
   {
     "title": "Personal",
     "image": "personal.png",
-    "description": "“Future me, I want to be confident in my own skin and abilities.” The Personal track is about creating a hack that will benefit YOU! Whether this is a health and wellness app, a productivity website, or a robot to help you around the house, the possibilities are endless."
+    "description": "“Future me, I want to be confident in my own skin and abilities.” The Personal track is about creating a hack that will benefit YOU! Whether this is a health and wellness app, a productivity website, or a robot to help you around the house, the possibilities are endless.",
+    "challenges": [
+      {
+        "name": "challenge 5",
+        "description": "“Future me, I want to recycle more in hopes to reduce my carbon footprint.” Create a hack to spread awareness about climate change! The Environmental track emphasizes how our actions impact the world as individuals and global citizens."
+      },
+      {
+        "name": "challenge 6",
+        "description": "“Future me, I want to recycle more in hopes to reduce my carbon footprint.” Create a hack to spread awareness about climate change! The Environmental track emphasizes how our actions impact the world as individuals and global citizens."
+      }
+    ]
   }
 ]

@@ -56,7 +56,7 @@ const Footer = () => (
           </a>
           <a
             className="col-12 col-md-6 sm-icons"
-            href="https://www.youtube.com/channel/UCRfTWuC55dbE4koLsIjH5bA"
+            href="https://www.youtube.com/channel/UCndZxLi5CgH2UEzEewOp8yA"
             target="_blank"
           >
             <img src={Youtube} alt="Youtube Logo" />
