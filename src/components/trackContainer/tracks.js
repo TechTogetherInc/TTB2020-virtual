@@ -9,13 +9,13 @@ const Track = (props) => {
       <h3 className="track-title">{props.title}</h3>
       <br/>
       <p className="track-text">{props.description}</p>
-      <br />
+      {/* <br />
       {props.challenges.map((challenge) => (
-          <div key={challenge.name}>
-            <h4 className="challenge-title">{challenge.name}</h4>
-            <p className="challenge-text">{challenge.description}</p>
-          </div>
-        ))}
+        <div key={challenge.name}>
+          <h4 className="challenge-title">{challenge.name}</h4>
+          <p className="challenge-text">{challenge.description}</p>
+        </div>
+      ))} */}
     </div>
   );
 };

@@ -6,7 +6,7 @@ import Image from "./image"
 const ActualSponsor = () => {
     return (
       <div>
-        <h1>Sponsors</h1>
+        <h1>Our Current Sponsors</h1>
         <div style={{width: "700px", margin: "auto",}}>
           <Image alt="headshot" filename={"partner-logos/amazon-logo.png"} />
         </div>
@@ -21,7 +21,7 @@ const ActualSponsor = () => {
         </div>
         <div className="row">
           {SponsorData.map((sponsor) => (
-            <div className="" style={{width:"225px", margin: "auto", padding:"0px 5px"}}>
+            <div className="" style={{width:"150px", margin: "auto", padding:"5px"}}>
                 <Image alt="headshot" filename={sponsor.logo} />
             </div>
           ))}
