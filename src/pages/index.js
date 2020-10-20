@@ -7,6 +7,8 @@ import FAQContainer from "../components/FAQContainer/FAQContainer";
 import Speaker from "../components/speaker/speaker";
 import DFM from "../images/DFM.png";
 import AttendHeader from "../components/AttendPage/attendheader";
+import CountdownTimer from "../components/counter-timer";
+
 
 export default () => (
   <Layout>
@@ -90,6 +92,11 @@ const App = () => {
                   // style={{ border: "10px solid red" }}
                   align="right"
                 />{" "}
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-12">
+                <CountdownTimer />
               </div>
             </div>
           </div>
