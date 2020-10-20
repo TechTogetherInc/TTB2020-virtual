@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
+import Sponsor from "../components/sponsors/sponsor"
 import ActualSponsor from "../components/sponsors/actualSponsor"
 import Tracks from "../components/trackContainer/tracks";
 import FAQContainer from "../components/FAQContainer/FAQContainer";
@@ -100,7 +101,9 @@ const App = () => {
           <Tracks />
         </section>
         <section className="sponsors-container">
-          {/* <Sponsor /> */}
+          <Sponsor />
+        </section>
+        <section className="sponsors-logo-container">
           <ActualSponsor />
         </section>
 
