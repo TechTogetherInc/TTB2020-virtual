@@ -7,15 +7,15 @@ const ActualSponsor = () => {
     return (
       <div>
         <h1>Our Current Sponsors</h1>
-        <div style={{width: "700px", margin: "auto",}}>
-          <Image alt="headshot" filename={"partner-logos/amazon-logo.png"} />
+        <div style={{width: "325px", margin: "auto",}}>
+          <Image alt="headshot" filename={"partner-logos/amazon.png"} />
         </div>
         <div className="row">
-            <div style={{width: "350px", margin: "auto"}}>
+            <div style={{width: "225px", margin: "auto"}}>
             <Image alt="headshot" filename={"partner-logos/pegasystem-logo.jpg"} />
             </div>
 
-            <div style={{width: "350px", margin: "auto"}}>
+            <div style={{width: "225px", margin: "auto"}}>
             <Image alt="headshot" filename={"partner-logos/capitalone-logo.png"} />
             </div>
         </div>
