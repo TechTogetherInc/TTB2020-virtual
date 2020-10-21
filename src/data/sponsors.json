@@ -1,31 +1,31 @@
 [
     {
     "sponsor": "Athena Health",
-    "logo": "partner-logos/athenahealth-logo.png"
+    "logo": "sponsor-logos/athenahealth-logo.png"
     },
     {
     "sponsor": "Facebook",
-    "logo": "partner-logos/facebook-logo.png"
+    "logo": "sponsor-logos/facebook-logo.png"
     },
     {
     "sponsor": "Liberty Mutual",
-    "logo": "partner-logos/libertymutual-logo.png"
+    "logo": "sponsor-logos/libertymutual-logo.png"
     },
     {
     "sponsor": "Travelers",
-    "logo": "partner-logos/travelers-logo.png"
+    "logo": "sponsor-logos/travelers-logo.png"
     },
     {
     "sponsor": "Progress Software Corp",
-    "logo": "partner-logos/progress-logo.png"
+    "logo": "sponsor-logos/progress-logo.png"
     },
     {
     "sponsor": "Spark",
-    "logo": "partner-logos/spark-logo.png"
+    "logo": "sponsor-logos/spark-logo.png"
     },
     {
     "sponsor": "VMWare",
-    "logo": "partner-logos/vmware-logo.jpg"
+    "logo": "sponsor-logos/vmware-logo.jpg"
     },
     {
     "sponsor": "MassTech",
@@ -33,30 +33,30 @@
     },
     {
     "sponsor": "Northeastern Khoury College of Computer Scientists",
-    "logo": "partner-logos/northeastern-logo.png"
+    "logo": "sponsor-logos/northeastern-logo.png"
     },
     {
     "sponsor": "Balsamiq",
-    "logo": "partner-logos/balsamiq-logo.png"
+    "logo": "sponsor-logos/balsamiq-logo.png"
     },
     {
     "sponsor": "Google Cloud",
-    "logo": "partner-logos/googlecloud-logo.png"
+    "logo": "sponsor-logos/googlecloud-logo.png"
     },
     {
     "sponsor": "CodeBar",
-    "logo": "partner-logos/codebar-logo.png"
+    "logo": "sponsor-logos/codebar-logo.png"
     },
     {
     "sponsor": "Esteem",
-    "logo": "partner-logos/esteem-logo.png"
+    "logo": "sponsor-logos/esteem-logo.png"
     },
     {
     "sponsor": "Digital Page",
-    "logo": "partner-logos/digitalpage-logo.png"
+    "logo": "sponsor-logos/digitalpage-logo.png"
     },
     {
     "sponsor": "Wolfram Alpha",
-    "logo": "partner-logos/wolframalpha-logo.png"
+    "logo": "sponsor-logos/wolframalpha-logo.png"
     }
 ]
