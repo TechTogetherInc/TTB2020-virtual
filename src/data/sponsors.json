@@ -20,8 +20,8 @@
     "logo": "partner-logos/progress-logo.png"
     },
     {
-    "sponsor": "BU Partnership",
-    "logo": "partner-logos/BU-logo.png"
+    "sponsor": "Spark",
+    "logo": "partner-logos/spark-logo.png"
     },
     {
     "sponsor": "VMWare",
@@ -58,5 +58,9 @@
     {
     "sponsor": "Wolfram Alpha",
     "logo": "partner-logos/wolframalpha-logo.png"
+    }, 
+    {
+    "sponsor": "Red Hat",
+    "logo": "partner-logos/redhat-logo.png"
     }
 ]
