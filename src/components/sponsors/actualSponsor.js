@@ -18,6 +18,10 @@ const ActualSponsor = () => {
             <div style={{width: "225px", margin: "auto"}}>
             <Image alt="headshot" filename={"partner-logos/capitalone-logo.png"} />
             </div>
+
+            <div style={{width: "225px", margin: "auto"}}>
+            <Image alt="headshot" filename={"partner-logos/redhat-logo.png"} />
+            </div>
         </div>
         <div className="row">
           {SponsorData.map((sponsor) => (
