@@ -7,6 +7,8 @@ import FAQContainer from "../components/FAQContainer/FAQContainer";
 import Speaker from "../components/speaker/speaker";
 import DFM from "../images/DFM.png";
 import AttendHeader from "../components/AttendPage/attendheader";
+import CountdownTimer from "../components/counter-timer";
+
 
 export default () => (
   <Layout>
@@ -52,14 +54,6 @@ const App = () => {
                     </a>
                   </div>
                 </div>
-                {/* <img
-                  src={require("../images/PinnacleBadge_BlackGold.png")}
-                  style={{
-                    width: "250px",
-                    align: "right",
-                    margin: "10px 0 0 0",
-                  }}
-                /> */}
                 <a
                   target="_blank"
                   href="https://pinnacle.us.org/"
@@ -75,21 +69,17 @@ const App = () => {
                 </a>
               </div>
               <div className="image-container ">
-                {/* <div className="embed-responsive embed-responsive-16by9">
-                  <Video
-                    className="embed-responsive-item"
-                    videoSrcURL="https://www.youtube.com/embed/lcR29DyWLHg"
-                    videoTitle="TTB2020"
-                  />
-                  
-                </div> */}
                 <img
                   className="dfm"
                   src={DFM}
                   alt="dear future me pic is broken! "
-                  // style={{ border: "10px solid red" }}
                   align="right"
                 />{" "}
+              </div>
+            </div>
+            <div className="row" style={{ borderTop: "1px solid" }}>
+              <div className="col-12">
+                <CountdownTimer />
               </div>
             </div>
           </div>
