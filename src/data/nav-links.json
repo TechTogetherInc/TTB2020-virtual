@@ -16,7 +16,11 @@
     "path": "/attend"
   },
   {
-    "name": "Sponsor",
-    "path": "mailto:sponsor-boston@techtogether.io"
+    "name": "Speakers",
+    "path": "/speakers"
+  },
+  {
+    "name": "Mentors",
+    "path": "/mentors"
   }
 ]
