@@ -8,15 +8,19 @@ const ActualSponsor = () => {
       <div>
         <h1>Our Current Sponsors</h1>
         <div style={{width: "325px", margin: "auto",}}>
-          <Image alt="headshot" filename={"partner-logos/amazon.png"} />
+          <Image alt="headshot" filename={"sponsor-logos/amazon.png"} />
         </div>
         <div className="row">
             <div style={{width: "225px", margin: "auto"}}>
-            <Image alt="headshot" filename={"partner-logos/pegasystem-logo.jpg"} />
+            <Image alt="headshot" filename={"sponsor-logos/pegasystem-logo.jpg"} />
             </div>
 
             <div style={{width: "225px", margin: "auto"}}>
-            <Image alt="headshot" filename={"partner-logos/capitalone-logo.png"} />
+            <Image alt="headshot" filename={"sponsor-logos/capitalone-logo.png"} />
+            </div>
+
+            <div style={{width: "225px", margin: "auto"}}>
+            <Image alt="headshot" filename={"sponsor-logos/redhat-logo.png"} />
             </div>
         </div>
         <div className="row">
