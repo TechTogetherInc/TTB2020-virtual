@@ -90,16 +90,16 @@ const App = () => {
         <section className="tracks">
           <Tracks />
         </section>
-        <section className="sponsors-container">
+        {/* <section className="sponsors-container">
           <Sponsor />
-        </section>
+        </section> */}
         <section className="sponsors-logo-container">
           <ActualSponsor />
         </section>
 
-        <section className="speaker-container">
+        {/* <section className="speaker-container">
           <Speaker />
-        </section>
+        </section> */}
         <section className="faq-container">
           <FAQContainer />
         </section>

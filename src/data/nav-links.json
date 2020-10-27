@@ -14,9 +14,5 @@
   {
     "name": "Attend",
     "path": "/attend"
-  },
-  {
-    "name": "Sponsor",
-    "path": "mailto:sponsor-boston@techtogether.io"
   }
 ]
