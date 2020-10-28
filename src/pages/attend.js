@@ -1,9 +1,9 @@
 import React from "react";
+import Schedule from "../components/AttendPage/schedule"
 // import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 // import SEO from "../components/seo";
-import AttendHeader from "../components/AttendPage/attendheader";
 export default () => (
   <Layout>
     <Attend />
@@ -14,8 +14,8 @@ const Attend = () => {
   return (
     <div className="page-body">
       <div className="attend">
-        <section className="attend-section">
-          <AttendHeader />
+        <section className="attend-section" >
+          <div style={{paddingTop: "85px"}}>Details coming!</div>
         </section>
       </div>
     </div>

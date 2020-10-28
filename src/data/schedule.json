@@ -1,0 +1,52 @@
+[
+    {
+        "date": "Friday 11/6", 
+        "events": [
+            {
+                "time": "6:00pm",
+                "name": "Opening Ceremony",
+                "location": "Zoom"
+            },
+            {
+                "time": "6:30pm",
+                "name": "Team Formation Event",
+                "location": "Zoom"
+            },
+            {
+                "time": "7:00pm",
+                "name": "Team Formation Event",
+                "location": "Zoom"
+            },
+            {
+                "time": "7:30pm",
+                "name": "Intro to Web Design",
+                "location": "Zoom"
+            }
+        ]
+    },
+    {
+        "date": "Saturday 11/7", 
+        "events": [
+            {
+                "time": "6:00pm",
+                "name": "FILLER",
+                "location": "Zoom"
+            },
+            {
+                "time": "6:30pm",
+                "name": "FILLER",
+                "location": "Zoom"
+            },
+            {
+                "time": "7:00pm",
+                "name": "FILLER",
+                "location": "Zoom"
+            },
+            {
+                "time": "7:30pm",
+                "name": "FILLER",
+                "location": "Zoom"
+            }
+        ]
+    }
+]
