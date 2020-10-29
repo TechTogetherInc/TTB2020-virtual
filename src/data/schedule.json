@@ -4,22 +4,22 @@
         "events": [
             {
                 "time": "6:00pm",
-                "name": "Opening Ceremony",
+                "title": "Opening Ceremony",
                 "location": "Zoom"
             },
             {
                 "time": "6:30pm",
-                "name": "Team Formation Event",
+                "title": "Team Formation Event",
                 "location": "Zoom"
             },
             {
                 "time": "7:00pm",
-                "name": "Team Formation Event",
+                "title": "Team Formation Event",
                 "location": "Zoom"
             },
             {
                 "time": "7:30pm",
-                "name": "Intro to Web Design",
+                "title": "Intro to Web Design",
                 "location": "Zoom"
             }
         ]
@@ -29,22 +29,22 @@
         "events": [
             {
                 "time": "6:00pm",
-                "name": "FILLER",
+                "title": "FILLER",
                 "location": "Zoom"
             },
             {
                 "time": "6:30pm",
-                "name": "FILLER",
+                "title": "FILLER",
                 "location": "Zoom"
             },
             {
                 "time": "7:00pm",
-                "name": "FILLER",
+                "title": "FILLER",
                 "location": "Zoom"
             },
             {
                 "time": "7:30pm",
-                "name": "FILLER",
+                "title": "FILLER",
                 "location": "Zoom"
             }
         ]

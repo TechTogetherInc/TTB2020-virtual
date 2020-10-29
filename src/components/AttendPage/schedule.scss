@@ -1,36 +1,58 @@
 .schedule {
-    width: 500px;
-    margin: 10px auto;
-    padding: 40px 10px 25px 10px;
+  width: 500px;
+  margin: 10px auto;
+  padding: 40px 25px 25px 25px;
 
-    h1 {
-        color: #fd7361;
-        font-weight: bold;
-        margin-bottom: 25px;
+  h1 {
+    color: #fd7361;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+
+  .day {
+    margin-bottom: 25px;
+    font-weight: bold;
+
+    table {
+      margin-top: 5px;
+      font-weight: normal;
+
+      td {
+        border: 1px solid #d3d3d3;
+        padding: 7px;
+      }
+
+      .time {
+        width: 25px;
+      }
+      .title {
+        width: 50em;
+      }
+      .location {
+        width: 25px;
+      }
     }
+  }
+}
 
-    .day {
-        margin-bottom: 25px;
-        font-weight: bold;
+.display-container {
+  width: 1000px;
+  margin: auto;
+  padding: 25px;
 
-        table {
-            margin-top: 5px;
-            font-weight: normal;
-            
-            td {
-                border: 1px solid #D3D3D3;
-                padding: 7px;
-            }
+  h1 {
+    color: #fd7361;
+    font-weight: bold;
+  }
 
-            .time {
-                width: 25px;
-            }
-            .name {
-                width: 50em;
-            }
-            .location {
-                width: 25px;
-            }
-        }
+  .title {
+    font-weight: bold;
+  }
+
+  .subcontainer {
+    padding: 15px;
+    .title {
+      font-weight: bold;
     }
+  }
 }
