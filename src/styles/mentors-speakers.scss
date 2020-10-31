@@ -3,7 +3,7 @@
 .speakers {
     .get-excited-div {
         color: white;
-        background-color: #111745;
+        background-color: $navcolor;
         padding: 115px 0px 15px 115px;
         margin: auto;
         height: 100%;
@@ -14,22 +14,43 @@
     }
 
     .speaker-head {
-        color: $backgroundcolor;
+        color: $backgroundcolor2;
         font-weight: bold;
     }
 
     .speaker {
         background-color: white;
         color: $backgroundcolor;
-        box-shadow: 0px 0px 5px 1px #ccc;
-        border-radius: 10px;
+        // box-shadow: 0px 0px 5px 1px #ccc;
+        // border-radius: 10px;
         margin: 20px 10px;
         padding: 10px;
-        width: 18rem;
+        // width: 18rem;
+        width: 100%;
     }
 
-    .card-width {
-        width: 18rem;
+    // .card-width {
+    //     // width: 18rem;
+    // }
+
+    .speaker-img {
+        border: $backgroundcolor2;
+        border-style: solid;
+        box-shadow: -10px 10px $backgroundcolor2;
+    }
+
+    .speaker-name {
+        color: $orange;
+        font-weight: bold;
+    }
+
+    .speaker-description {
+        color: black;
+    }
+
+    .speaker-title {
+        color: $navcolor;
+        font-weight: bold;
     }
 }
 

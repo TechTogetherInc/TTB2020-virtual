@@ -1,51 +1,43 @@
 [
     {
-      "name": "Aurora",
-      "link": "https://bitly.com/",
-      "image": "../../images/aurora.png",
-      "description": "A multifaceted program that connects individuals in need of legal aid and guidance with those who share the tools and generosity to assist them. Assisting those who need their help the most, Aurora also has the ability to identify and reach out to local government officials to incite change."
+      "name": "Richard Hua",
+      "company": "Amazon Web Services",
+      "title": "Global Strategist & Innovation Evangelist",
+      "linkedinUrl": "https://www.linkedin.com/in/richhua/",
+      "image": "Richard",
+      "aboutMe": "Rich Hua is a global strategist and innovation evangelist for Amazon Web Services. He has spent decades training and mentoring people in leadership and interpersonal skills—from CEOs to aspiring managers to young professionals. Rich has trained tens of thousands of Amazonians on emotional and social intelligence and delivered some of the most popular and highly-rated talks within Amazon. His EQ training is now an integral part of onboarding for all new AWS employees in the U.S."
     },
     {
-      "name": "SafeSpace",
-      "link": "https://bitly.com/",
-      "image": "../../images/project-highlights/safeSpace.jpg",
-      "description": "A tool that helps tackle impostor syndrome and to create a more inclusive space and also provided resources or help to those victimized."
+      "name": "Carolyn DeLena",
+      "company": "Amazon",
+      "title": "HR Program Manager",
+      "linkedinUrl": "https://www.linkedin.com/in/carolyn-delena-a8938a88/",
+      "image": "Carolyn",
+      "aboutMe": "I have been working in the HR field in a variety of roles. My passion for HR comes from my need to help others and ensure an exceptional employee experience. My current role offers me the unique opportunity to streamline cyclical HR processes, and to build out programs that fill employee needs."
     },
     {
-      "name": "SheNetwork",
-      "link": "https://bitly.com/",
-      "image": "../../images/project-highlights/SheNetwork.png",
-      "description": "A platform for women in the tech field to be empowered and connect. We want young women to develop their passion for tech by turning their dreams into a reality--by growing their network."
+      "name": "Savita Belgaonkar",
+      "company": "Amazon Web Services",
+      "title": "Software Development Manager",
+      "linkedinUrl": "https://www.linkedin.com/in/savita-belgaonkar-4565772/",
+      "image": "Savita",
+      "aboutMe": "An experienced technical leader with a passion to increase women technologist population and build diversity."
     },
     {
-      "name": "moodring",
-      "link": "hhttps://bitly.com/",
-      "image": "../../images/project-highlights/moodring.png",
-      "description": "Pools together the sentiment of the anonymous thoughts of everyone who uses it—no matter their language—to create a visual representation of the world’s honest emotions over the course of a day."
+      "name": "Charis Loveland",
+      "company": "Amazon Web Services",
+      "title": "AI/ML Business Development Manager",
+      "linkedinUrl": "https://www.linkedin.com/in/charisloveland/",
+      "image": "Charis",
+      "aboutMe": "Charis Loveland works at AWS as a business development manager on the cloud intelligence team specializing in artificial intelligence and machine learning (ML). She has a decade and a half of experience in product management, AI, data analytics, new product introduction, file and hardware storage, and software development. After launching a crowdsourcing platform for Azure ML at Microsoft, Charis founded Rue La La's data science team where she created and executed a roadmap and strategy to create personalized experiences and segment customers. Charis co-founded an ML startup and has taught several business courses at General Assembly as well as online courses about data science at MIT, Dartmouth, and Columbia. Charis serves as a coding instructor, mentor, and advocate for early STEM education and volunteers for several nonprofits that help promote greater diversity in the technology industry."
     },
     {
-        "name": "moodring",
-        "link": "hhttps://bitly.com/",
-        "image": "../../images/project-highlights/moodring.png",
-        "description": "Pools together the sentiment of the anonymous thoughts of everyone who uses it—no matter their language—to create a visual representation of the world’s honest emotions over the course of a day."
-    },
-    {
-        "name": "moodring",
-        "link": "hhttps://bitly.com/",
-        "image": "../../images/project-highlights/moodring.png",
-        "description": "Pools together the sentiment of the anonymous thoughts of everyone who uses it—no matter their language—to create a visual representation of the world’s honest emotions over the course of a day."
-    },
-    {
-        "name": "moodring",
-        "link": "hhttps://bitly.com/",
-        "image": "../../images/project-highlights/moodring.png",
-        "description": "Pools together the sentiment of the anonymous thoughts of everyone who uses it—no matter their language—to create a visual representation of the world’s honest emotions over the course of a day."
-    },
-    {
-      "name": "moodring",
-      "link": "hhttps://bitly.com/",
-      "image": "../../images/project-highlights/moodring.png",
-      "description": "Pools together the sentiment of the anonymous thoughts of everyone who uses it—no matter their language—to create a visual representation of the world’s honest emotions over the course of a day."
+      "name": "Liat Berry",
+      "company": "Amazon",
+      "title": "Technical Product Manager",
+      "linkedinUrl": "https://www.linkedin.com/in/aliat/",
+      "image": "Liat",
+      "aboutMe": "Liat Berry is a technical product manager at Amazon Web Services, leading initiatives in the storage and cloud computing space. Prior to AWS Liat was spearheading Natural Language Understanding and Automatic Speech Recognition model development for the Alexa Machine Learning team. Liat has a diverse background including hardware engineering for Apple, EZ-Chip and Mellanox, and business strategy work at Santander bank. She holds a BSc in Electrical Engineering from the Technion and an MBA from the Harvard Business School."
     }
   ]
   
