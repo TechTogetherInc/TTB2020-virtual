@@ -63,21 +63,52 @@
     }
 
     .mentor-head {
-        color: $backgroundcolor;
+        color: $navcolor;
         font-weight: bold;
     }
 
     .mentor {
+        color: $navcolor;
         background-color: white;
-        color: $backgroundcolor;
-        box-shadow: 0px 0px 5px 1px #ccc;
-        border-radius: 10px;
-        margin: 20px 10px;
+        // color: $backgroundcolor;
+        // box-shadow: 0px 0px 5px 1px #ccc;
+        // border-radius: 10px;
+
+        border: $backgroundcolor2;
+        border-style: solid;
+        box-shadow: -10px 10px $backgroundcolor2;
+
+        margin: 15px 15px;
         padding: 10px;
         width: 18rem;
+        text-align: center;
     }
 
     .card-width {
         width: 18rem;
+        border: none;
+    }
+
+    .card-img-div {
+        width: 160px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mentor-img {
+        border-radius: 50%;
+        padding-top: 10%;
+    }
+
+    .card-title {
+        color: $navcolor;
+        font-weight: bold;
+    }
+
+    .card-ellipsis {
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        white-space: nowrap; 
     }
 }

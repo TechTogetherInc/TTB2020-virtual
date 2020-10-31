@@ -13,12 +13,12 @@ const Speaker = () => {
   return (
     <div className="page-body">
       <div className="speakers">
-          <div className="get-excited-div">
-              <h1>Get ready to get inspired.</h1>
-              <h4>Check out this year's lineup of all-star speakers.</h4>
-          </div>
+        <div className="get-excited-div">
+          <h1>Get ready to get inspired.</h1>
+          <h4>Check out this year's lineup of all-star speakers.</h4>
+        </div>
         <section className="speakers-section">
-            <SpeakerTiles />
+          <SpeakerTiles />
         </section>
       </div>
     </div>
