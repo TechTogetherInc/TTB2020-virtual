@@ -1,12 +1,23 @@
 [
   {
-    "title": "Challenge 1",
-    "description": "Challenge 1 des",
+    "category": "MLH",
+    "title": "Best UiPath Automation Hack",
+    "description": "Build or add automation to your hack using UiPath! Each winning team member will receive a Limited Edition UiPath Branded Backpack.",
+    "prize": "UiPath Branded Backpack",
     "image": "about-us.jpg"
   },
   {
-    "title": "C2",
-    "description": "c2 desc",
+    "category": "TechTogether Boston - Environmental",
+    "title": "Best Sustainability Hack",
+    "description": "Develop a solution to improve sustainability within our local communities.",
+    "prize": "",
+    "image": "about-us.jpg"
+  },
+  {
+    "category": "TechTogether Boston - Environmental",
+    "title": "Best Environmental Action Hack",
+    "description": "Damage to the Earth is near irreversible. Develop a hack that finds measurable solutions combat the global climate crisis.",
+    "prize": "",
     "image": "about-us.jpg"
   }
 ]

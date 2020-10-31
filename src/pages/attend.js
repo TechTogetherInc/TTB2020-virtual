@@ -1,7 +1,6 @@
 import React from "react";
 import Schedule from "../components/AttendPage/schedule";
 import Challenges from "../components/AttendPage/challenges";
-import Prizes from "../components/AttendPage/prizes";
 // import { Link } from "gatsby";
 
 import Layout from "../components/layout";
@@ -19,7 +18,6 @@ const Attend = () => {
         <section className="attend-section">
           <div style={{ paddingTop: "85px" }}>
             {/* <Challenges />
-            <Prizes />
             <Schedule /> */}
             <div style={{ textAlign: "center", height: "500px" }}>
               Details coming!
