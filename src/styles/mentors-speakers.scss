@@ -63,8 +63,14 @@
     }
 
     .mentor-head {
-        color: $navcolor;
+        color: $backgroundcolor2;
         font-weight: bold;
+    }
+
+    .contact-mentor {
+        padding-right: 40px;
+        margin-left:auto; 
+        margin-right:0;
     }
 
     .mentor {
@@ -96,9 +102,15 @@
         margin-right: auto;
     }
 
+    .card-img-top {
+        padding-top: 15px;
+    }
+
     .mentor-img {
         border-radius: 50%;
         padding-top: 10%;
+        width: 160px;
+        height: 160px;
     }
 
     .card-title {
