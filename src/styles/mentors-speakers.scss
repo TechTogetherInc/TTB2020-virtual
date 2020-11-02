@@ -74,13 +74,17 @@
     }
 
     .filter-mentor {
-        padding-right: 40px;
+        padding-right: 190px;
         margin-left:auto; 
-        margin-right:0;
+        margin-right: 0px;
     }
 
-    .filter-dropdown .btn-primary{
-        background-color: $backgroundcolor2;
+    .dropdown-menu.show{
+        min-width: 230px;
+    }
+
+    .dropdown a {
+        color: $navcolor;
         font-weight: bold;
     }
 

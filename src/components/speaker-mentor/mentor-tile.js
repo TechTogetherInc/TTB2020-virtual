@@ -1,16 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 import Dropdown from 'react-bootstrap/Dropdown'
-import DropdownButton from 'react-bootstrap/DropdownButton';
+import FormControl from 'react-bootstrap/FormControl';
 
 import Image from "./image"
 
 import MentorsData from "../../data/mentors.json";
 
 const filterCategories = [
-    "All", 
+    "All",
     "Adobe Photoshop", "Alexa",
     "Android",
     "App Developer",
@@ -93,6 +93,51 @@ const Mentor = (props) => (
     </div >
 );
 
+const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
+    <a
+        href=""
+        ref={ref}
+        onClick={(e) => {
+            e.preventDefault();
+            onClick(e);
+        }}
+    >
+        {children}
+      &#x25bc;
+    </a>
+));
+
+// forwardRef again here!
+// Dropdown needs access to the DOM of the Menu to measure it
+const CustomMenu = React.forwardRef(
+    ({ children, style, className, 'aria-labelledby': labeledBy }, ref) => {
+        const [value, setValue] = useState('');
+
+        return (
+            <div
+                ref={ref}
+                style={style}
+                className={className}
+                aria-labelledby={labeledBy}
+            >
+                <FormControl
+                    autoFocus
+                    className="mx-3 my-2 w-auto"
+                    placeholder="Type to filter..."
+                    onChange={(e) => setValue(e.target.value)}
+                    value={value}
+                />
+                <ul className="list-unstyled">
+                    {React.Children.toArray(children).filter(
+                        (child) =>
+                            !value || child.props.children.startsWith(value) || child.props.children.toLowerCase().startsWith(value),
+                    )}
+                </ul>
+            </div>
+        );
+    },
+);
+
 class MentorTiles extends React.Component {
     constructor(props) {
         super(props);
@@ -106,8 +151,8 @@ class MentorTiles extends React.Component {
 
     filterList(event) {
         var updatedList = this.state.initialItems;
-        var filter =event;
-        if(filter === "All") {
+        var filter = event;
+        if (filter === "All") {
             this.setState({ items: MentorsData, dropdownValue: "Skills" });
             return;
         }
@@ -146,14 +191,16 @@ class MentorTiles extends React.Component {
                     <div class="col-sm-6">
                     </div>
                     <div class="col-sm-6" className="filter-mentor">
-                        <DropdownButton className="filter-dropdown"
-                            title={this.state.dropdownValue === "" ? 'Skills ' : this.state.dropdownValue}
-                            onSelect={this.filterList.bind(this)}
-                        >
-                            {filterCategories.map((filter) => (
-                                <Dropdown.Item key={filter} eventKey={filter}>{filter}</Dropdown.Item>
-                            ))}
-                        </DropdownButton>
+                        <Dropdown>
+                            <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components">
+                                {this.state.dropdownValue === "" ? 'Skills' : this.state.dropdownValue}
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu as={CustomMenu} onSelect={this.filterList.bind(this)}>
+                                {filterCategories.map((filter) => (
+                                    <Dropdown.Item key={filter} eventKey={filter} onSelect={this.filterList.bind(this)}>{filter}</Dropdown.Item>
+                                ))}
+                            </Dropdown.Menu>
+                        </Dropdown>
                     </div>
                 </div>
                 <div className="mentor-container row">
@@ -176,48 +223,5 @@ class MentorTiles extends React.Component {
         )
     }
 }
-
-// const MentorTiles = () => (
-//     <div>
-//         <div class="row">
-//             <div class="col-sm-6">
-//                 <h1 className="mentor-head">TTB 2020 mentors</h1>
-//                 <p className="mentor-head">To view who's online, check out our Discord !</p>
-//             </div>
-//             <div class="col-sm-6" className="contact-mentor">
-//                 <div className="register-button">
-//                     <a
-//                         type="button"
-//                         target="_blank"
-//                     // href="https://techtogetherboston.eventbrite.com/"
-//                     >
-//                         Contact A Mentor
-//                     </a>
-//                 </div>
-//             </div>
-//         </div>
-//         <div class="row">
-//             <div class="col-sm-6">
-//             </div>
-//             <div class="col-sm-6" className="filter-mentor">
-
-//             </div>
-//         </div>
-//         <div className="mentor-container row">
-//             {MentorsData.map((mentor) => (
-//                 <div className="mentor" key={mentor.name}>
-//                     <Mentor
-//                         name={mentor.name}
-//                         photo={mentor.photo}
-//                         pronouns={mentor.pronouns}
-//                         universityWorkplace={mentor.universityWorkplace}
-//                         majorProfession={mentor.majorProfession}
-//                         skills={mentor.skills}
-//                     />
-//                 </div>
-//             ))}
-//         </div>
-//     </div>
-// );
 
 export default MentorTiles;
