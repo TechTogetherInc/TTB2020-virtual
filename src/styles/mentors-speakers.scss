@@ -63,7 +63,7 @@
     }
 
     .mentor-head {
-        color: $backgroundcolor2;
+        color: $navcolor;
         font-weight: bold;
     }
 
@@ -71,6 +71,17 @@
         padding-right: 40px;
         margin-left:auto; 
         margin-right:0;
+    }
+
+    .filter-mentor {
+        padding-right: 40px;
+        margin-left:auto; 
+        margin-right:0;
+    }
+
+    .filter-dropdown .btn-primary{
+        background-color: $backgroundcolor2;
+        font-weight: bold;
     }
 
     .mentor {
