@@ -1,4 +1,5 @@
 import React from "react";
+import AttendStats from "../components/AttendPage/attendStats";
 import Schedule from "../components/AttendPage/schedule";
 import Challenges from "../components/AttendPage/challenges";
 // import { Link } from "gatsby";
@@ -17,11 +18,12 @@ const Attend = () => {
       <div className="attend">
         <section className="attend-section">
           <div style={{ paddingTop: "85px" }}>
-            {/* <Challenges />
-            <Schedule /> */}
-            <div style={{ textAlign: "center", height: "500px" }}>
+            <AttendStats />
+            <Challenges />
+            <Schedule />
+            {/* <div style={{ textAlign: "center", height: "500px" }}>
               Details coming!
-            </div>
+            </div> */}
           </div>
         </section>
       </div>

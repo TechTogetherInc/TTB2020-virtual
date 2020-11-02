@@ -71,4 +71,19 @@
       font-weight: bold;
     }
   }
+
+  .subcontainer {
+    .stat {
+      font-size: 50px;
+      text-align: center;
+    }
+
+    .stat-details {
+      text-align: center;
+    }
+  }
+}
+
+.attendstats {
+  padding: 20px 10px;
 }

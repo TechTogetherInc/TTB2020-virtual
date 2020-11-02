@@ -1,14 +1,14 @@
 import React from "react";
 import Layout from "../components/layout";
-import Sponsor from "../components/sponsors/sponsor"
-import ActualSponsor from "../components/sponsors/actualSponsor"
+import Sponsor from "../components/sponsors/sponsor";
+import ActualSponsor from "../components/sponsors/actualSponsor";
 import Tracks from "../components/trackContainer/tracks";
+import Stats from "../components/Statistics/statistics";
 import FAQContainer from "../components/FAQContainer/FAQContainer";
 import Speaker from "../components/speaker/speaker";
 import DFM from "../images/DFM.png";
 import AttendHeader from "../components/AttendPage/attendheader";
 import CountdownTimer from "../components/counter-timer";
-
 
 export default () => (
   <Layout>
@@ -54,10 +54,7 @@ const App = () => {
                     </a>
                   </div>
                 </div>
-                <a
-                  target="_blank"
-                  href="https://pinnacle.us.org/"
-                >
+                <a target="_blank" href="https://pinnacle.us.org/">
                   <img
                     src={require("../images/PinnacleBadge_TTB.png")}
                     style={{
@@ -89,6 +86,9 @@ const App = () => {
         </section>
         <section className="tracks">
           <Tracks />
+        </section>
+        <section className="stats">
+          <Stats />
         </section>
         {/* <section className="sponsors-container">
           <Sponsor />
