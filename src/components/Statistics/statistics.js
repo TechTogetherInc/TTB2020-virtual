@@ -46,11 +46,15 @@ const Statistics = () => {
         borderBottom: "1px solid black",
         width: "100%",
         padding: "25px 10px",
+        backgroundColor: "#181d46",
+        color: "#e26554",
       }}
     >
       {stats.map((stat) => (
         <div class="col-12 col-md-3 subcontainer">
-          <div className="stat">{stat.stat}</div>
+          <div className="stat" style={{ fontWeight: "bold" }}>
+            {stat.stat}
+          </div>
           <div className="stat-details">{stat.description}</div>
         </div>
       ))}

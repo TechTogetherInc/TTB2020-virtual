@@ -18,9 +18,10 @@ const Attend = () => {
       <div className="attend">
         <section className="attend-section">
           <div style={{ paddingTop: "85px" }}>
+            <Schedule />
             <AttendStats />
             <Challenges />
-            <Schedule />
+
             {/* <div style={{ textAlign: "center", height: "500px" }}>
               Details coming!
             </div> */}

@@ -12,12 +12,7 @@ const Challenges = () => {
             <div>
               <Image alt="headshot" filename={element.image} />
             </div>
-            <div className="title">
-              {element.title}
-              <div className="category">
-                <u>Category</u>: {element.category}
-              </div>
-            </div>
+            <div className="title">{element.title}</div>
             <div className="prize">
               <u>Prize</u>: {element.prize}
             </div>

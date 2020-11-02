@@ -84,12 +84,13 @@ const App = () => {
         <section className="attend">
           <AttendHeader />
         </section>
-        <section className="tracks">
-          <Tracks />
-        </section>
         <section className="stats">
           <Stats />
         </section>
+        <section className="tracks">
+          <Tracks />
+        </section>
+
         {/* <section className="sponsors-container">
           <Sponsor />
         </section> */}
