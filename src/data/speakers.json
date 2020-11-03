@@ -38,6 +38,55 @@
       "linkedinUrl": "https://www.linkedin.com/in/aliat/",
       "image": "Liat",
       "aboutMe": "Liat Berry is a technical product manager at Amazon Web Services, leading initiatives in the storage and cloud computing space. Prior to AWS Liat was spearheading Natural Language Understanding and Automatic Speech Recognition model development for the Alexa Machine Learning team. Liat has a diverse background including hardware engineering for Apple, EZ-Chip and Mellanox, and business strategy work at Santander bank. She holds a BSc in Electrical Engineering from the Technion and an MBA from the Harvard Business School."
+    },
+    {
+      "name": "Kim Myers",
+      "company": "Liberty Mutual Insurance",
+      "title": "Campus Recruiter, Technology",
+      "linkedinUrl": "https://www.linkedin.com/in/kimberly-myers-717b44109/",
+      "image": "Kim",
+      "aboutMe": "I'm just a small-town girl from upstate New York, who moved out to Boston after college graduation to work for a Fortune 100 Company (wow, was that intimidating!!) Now, I have worked at Liberty Mutual Insurance (Boston, MA) for roughly 3.5 years. I started as an intern, went through a full-time development program, and am now a recruiter for our undergraduate Technology roles!"
+    },
+    {
+      "name": "Amy Ferreira",
+      "company": "Liberty Mutual Insurance",
+      "title": "Manager, Campus Recruiting",
+      "linkedinUrl": "https://www.linkedin.com/in/amy-ferreira-8130bb53/",
+      "image": "Amy",
+      "aboutMe": "I have been with Liberty Mutual for 5 years and have spent most of that time supporting the Tech Organization from a campus recruiting standpoint. I graduated from the University of New Hampshire in 2009 and have spent a majority of my career in various Human Resources functions. Within the last couple of years I became a certified yoga instructor and love the balance of spending time studying and teaching yoga and working in a corporate environment."
+    },
+    {
+      "name": "Alon Grinshpoon",
+      "company": "echoAR, Inc",
+      "title": "CEO",
+      "linkedinUrl": "https://www.linkedin.com/in/alongrinshpoon/",
+      "image": "Alon",
+      "aboutMe": "Alon Grinshpoon is the CEO and founder of echoAR (www.echoAR.xyz), a cloud platform for augmented reality (AR) and virtual reality (VR) that provides tools and network infrastructure to help developers & companies quickly build and deploy AR/VR apps and content. Alon received his MSc in computer science from Columbia University specializing in computer graphics, virtual and augmented reality, and human-computer interaction. Alon received his BSc in computer science and electrical engineering from Tel Aviv University specializing in software engineering, computer networks and cyber security. Alon is a former Mellanox engineer, graduate researcher at the Computer Graphics and User Interfaces Laboratory of Columbia University, and research and teaching assistant in the fields of computer networks and distributed cloud networks. Alon is a Techstars alum, NYC Media Lab alum, a Startup Leadership Program (SLP) fellow, and member of the Virtual World Society. Alon is a speaker on emerging technologies and has given talks at major AR/VR tech conferences in the US and Israel."
+    },
+    {
+      "name": "Sara Faatz",
+      "company": "Progress",
+      "title": "Director, Developer Relations",
+      "linkedinUrl": "https://www.linkedin.com/in/sara-faatz-b67213/",
+      "image": "Sara",
+      "aboutMe": "Sara Faatz leads the developer relations team at Progress. With more than 20 years in the software development space, she has built community, partner, content and influencer programs from the ground up. She is a mom, a wife, and a woman in tech who believes in her core that a strong community is the greatest gift."
+    },
+    {
+      "name": "Alyssa Nicoll",
+      "company": "Progress",
+      "title": "Developer Advocate",
+      "linkedinUrl": "https://www.linkedin.com/in/alyssa-nicoll/",
+      "image": "Alyssa",
+      "aboutMe": "Alyssa is an Angular Developer Advocate & GDE. Her two degrees (Web Design & Development and Psychology) feed her speaking career. She has spoken at over 30 conferences internationally, specializing in motivational soft talks, enjoys gaming on Xbox and scuba diving in her spare time."
+    },
+    {
+      "name": "Rashmili Vemula",
+      "company": "Kingsmen Software",
+      "title": "Strategic Marketing Manager",
+      "linkedinUrl": "https://www.linkedin.com/in/rashmilivemula/",
+      "image": "Rashmili",
+      "aboutMe": "Rashmili Vemula was born in Hyderabad, India and moved to South Carolina with her family at the age of 8. She has a background in Computer Science and has built her career as an IT Business Analyst in software development. With her experience, Rashmili recently took on the role of Strategic Marketing Manager at her current company to market their custom software development services. Through her experiences within the tech space in various domains, Rashmili knows the importance of being nimble to stay competitive in a rapidly evolving market. A facet of staying competitive is through diversity of thought. Rashmili continuously advocates for diversity and inclusion of women and minorities, as she is both, within the technology industry. In her free time, Rashmili co-hosts a podcast, Carolina Desi, which aims to share their immigrant experience and of growing up in the American South. It has become a light-hearted way to advocate for the South Asian diaspora from a millennial perspective."
     }
+    
   ]
   

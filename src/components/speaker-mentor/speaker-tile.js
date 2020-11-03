@@ -7,28 +7,22 @@ import Savita from "../../images/speakers/savita.png";
 import Charis from "../../images/speakers/charis.png";
 import Liat from "../../images/speakers/liat.png";
 
+import Kim from "../../images/speakers/Kim.png";
+import Amy from "../../images/speakers/Amy.png";
+import Alon from "../../images/speakers/Alon.png";
+import Sara from "../../images/speakers/Sara.png";
+import Alyssa from "../../images/speakers/Alyssa.png";
+import Rashmili from "../../images/speakers/Rashmili.png";
+
 const photos = {
     Richard,
     Carolyn,
     Savita,
     Charis,
     Liat,
+    Kim,
+    Amy, Alon, Sara, Alyssa, Rashmili
 };
-
-// const Speaker = (props) => (
-//     <div class="card card-width">
-//         <img class="card-img-top img-fluid" src={photos[props.image]} alt={props.image}/>
-//         <div class="card-body">
-//             <h5 class="card-title">{props.name}</h5>
-//             <h6>{props.company}</h6>
-//             <h6>{props.title}</h6>
-//         </div>
-//         <div class="card-body">
-//             <p class="card-text">{props.aboutMe}</p>
-//             <a href={props.linkedinUrl} target="_blank" class="card-link">Contact Me</a>
-//         </div>
-//     </div>
-// );
 
 const Speaker = (props) => (
     <div class="row mb-2">
