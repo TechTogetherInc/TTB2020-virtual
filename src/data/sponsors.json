@@ -1,62 +1,70 @@
 [
-    {
+  {
     "sponsor": "Athena Health",
     "logo": "sponsor-logos/athenahealth-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "Facebook",
     "logo": "sponsor-logos/facebook-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "Liberty Mutual",
     "logo": "sponsor-logos/libertymutual-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "Travelers",
     "logo": "sponsor-logos/travelers-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "Progress Software Corp",
     "logo": "sponsor-logos/progress-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "Spark",
     "logo": "sponsor-logos/spark-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "VMWare",
     "logo": "sponsor-logos/vmware-logo.jpg"
-    },
-    {
+  },
+  {
     "sponsor": "MassTech",
     "logo": "sponsor-logos/masstech-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "Northeastern Khoury College of Computer Scientists",
     "logo": "sponsor-logos/northeastern-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "Balsamiq",
     "logo": "sponsor-logos/balsamiq-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "Google Cloud",
     "logo": "sponsor-logos/googlecloud-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "CodeBar",
     "logo": "sponsor-logos/codebar-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "Esteem",
     "logo": "sponsor-logos/esteem-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "Digital Page",
     "logo": "sponsor-logos/digitalpage-logo.png"
-    },
-    {
+  },
+  {
     "sponsor": "Wolfram Alpha",
     "logo": "sponsor-logos/wolframalpha-logo.png"
-    }
+  },
+  {
+    "sponsor": "EchoAR",
+    "logo": "sponsor-logos/echoar-logo.png"
+  },
+  {
+    "sponsor": "Code Asylums",
+    "logo": "sponsor-logos/codeasylums-logo.png"
+  }
 ]

@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Best UiPath Automation Hack",
+    "description": "Build or add automation to your hack using UiPath! Each winning team member will receive a Limited Edition UiPath Branded Backpack.",
+    "prize": "UiPath Branded Backpack",
+    "image": "sponsor-logos/mlh.png"
+  },
+  {
+    "title": "Best Sustainability Hack",
+    "description": "Develop a solution to improve sustainability within our local communities.",
+    "prize": "",
+    "image": "about-us.jpg"
+  },
+  {
+    "title": "Best Environmental Action Hack",
+    "description": "Damage to the Earth is near irreversible. Develop a hack that finds measurable solutions combat the global climate crisis.",
+    "prize": "",
+    "image": "graphics/ttb-logoV5.png"
+  },
+  {
+    "title": "Best Community Hack",
+    "description": "Build a solution that improves the sense of community in neighborhood/ workplace.",
+    "prize": "",
+    "image": "graphics/ttb-logoV5.png"
+  },
+  {
+    "title": "Best Productivity Hack",
+    "description": "Create a project that supports and teaches how to create a sustainable work/life balance.",
+    "prize": "",
+    "image": "graphics/ttb-logoV5.png"
+  },
+  {
+    "title": "Best Wellness Hack",
+    "description": "Create a solution that helps individuals understand and support others with mental health issues.",
+    "prize": "",
+    "image": "graphics/ttb-logoV5.png"
+  },
+  {
+    "title": "Most Courageous Hack",
+    "description": "This prize is for teams with 3 or more first-time hackers. Our favorite beginner-friendly team will win a TechTogether Boston sticker pack.",
+    "prize": "TechTogether Boston Sticker Pack",
+    "image": "graphics/ttb-logoV5.png"
+  },
+  {
+    "title": "Most Open-Minded Attendee",
+    "description": "This prize is for the attendee that attends the most events during the hackathon. Events include workshops, keynotes, and fun activities.",
+    "prize": "$15 Amazon Gift Card",
+    "image": "graphics/ttb-logoV5.png"
+  },
+  {
+    "title": "Best High School Hack",
+    "description": "The best hack created by a team consisting of all high school students. Winners will each get a $25 Amazon gift card.",
+    "prize": "$25 Amazon Gift Card",
+    "image": "sponsor-logos/spark-logo.png"
+  },
+  {
+    "title": "Prettiest Hack",
+    "description": "This prize is for the hack with the best design and UI/UX. Each winning team member will receive a $10 Amazon Gift Card.",
+    "prize": "$10 Amazon Gift Card",
+    "image": "graphics/ttb-logoV5.png"
+  },
+  {
+    "title": "Ultimate Fail Hack",
+    "description": "This prize is for the team who dreamed big and failed hard. Each winning team member will receive a $10 Amazon Giftcard for trying to make the ultimate hack.",
+    "prize": "$10 Amazon Gift Card",
+    "image": "graphics/ttb-logoV5.png"
+  },
+  {
+    "title": "Best Hardware Hack",
+    "description": "Build a project that uses hardware to solve a problem in a unique way. Winners will get $20 Amazon gift cards.",
+    "prize": "$20 Amazon Gift Card",
+    "image": "graphics/ttb-logoV5.png"
+  },
+  {
+    "title": "Best Data Hack",
+    "description": "How did data support the implementation of your solution? Implementation of the idea (including user experience, AI design, and data integration). Quality of the idea (including creativity, originality and fit with your target audience) -- Potential impact on your target audience.",
+    "prize": "",
+    "image": "graphics/ttb-logoV5.png"
+  },
+  {
+    "title": "Best Social Good Hack",
+    "description": "For the best hack that aligns with Facebook’s mission of giving people the power to build community and bringing the world closer together, we will award each member of the winning team a Facebook Portal.",
+    "prize": "Facebook Portal",
+    "image": "sponsor-logos/facebook-logo.png"
+  },
+  {
+    "title": "Best AR/VR Hack",
+    "description": "Build the best AR/VR application using echoAR: a 'cherry on top' for participants who compete for the overall prizes but who also decide to incorporate the echoAR platform as part of their projects. If they do, they are also eligible to compete for our sponsored prizes.",
+    "prize": "",
+    "image": "sponsor-logos/echoar-logo.png"
+  },
+  {
+    "title": "Best Financial Hack",
+    "description": "Best financial hack!",
+    "prize": "$250 Amazon Gift Cards for each member of the winning team.",
+    "image": "sponsor-logos/capitalone-logo.png"
+  },
+  {
+    "title": "Wolfram Hack",
+    "description": "Best use of Wolfram Alpha.",
+    "prize": "a year of Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro",
+    "image": "sponsor-logos/wolframalpha-logo.png"
+  },
+  {
+    "title": "Best Use of Google Cloud",
+    "description": "Use any Google Cloud product.",
+    "prize": "Google Cloud branded backpack, water bottle, and trophy",
+    "image": "sponsor-logos/googlecloud-logo.png"
+  },
+  {
+    "title": "Best Use of Google Cloud - COVID-19 Hackathon Fund",
+    "description": "COVID-19 Hackathon Fund",
+    "prize": "Select projects may receive an invitation to apply to the Google Cloud COVID-19 hackathon fund awarding up to $5,000 in cloud credits and guidance from Google developers.",
+    "image": "sponsor-logos/googlecloud-logo.png"
+  },
+  {
+    "title": "Best Overall Hack",
+    "description": "Build a project using skills learned from the hackathon this week! The project that is most resourceful and buildable will receive an all expenses paid trip to San Francisco next year to compete in the Pinnacle Hackathon.",
+    "prize": "Acceptance to Pinnacle Hackathon",
+    "image": "PinnacleBadge_BlackGold.png"
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "date": "Friday 11/6",
+    "events": [
+      {
+        "time": "6:00pm",
+        "title": "Opening Ceremony",
+        "company": "TechTogether Boston"
+      },
+      {
+        "time": "6:30pm",
+        "title": "Team Formation",
+        "company": "TechTogether"
+      },
+      {
+        "time": "7:00pm",
+        "title": "Team Formation",
+        "company": "TechTogether"
+      },
+      {
+        "time": "7:30pm",
+        "title": "Intro to Web Design",
+        "company": "TechTogether Boston"
+      },
+      {
+        "time": "8:00pm",
+        "title": "Intro to Git/GitHub",
+        "company": ""
+      },
+      {
+        "time": "9:00pm",
+        "title": "Coding The Future of Tech and Wellness",
+        "company": "Abigayle Peterson"
+      },
+      {
+        "time": "9:30pm",
+        "title": "Hangout with Organizers",
+        "company": "TechTogether Boston"
+      }
+    ]
+  },
+  {
+    "date": "Saturday 11/7",
+    "events": [
+      {
+        "time": "9:00am",
+        "title": "Liberty Mutual Yoga",
+        "company": "Liberty Mutual"
+      },
+      {
+        "time": "9:00am",
+        "title": "College to Corporate",
+        "company": "TechTogether Boston"
+      },
+      {
+        "time": "9:30am",
+        "title": "What is a Design Sprint",
+        "company": ""
+      },
+      {
+        "time": "10:00am",
+        "title": "Team Formation",
+        "company": ""
+      },
+      {
+        "time": "10:00am",
+        "title": "Amazon: AI in 20 Minutes",
+        "company": "Amazon"
+      },
+      {
+        "time": "10:30am",
+        "title": "Trivia with Progress",
+        "company": ""
+      },
+      {
+        "time": "10:30am",
+        "title": "Intro to Javascript",
+        "company": ""
+      },
+      {
+        "time": "11:00am",
+        "title": "Lorena Leonard: TechTalk",
+        "company": ""
+      },
+      {
+        "time": "11:00am",
+        "title": "Amazon: Mindfulness",
+        "company": "Amazon"
+      },
+      {
+        "time": "12:00pm",
+        "title": "Resume Review",
+        "company": ""
+      },
+      {
+        "time": "12:00pm",
+        "title": "Networking Session",
+        "company": ""
+      },
+      {
+        "time": "12:30pm",
+        "title": "Team Formation",
+        "company": ""
+      },
+      {
+        "time": "1:00pm",
+        "title": "Amazon Panel",
+        "company": "Amazon"
+      },
+      {
+        "time": "2:00pm",
+        "title": "Google Cloud Workshop",
+        "company": "Google"
+      },
+      {
+        "time": "3:00pm",
+        "title": "Offer Negotiation",
+        "company": ""
+      },
+      {
+        "time": "3:00pm",
+        "title": "Build a Cloud Connected App",
+        "company": ""
+      },
+      {
+        "time": "4:00pm",
+        "title": "LGBTQ+",
+        "company": ""
+      },
+      {
+        "time": "5:00pm",
+        "title": "VS Code to Venture Capital",
+        "company": ""
+      },
+      {
+        "time": "6:00pm",
+        "title": "Liberty Mutual Trivia",
+        "company": "Liberty Mutual"
+      },
+      {
+        "time": "6:30pm",
+        "title": "PEGA: Think like an UXer",
+        "company": ""
+      },
+      {
+        "time": "7:30pm",
+        "title": "SideProjct",
+        "company": ""
+      }
+    ]
+  },
+  {
+    "date": "Sunday 11/8",
+    "events": [
+      {
+        "time": "9:00am",
+        "title": "Coffee and Conversations",
+        "company": "TechTogether Boston"
+      },
+      {
+        "time": "9:30am",
+        "title": "How to Introduce your Project",
+        "company": ""
+      },
+      {
+        "time": "10:00am",
+        "title": "Interview Prep",
+        "company": ""
+      },
+      {
+        "time": "10:30am",
+        "title": "Jasmine Rose: TechTalk",
+        "company": ""
+      },
+      {
+        "time": "1:00am",
+        "title": "Judging Begins",
+        "company": ""
+      },
+      {
+        "time": "4:00am",
+        "title": "Closing Ceremony",
+        "company": "TechTogether Boston"
+      }
+    ]
+  }
+]

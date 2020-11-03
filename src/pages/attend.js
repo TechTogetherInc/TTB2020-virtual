@@ -1,9 +1,11 @@
 import React from "react";
+import AttendStats from "../components/AttendPage/attendStats";
+import Schedule from "../components/AttendPage/schedule";
+import Challenges from "../components/AttendPage/challenges";
 // import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 // import SEO from "../components/seo";
-import AttendHeader from "../components/AttendPage/attendheader";
 export default () => (
   <Layout>
     <Attend />
@@ -15,7 +17,15 @@ const Attend = () => {
     <div className="page-body">
       <div className="attend">
         <section className="attend-section">
-          <AttendHeader />
+          <div style={{ paddingTop: "85px" }}>
+            <Schedule />
+            <AttendStats />
+            <Challenges />
+
+            {/* <div style={{ textAlign: "center", height: "500px" }}>
+              Details coming!
+            </div> */}
+          </div>
         </section>
       </div>
     </div>
