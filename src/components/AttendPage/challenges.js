@@ -9,8 +9,16 @@ const Challenges = () => {
       <div className="row">
         {challengesData.map((element) => (
           <div className="col-12 col-md-3 subcontainer">
-            <div>
-              <Image alt="headshot" filename={element.image} />
+            <div style={{ height: "210px" }}>
+              <div
+                style={{
+                  position: "relative",
+                  top: "50%",
+                  transform: "translateY(-50%)",
+                }}
+              >
+                <Image alt="headshot" filename={element.image} />
+              </div>
             </div>
             <div className="title">{element.title}</div>
             <div className="prize">
