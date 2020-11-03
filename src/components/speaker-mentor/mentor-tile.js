@@ -153,7 +153,7 @@ class MentorTiles extends React.Component {
         var updatedList = this.state.initialItems;
         var filter = event;
         if (filter === "All") {
-            this.setState({ items: MentorsData, dropdownValue: "Skills" });
+            this.setState({ items: MentorsData, dropdownValue: "Filter by Skills" });
             return;
         }
 
@@ -193,7 +193,7 @@ class MentorTiles extends React.Component {
                     <div class="col-sm-6" className="filter-mentor">
                         <Dropdown>
                             <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components">
-                                {this.state.dropdownValue === "" ? 'Skills' : this.state.dropdownValue}
+                                {this.state.dropdownValue === "" ? 'Filter by Skills' : this.state.dropdownValue}
                             </Dropdown.Toggle>
                             <Dropdown.Menu as={CustomMenu} onSelect={this.filterList.bind(this)}>
                                 {filterCategories.map((filter) => (

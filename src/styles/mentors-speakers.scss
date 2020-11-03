@@ -21,17 +21,10 @@
     .speaker {
         background-color: white;
         color: $backgroundcolor;
-        // box-shadow: 0px 0px 5px 1px #ccc;
-        // border-radius: 10px;
         margin: 20px 10px;
         padding: 10px;
-        // width: 18rem;
         width: 100%;
     }
-
-    // .card-width {
-    //     // width: 18rem;
-    // }
 
     .speaker-img {
         border: $backgroundcolor2;
@@ -74,10 +67,18 @@
     }
 
     .filter-mentor {
-        padding-right: 190px;
+        text-decoration: none;
+        border: solid $navcolor;
+        font-size: 16px;
+        margin: 0px auto;
+        padding: 10px 25px;
+        display: inline-block;
+    }
+
+    .filter-mentor {
+        padding-right: 32px;
         margin-left:auto; 
-        margin-right: 0px;
-        // height: 75px;
+        margin-right: 40px;
     }
 
     .dropdown-menu.show{
@@ -92,10 +93,6 @@
     .mentor {
         color: $navcolor;
         background-color: white;
-        // color: $backgroundcolor;
-        // box-shadow: 0px 0px 5px 1px #ccc;
-        // border-radius: 10px;
-
         border: $backgroundcolor2;
         border-style: solid;
         box-shadow: -10px 10px $backgroundcolor2;
