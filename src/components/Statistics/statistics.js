@@ -34,9 +34,9 @@ const Statistics = () => {
 
   const stats = [
     { stat: "20+", description: "sponsors" },
-    { stat: "X+", description: "speakers" },
-    { stat: "X+", description: "sessions to attend" },
-    { stat: "X+", description: "mentors to help" },
+    { stat: "30+", description: "speakers" },
+    { stat: "35+", description: "sessions to attend" },
+    { stat: "60+", description: "mentors to help" },
   ];
 
   return (
@@ -48,13 +48,13 @@ const Statistics = () => {
         padding: "25px 10px",
         backgroundColor: "#181d46",
         color: "#e26554",
+        textTransform: "uppercase",
+        fontWeight: "bold",
       }}
     >
       {stats.map((stat) => (
         <div class="col-12 col-md-3 subcontainer">
-          <div className="stat" style={{ fontWeight: "bold" }}>
-            {stat.stat}
-          </div>
+          <div className="stat">{stat.stat}</div>
           <div className="stat-details">{stat.description}</div>
         </div>
       ))}
