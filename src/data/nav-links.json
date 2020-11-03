@@ -14,5 +14,13 @@
   {
     "name": "Attend",
     "path": "/attend"
+  },
+  {
+    "name": "Speakers",
+    "path": "/speakers"
+  },
+  {
+    "name": "Mentors",
+    "path": "/mentors"
   }
 ]

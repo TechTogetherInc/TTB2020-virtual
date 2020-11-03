@@ -1,0 +1,139 @@
+@import "../styles/constants";
+
+.speakers {
+    .get-excited-div {
+        color: white;
+        background-color: $navcolor;
+        padding: 115px 0px 15px 115px;
+        margin: auto;
+        height: 100%;
+    }
+
+    .speakers-section {
+        padding: 75px 5%;
+    }
+
+    .speaker-head {
+        color: $backgroundcolor2;
+        font-weight: bold;
+    }
+
+    .speaker {
+        background-color: white;
+        color: $backgroundcolor;
+        margin: 20px 10px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .speaker-img {
+        border: $backgroundcolor2;
+        border-style: solid;
+        box-shadow: -10px 10px $backgroundcolor2;
+    }
+
+    .speaker-name {
+        color: $orange;
+        font-weight: bold;
+    }
+
+    .speaker-description {
+        color: black;
+    }
+
+    .speaker-title {
+        color: $navcolor;
+        font-weight: bold;
+    }
+}
+
+.mentors {
+    .mentors-section {
+        padding-top: 165px;
+        padding-right: 5%;
+        padding-bottom: 75px;
+        padding-left: 5%;
+    }
+
+    .mentor-head {
+        color: $navcolor;
+        font-weight: bold;
+    }
+
+    .contact-mentor {
+        padding-right: 40px;
+        margin-left:auto; 
+        margin-right:0;
+    }
+
+    .filter-mentor {
+        text-decoration: none;
+        border: solid $navcolor;
+        font-size: 16px;
+        margin: 0px auto;
+        padding: 10px 25px;
+        display: inline-block;
+    }
+
+    .filter-mentor {
+        padding-right: 32px;
+        margin-left:auto; 
+        margin-right: 40px;
+    }
+
+    .dropdown-menu.show{
+        min-width: 230px;
+    }
+
+    .dropdown a {
+        color: $navcolor;
+        font-weight: bold;
+    }
+
+    .mentor {
+        color: $navcolor;
+        background-color: white;
+        border: $backgroundcolor2;
+        border-style: solid;
+        box-shadow: -10px 10px $backgroundcolor2;
+
+        margin: 15px 15px;
+        padding: 10px;
+        width: 18rem;
+        text-align: center;
+    }
+
+    .card-width {
+        width: 18rem;
+        border: none;
+    }
+
+    .card-img-div {
+        width: 160px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-img-top {
+        padding-top: 15px;
+    }
+
+    .mentor-img {
+        border-radius: 50%;
+        padding-top: 10%;
+        width: 160px;
+        height: 160px;
+    }
+
+    .card-title {
+        color: $navcolor;
+        font-weight: bold;
+    }
+
+    .card-ellipsis {
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        white-space: nowrap; 
+    }
+}
