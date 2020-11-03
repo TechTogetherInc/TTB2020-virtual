@@ -592,5 +592,137 @@
     "Project Management",
     "SQL",
     "UI/UX" ]
+  },
+  {
+    "photo": "mentors/yufan.jpeg",
+    "name": "Yufan Lou",
+    "pronouns": "He/Him",
+    "universityWorkplace": "SUNY Old Westbury",
+    "majorProfession": "Computer Science",
+    "skills":[
+      "Bootstrap",
+      "C/C++/C#",
+      "Cryptography/Blockchain",
+      "Github",
+      "HTML/CSS",
+      "Java",
+      "JavaScript",
+      "Python",
+      "Shell Scripting",
+      "SQL",
+      "Web Developer"
+    ]
+  },
+  {
+    "photo": "mentors/spectra.jpeg",
+    "name": "Spectra A. I. Asala",
+    "pronouns": "She/Her",
+    "universityWorkplace": "Wistia",
+    "majorProfession": "GM & VP of Product",
+    "skills":[
+      "Artificial Intelligence",
+      "Business Design",
+      "Data Analysis",     
+      "Project Management",   
+      "UI/UX"
+    ]
+  },
+  {
+    "photo": "mentors/victoria.jpeg",
+    "name": "Victoria Hayes",
+    "pronouns": "She/Her",
+    "universityWorkplace": "Slalom Build",
+    "majorProfession": "Sr. Software Engineer",
+    "skills":[
+      "Android",
+      "App Developer",   
+      "AWS",
+      "Back End",     
+      "C/C++/C#",  
+      "Front End",  
+      "Github",
+      "HTML/CSS",
+      "JavaScript",
+      "Shell Scripting",
+      "SQL",
+      "Visual Studio",
+      "Web Developer"
+    ]
+  },
+  {
+    "photo": "mentors/ali.jpg",
+    "name": "Ali Paul",
+    "pronouns": "She/Her",
+    "universityWorkplace": "Facebook",
+    "majorProfession": "Software Engineer",
+    "skills":[
+      "Android",
+      "App Developer",    
+      "Front End",   
+      "Java"
+    ]
+  },
+  {
+    "photo": "mentors/christina.jpg",
+    "name": "Christine Robinette",
+    "pronouns": "She/Her",
+    "universityWorkplace": "Liberty Mutual",
+    "majorProfession": "Manager, Engineering",
+    "skills":[
+      "Project Management"
+    ]
+  },
+  {
+    "photo": "mentors/jai.jpeg",
+    "name": "Jai Subash Devmane",
+    "pronouns": "He/His",
+    "universityWorkplace": "Northeastern University",
+    "majorProfession": "Grad Student, Software Engineering",
+    "skills":[   
+      "AWS",
+      "Back End",   
+      "Bootstrap",    
+      "Front End",    
+      "Github",   
+      "HTML/CSS",   
+      "Java",
+      "JavaScript",   
+      "Shell Scripting",
+      "SQL",
+      "Web Developer"
+    ]
+  },
+  {
+    "photo": "mentors/rajat.png",
+    "name": "Rajat Jain",
+    "pronouns": "He/His",
+    "universityWorkplace": "Microsoft",
+    "majorProfession": "Software Engineer 2",
+    "skills":[    
+      "Front End",   
+      "Java",
+      "JavaScript",     
+      "Python",     
+      "UI/UX",    
+      "Web Developer" 
+    ]
+  },
+  {
+    "photo": "mentors/sandeep.jpg",
+    "name": "Sandeep Singh",
+    "pronouns": "He/His",
+    "universityWorkplace": "SRM University",
+    "majorProfession": "Community Manager",
+    "skills":[        
+      "Bootstrap",    
+      "C/C++/C#",    
+      "Front End",   
+      "Github",    
+      "HTML/CSS",    
+      "JavaScript",   
+      "Project Management",     
+      "UI/UX",
+      "Web Developer"
+    ]
   }
 ]
