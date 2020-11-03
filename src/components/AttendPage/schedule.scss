@@ -84,6 +84,7 @@
     .stat-details {
       text-align: center;
       font-size: 20px;
+      font-weight: bold;
     }
   }
 }
@@ -95,4 +96,19 @@
   color: white;
   text-transform: "uppercase";
   font-weight: "bold";
+
+  .subcontainer {
+    .stat {
+      font-size: 50px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .stat-details {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: "uppercase";
+    }
+  }
 }
