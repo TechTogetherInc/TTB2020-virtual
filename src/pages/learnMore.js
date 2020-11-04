@@ -26,9 +26,9 @@ const LearnMore = () => {
         <section className="project-showcase-container">
           <ProjectHighlights />
         </section>
-        <section className="stats-container">
+        {/* <section className="stats-container">
           <Statistics />
-        </section>
+        </section> */}
       </div>
     </div>
   );

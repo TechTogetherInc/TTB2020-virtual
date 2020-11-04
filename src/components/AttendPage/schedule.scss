@@ -84,6 +84,7 @@
     .stat-details {
       text-align: center;
       font-size: 20px;
+      font-weight: bold;
     }
   }
 }
@@ -93,4 +94,21 @@
   padding: 20px 20px;
   background-color: #e26554;
   color: white;
+  text-transform: "uppercase";
+  font-weight: "bold";
+
+  .subcontainer {
+    .stat {
+      font-size: 50px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .stat-details {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: "uppercase";
+    }
+  }
 }

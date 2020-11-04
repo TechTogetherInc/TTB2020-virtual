@@ -1,10 +1,10 @@
 import React from "react";
 
 const stats = [
-  { stat: "15+", description: "challenges to choose from" },
-  { stat: "40+", description: "hours of hackathon" },
-  { stat: "850+", description: "hackers" },
-  { stat: "$6,000+", description: "in prizes" },
+  { stat: "15+", description: "CHALLENGES TO CHOOSE FROM" },
+  { stat: "40+", description: "HOURS OF HACKATHON" },
+  { stat: "1,000+", description: "HACKERS" },
+  { stat: "$6,000+", description: "IN PRIZES" },
 ];
 const AttendStats = () => {
   return (
