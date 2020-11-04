@@ -25,7 +25,7 @@
       {
         "time": "8:00pm",
         "title": "Intro to Git/GitHub",
-        "company": ""
+        "company": "Shalini Kumar"
       },
       {
         "time": "9:00pm",
@@ -50,17 +50,17 @@
       {
         "time": "9:00am",
         "title": "College to Corporate",
-        "company": "TechTogether Boston"
+        "company": "Digital Page"
       },
       {
         "time": "9:30am",
         "title": "What is a Design Sprint",
-        "company": ""
+        "company": "Pega"
       },
       {
         "time": "10:00am",
         "title": "Team Formation",
-        "company": ""
+        "company": "TechTogether"
       },
       {
         "time": "10:00am",
@@ -70,17 +70,17 @@
       {
         "time": "10:30am",
         "title": "Trivia with Progress",
-        "company": ""
+        "company": "Progress"
       },
       {
         "time": "10:30am",
         "title": "Intro to Javascript",
-        "company": ""
+        "company": "TechTogether"
       },
       {
         "time": "11:00am",
         "title": "Lorena Leonard: TechTalk",
-        "company": ""
+        "company": "Lorena Leonard"
       },
       {
         "time": "11:00am",
@@ -90,7 +90,7 @@
       {
         "time": "12:00pm",
         "title": "Resume Review",
-        "company": ""
+        "company": "Careers DeCoded"
       },
       {
         "time": "12:00pm",
@@ -100,7 +100,7 @@
       {
         "time": "12:30pm",
         "title": "Team Formation",
-        "company": ""
+        "company": "TechTogether"
       },
       {
         "time": "1:00pm",
@@ -110,27 +110,33 @@
       {
         "time": "2:00pm",
         "title": "Google Cloud Workshop",
-        "company": "Google"
+        "company": "Google Cloud"
       },
       {
         "time": "3:00pm",
         "title": "Offer Negotiation",
-        "company": ""
+        "company": "Careers DeCoded"
       },
       {
         "time": "3:00pm",
         "title": "Build a Cloud Connected App",
-        "company": ""
+        "company": "Capital One"
       },
+      { "time": "3:00pm", "title": "echoAR Workshop", "company": "EchoAR" },
       {
         "time": "4:00pm",
         "title": "LGBTQ+",
-        "company": ""
+        "company": "TechTogether Boston"
+      },
+      {
+        "time": "4:00pm",
+        "title": "Capture the Flag",
+        "company": "MLH"
       },
       {
         "time": "5:00pm",
         "title": "VS Code to Venture Capital",
-        "company": ""
+        "company": "CodeBar"
       },
       {
         "time": "6:00pm",
@@ -139,13 +145,13 @@
       },
       {
         "time": "6:30pm",
-        "title": "PEGA: Think like an UXer",
-        "company": ""
+        "title": "Pega: Think like an UXer",
+        "company": "Pega"
       },
       {
         "time": "7:30pm",
         "title": "SideProjct",
-        "company": ""
+        "company": "SideProjct"
       }
     ]
   },
@@ -160,17 +166,17 @@
       {
         "time": "9:30am",
         "title": "How to Introduce your Project",
-        "company": ""
+        "company": "BostonHacks"
       },
       {
         "time": "10:00am",
         "title": "Interview Prep",
-        "company": ""
+        "company": "Careers DeCoded"
       },
       {
         "time": "10:30am",
         "title": "Jasmine Rose: TechTalk",
-        "company": ""
+        "company": "Jasmine Rose"
       },
       {
         "time": "1:00pm",
@@ -180,7 +186,7 @@
       {
         "time": "4:00pm",
         "title": "Closing Ceremony",
-        "company": "TechTogether Boston"
+        "company": ""
       }
     ]
   }
