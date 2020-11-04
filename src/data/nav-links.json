@@ -4,23 +4,23 @@
     "path": "/"
   },
   {
-    "name": "About Us",
-    "path": "/aboutUs"
-  },
-  {
-    "name": "Learn More",
-    "path": "/learnMore"
-  },
-  {
     "name": "Attend",
     "path": "/attend"
+  },
+  {
+    "name": "Mentors",
+    "path": "/mentors"
   },
   {
     "name": "Speakers",
     "path": "/speakers"
   },
   {
-    "name": "Mentors",
-    "path": "/mentors"
+    "name": "Learn More",
+    "path": "/learnMore"
+  },
+  {
+    "name": "About Us",
+    "path": "/aboutUs"
   }
 ]
