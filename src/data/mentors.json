@@ -77,7 +77,7 @@
   {
     "#": "0e1eq28n3quadj0e1eqqrxu4lv6r5zzy",
      "photo": "mentors/david.jpg",
-    "name": "Dadvid Quach",
+    "name": "David Quach",
     "pronouns": "he/him",
     "universityWorkplace": "CaterTrax",
     "majorProfession": "Associate Software Engineer",
@@ -723,6 +723,63 @@
       "Project Management",     
       "UI/UX",
       "Web Developer"
+    ]
+  },
+  {
+    "photo": "mentors/leigh.jpeg",
+    "name": "Leigh Perret",
+    "pronouns": "She/her",
+    "universityWorkplace": "Liberty Mutual",
+    "majorProfession": "Engineering Manager",
+    "skills":[ 
+      "Project Management"       
+    ]
+  },
+  {
+    "photo": "mentors/srishti.jpeg",
+    "name": "Srishti Mishra",
+    "pronouns": "She/her",
+    "universityWorkplace": "Northeastern University",
+    "majorProfession": "Information Systems",
+    "skills":[ 
+      "Data Analysis",
+      "Data Visualization",
+      "Machine Learning",
+      "Matlab",    
+      "Python",    
+      "SQL",
+      "Statistics"    
+    ]
+  },
+  {
+    "photo": "mentors/amanda.jpg",
+    "name": "Amanda Wang",
+    "pronouns": "She/her",
+    "universityWorkplace": "Liberty Mutual Insurance",
+    "majorProfession": "Associate Software Engineer",
+    "skills":[ 
+      "Back End",   
+      "Bootstrap",
+      "Front End",     
+      "Github",     
+      "HTML/CSS",     
+      "Java",
+      "JavaScript",    
+      "SQL",
+      "Web Developer"  
+    ]
+  },
+  {
+    "photo": "mentors/patricia.jpg",
+    "name": "Patricia Saylor",
+    "pronouns": "She/her",
+    "universityWorkplace": "Facebook",
+    "majorProfession": "Sr. Software Engineer",
+    "skills":[ 
+      "Front End",     
+      "HTML/CSS",     
+      "JavaScript",    
+      "Web Developer"  
     ]
   }
 ]

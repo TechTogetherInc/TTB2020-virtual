@@ -86,7 +86,22 @@
       "linkedinUrl": "https://www.linkedin.com/in/rashmilivemula/",
       "image": "Rashmili",
       "aboutMe": "Rashmili Vemula was born in Hyderabad, India and moved to South Carolina with her family at the age of 8. She has a background in Computer Science and has built her career as an IT Business Analyst in software development. With her experience, Rashmili recently took on the role of Strategic Marketing Manager at her current company to market their custom software development services. Through her experiences within the tech space in various domains, Rashmili knows the importance of being nimble to stay competitive in a rapidly evolving market. A facet of staying competitive is through diversity of thought. Rashmili continuously advocates for diversity and inclusion of women and minorities, as she is both, within the technology industry. In her free time, Rashmili co-hosts a podcast, Carolina Desi, which aims to share their immigrant experience and of growing up in the American South. It has become a light-hearted way to advocate for the South Asian diaspora from a millennial perspective."
-    }
-    
+    },
+    {
+      "name": "Anum Ahmad",
+      "company": "Tech Together Boston",
+      "title": "Data Science Activist",
+      "linkedinUrl": "https://www.linkedin.com/in/anumqahmad/",
+      "image": "Anum",
+      "aboutMe": "Anum Ahmad is a passionate student with an interest in technology and design. She enjoys using her skills in her work as an activist in the Women is STEAM movement, as well as equity in religious diversity to create projects for social good."
+    },
+    {
+      "name": "Daniela Becker",
+      "company": "Amazon Web Services",
+      "title": "Senior Product Manager",
+      "linkedinUrl": "https://www.linkedin.com/in/drdanielabecker/",
+      "image": "Daniela",
+      "aboutMe": "Daniela Becker is a Senior Product Manager at AWS, where she focuses on hybrid cloud storage solutions. She is excited about helping customers leverage AWS to overcome their storage challenges. Prior to AWS, Daniela worked in the Security & Privacy space as a Research Scientist. She received her PhD in Computer Science from the Hamburg University of Technology and her MBA from Carnegie Mellon University. In her free time, she enjoys running, cooking, and yoga."
+    } 
   ]
   

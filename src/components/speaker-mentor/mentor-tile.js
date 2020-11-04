@@ -172,7 +172,7 @@ class MentorTiles extends React.Component {
             <div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <h1 className="mentor-head">TTB 2020 mentors</h1>
+                        <h1 className="mentor-head">TTB 2020 Mentors</h1>
                         <p className="mentor-head">To view who's online, check out our Discord !</p>
                     </div>
                     <div class="col-sm-6" className="contact-mentor">
