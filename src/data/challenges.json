@@ -73,7 +73,7 @@
   },
   {
     "title": "Best Data Hack",
-    "description": "How did data support the implementation of your solution? Implementation of the idea (including user experience, AI design, and data integration). Quality of the idea (including creativity, originality and fit with your target audience) -- Potential impact on your target audience.",
+    "description": "How did data support the implementation of your solution? <br/>Implementation of the idea (including user experience, AI design, and data integration) <br/>Quality of the idea (including creativity, originality and fit with your target audience) <br/>Potential impact on your target audience.",
     "prize": "'Computing' MIT Essential Press book + Uber Eats Yearly Pass",
     "image": "sponsor-logos/travelers-logo.png"
   },
@@ -102,9 +102,9 @@
     "image": "sponsor-logos/wolframalpha-logo.png"
   },
   {
-    "title": "Best Use of Google Cloud",
+    "title": "Best Use of Google Cloud - Use any Google Cloud product",
     "description": "Use any Google Cloud product.",
-    "prize": "Google Cloud branded backpack, water bottle, and trophy",
+    "prize": "1st place: Google Cloud branded backpack, water bottle, and trophy (US mailing addresses only) <br/>2nd place: Google Nest Mini(s) (International)",
     "image": "sponsor-logos/googlecloud-logo.png"
   },
   {
