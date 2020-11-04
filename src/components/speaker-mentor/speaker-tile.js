@@ -6,13 +6,14 @@ import Carolyn from "../../images/speakers/carolyn.png";
 import Savita from "../../images/speakers/savita.png";
 import Charis from "../../images/speakers/charis.png";
 import Liat from "../../images/speakers/liat.png";
-
 import Kim from "../../images/speakers/Kim.png";
 import Amy from "../../images/speakers/Amy.png";
 import Alon from "../../images/speakers/Alon.png";
 import Sara from "../../images/speakers/Sara.png";
 import Alyssa from "../../images/speakers/Alyssa.png";
 import Rashmili from "../../images/speakers/Rashmili.png";
+import Daniela from "../../images/speakers/daniela.png";
+import Anum from "../../images/speakers/anum.png";
 
 const photos = {
     Richard,
@@ -21,7 +22,7 @@ const photos = {
     Charis,
     Liat,
     Kim,
-    Amy, Alon, Sara, Alyssa, Rashmili
+    Amy, Alon, Sara, Alyssa, Rashmili, Daniela, Anum
 };
 
 const Speaker = (props) => (
