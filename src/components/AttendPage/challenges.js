@@ -21,10 +21,19 @@ const Challenges = () => {
               </div>
             </div>
             <div className="title">{element.title}</div>
-            <div className="prize">
-              <u>Prize</u>: {element.prize}
-            </div>
-            <div className="description">{element.description}</div>
+            <div
+              className="prize"
+              dangerouslySetInnerHTML={{
+                __html: "<u>Prize</u>: " + element.prize,
+              }}
+            ></div>
+
+            <div
+              className="description"
+              dangerouslySetInnerHTML={{
+                __html: element.description,
+              }}
+            ></div>
           </div>
         ))}
       </div>
