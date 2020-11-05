@@ -203,7 +203,7 @@
     "#": "cx2ypgvhjm0ydprdjcx2ypo2nac4tug0",
      "photo": "mentors/kala.jpg",
     "name": "Kala Campbell",
-    "pronouns": "(she/her)",
+    "pronouns": "she/her",
     "universityWorkplace": "Pegasystems",
     "majorProfession": "User Experience Designer",
     "skills": [
@@ -211,7 +211,8 @@
       "Business Design",
       "Data Visualization",    
       "Graphic Design",     
-      "Project Management",    
+      "Project Management", 
+      "UI/UX",   
       "Videography"]
   },
   {
@@ -515,7 +516,7 @@
     "#": "th65wpg5cr834rtzl21th6a0rrzdpra5",
      "photo": "mentors/karan.jpg",
     "name": "Karan Naik",
-    "pronouns": "(he/him/they/them)",
+    "pronouns": "he/him/they/them",
     "universityWorkplace": "Rutgers Unviserty",
     "majorProfession": "Research Assistant at the Computational Brain Lab",
     "skills": [
