@@ -6,6 +6,11 @@ const Challenges = () => {
   return (
     <div className="display-container">
       <h1>Challenges</h1>
+      <div style={{ textAlign: "center" }}>
+        <a href="https://techtogetherboston-2020.devpost.com/">
+          techtogetherboston-2020.devpost.com/
+        </a>
+      </div>
       <div className="row">
         {challengesData.map((element) => (
           <div className="col-12 col-md-3 subcontainer">
