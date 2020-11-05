@@ -54,6 +54,11 @@
       },
       {
         "time": "9:30am",
+        "title": "Etienne Fang: Change Your Mind",
+        "company": "Etienne Fang"
+      },
+      {
+        "time": "9:30am",
         "title": "What is a Design Sprint",
         "company": "Pega"
       },
@@ -109,7 +114,7 @@
       },
       {
         "time": "2:00pm",
-        "title": "Google Cloud Workshop",
+        "title": "Getting Started with Google Maps Platform",
         "company": "Google Cloud"
       },
       {
@@ -118,11 +123,15 @@
         "company": "Careers DeCoded"
       },
       {
+        "time": "4:00pm",
+        "title": "Build a Cloud-Connected AR/VR App in 15 Minutes or Less",
+        "company": "EchoAR"
+      },
+      {
         "time": "3:00pm",
-        "title": "Build a Cloud Connected App",
+        "title": "",
         "company": "Capital One"
       },
-      { "time": "3:00pm", "title": "echoAR Workshop", "company": "EchoAR" },
       {
         "time": "4:00pm",
         "title": "LGBTQ+",
@@ -150,8 +159,8 @@
       },
       {
         "time": "7:30pm",
-        "title": "SideProjct",
-        "company": "SideProjct"
+        "title": "How to Apply Personal SWOT Analysis to Your Career",
+        "company": "SIDE PRJCT"
       }
     ]
   },

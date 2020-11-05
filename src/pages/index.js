@@ -45,12 +45,8 @@ const App = () => {
                 <br />
                 <div className="attend-header">
                   <div className="register-button">
-                    <a
-                      type="button"
-                      target="_blank"
-                      href="https://techtogetherboston.eventbrite.com/"
-                    >
-                      REGISTER
+                    <a type="button" href="/attend">
+                      VIEW HACKATHON SCHEDULE
                     </a>
                   </div>
                 </div>

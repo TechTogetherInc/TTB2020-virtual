@@ -4,7 +4,10 @@ import scheduleData from "../../data/schedule.json";
 const Schedule = () => {
   return (
     <div className="schedule">
-      <h1>Schedule</h1>
+      <h1 style={{ marginBottom: "3px" }}>Schedule</h1>
+      <div style={{ textAlign: "center", fontStyle: "italic" }}>
+        All times in EST
+      </div>
       {scheduleData.map((day) => (
         <Day key={day["date"]} date={day["date"]} events={day["events"]} />
       ))}
