@@ -1,23 +1,28 @@
 [
   {
     "sponsor": "Athena Health",
-    "logo": "sponsor-logos/athenahealth-logo.png"
+    "logo": "sponsor-logos/athenahealth-logo.png",
+    "blurb": "athenahealth partners with healthcare organizations across the care continuum to drive clinical and financial results. Our expert teams build modern technology on an open, connected ecosystem, yielding insights that make a difference for our customers and their patients."
   },
   {
     "sponsor": "Facebook",
-    "logo": "sponsor-logos/facebook-logo.png"
+    "logo": "sponsor-logos/facebook-logo.png",
+    "blurb": "Facebook's mission is to give people the power to build community and bring the world closer together. Through our family of apps and services, we're building a different kind of company that connects billions of people around the world, gives them ways to share what matters most to them, and helps bring people closer together. Whether we're creating new products or helping a small business expand its reach, people at Facebook are builders at heart. Our global teams are constantly iterating, solving problems, and working together to empower people around the world to build community and connect in meaningful ways. Together, we can help people build stronger communities — we're just getting started."
   },
   {
     "sponsor": "Liberty Mutual",
-    "logo": "sponsor-logos/libertymutual-logo.png"
+    "logo": "sponsor-logos/libertymutual-logo.png",
+    "blurb": "At Liberty Mutual, our purpose is to help people embrace today and confidently pursue tomorrow. That’s why we provide an environment focused on openness, inclusion, trust and respect. Here, you’ll discover a workplace where you can turn your interests into a rewarding career.<br/><br/>As a Fortune 100 company, we’ve spent over 100 years creating innovative insurance products to meet the world’s evolving needs. Why? Because we're committed to creating peace of mind for our customers. We hope you’ll join us.<br/><br/>Pursue your tomorrow, today."
   },
   {
     "sponsor": "Travelers",
-    "logo": "sponsor-logos/travelers-logo.png"
+    "logo": "sponsor-logos/travelers-logo.png",
+    "blurb": "Our story begins more than 165 years ago, when our founder, James G. Batterson, sold the very first accident insurance policy in the United States. Since then, our colorful and exciting history illustrates a remarkable agility to innovate and adapt to changing times. <br/><br/>Today, we face insurance scenarios our predecessors would have never imagined … from autonomous cars to epic natural disasters to global businesses in oil, gas, marine, finance and technology. That’s why we challenge the status quo with new ideas and innovations in the areas of AI, geospatial, cybersecurity, global risk and more. <br/><br/>The one thing that has remained the same over the years is a commitment to looking out for others. We have an enduring promise to secure, respect and care for our customers. That’s why Travelers (NYSE: TRV) continues to be highly respected as one of the best and most experienced property and casualty insurers in the industry. <br/><br/>Our success is due to our people. Are you ready to join us?"
   },
   {
     "sponsor": "Progress Software Corp",
-    "logo": "sponsor-logos/progress-logo.png"
+    "logo": "sponsor-logos/progress-logo.png",
+    "blurb": "Progress provides the best products to develop, deploy and manage high-impact business applications that seamlessly and securely integrate with your enterprise systems to deliver exceptional end-user experiences. For almost 40 years, we’ve delivered products created by developers, for developers to make operations simpler and developers’ lives easier."
   },
   {
     "sponsor": "Spark",
@@ -25,23 +30,28 @@
   },
   {
     "sponsor": "VMWare",
-    "logo": "sponsor-logos/vmware-logo.jpg"
+    "logo": "sponsor-logos/vmware-logo.jpg",
+    "blurb": "Who We Are<br/><br/>VMware software powers the world’s complex digital infrastructure. The company’s cloud, networking and security, and digital workspace offerings provide a dynamic and efficient digital foundation to customers globally, aided by an extensive ecosystem of partners. Headquartered in Palo Alto, California, VMware is committed to being a force for good, from its breakthrough innovations to its global impact. <a href='https://www.vmware.com/company.html'>Learn more about who we are!</a> <br/><br/>Our Commitment to Diversity & Inclusion <br/><br/>We believe that people don’t join companies, they join communities. This is why we’re striving to create a workplace that reflects the communities we serve, where you can bring your full, authentic self to work. Our commitment to inclusion is deeply embedded within our EPIC2 values and we know it’s smart business. When talents, perspectives and creativity have the opportunity to be heard, advancement is limitless. The power of human difference has a positive impact on the way we innovate everywhere. <a href='https://www.vmware.com/company/diversity.html'>Learn more here.</a> "
   },
   {
-    "sponsor": "MassTech",
-    "logo": "sponsor-logos/masstech-logo.png"
+    "sponsor": "Massachusetts Technology Collaborative (MassTech)",
+    "logo": "sponsor-logos/masstech-logo.png",
+    "blurb": "The Massachusetts Technology Collaborative (MassTech) strengthens the competitiveness of the tech and innovation economy by driving strategic investments, partnerships, and insights that harness the talent of Massachusetts. Launched in 1982, the public agency is headquartered in Westborough, Mass., and has five divisions that focus on distinct areas of the Massachusetts innovation economy. Learn more at <a href='https://www.masstech.org'>masstech.org</a>."
   },
   {
     "sponsor": "Northeastern Khoury College of Computer Scientists",
-    "logo": "sponsor-logos/northeastern-logo.png"
+    "logo": "sponsor-logos/northeastern-logo.png",
+    "blurb": "Khoury College of Computer Sciences delivers interdisciplinary programs and conducts research informed by experience and inspired by the real world. Our students control their academic journey—propelled by rigorous curriculum, experiential learning, and industry-connected faculty who spark ideas and spur innovation. All within a collaborative, rapidly growing community spanning multiple regional campuses."
   },
   {
     "sponsor": "Balsamiq",
-    "logo": "sponsor-logos/balsamiq-logo.png"
+    "logo": "sponsor-logos/balsamiq-logo.png",
+    "blurb": "UX is an exciting, fast-growing, high-paying, impactful discipline. But where should one start? Start with Balsamiq! <br/><br/>Balsamiq Wireframes is the perfect first UX design tool for anyone interested in getting into UX. It's by far the most approachable: you just drag, drop, and arrange controls on the page, and voila', you made your first User Interface! <br/><br/>They even have online courses and articles to teach you all about UI design. Balsamiq is free for classroom use, and very affordable for anyone else. Kick-start your UX career at balsamiq.com."
   },
   {
     "sponsor": "Google Cloud",
-    "logo": "sponsor-logos/googlecloud-logo.png"
+    "logo": "sponsor-logos/googlecloud-logo.png",
+    "blurb": "Prepare for a cloud-first workplace. Grow your career, startup, or business with a suite of secure storage, powerful compute, and integrated data analytics products provided by Google Cloud. Learn more at <a href='http://g.co/cloud'>g.co/cloud</a>."
   },
   {
     "sponsor": "CodeBar",
@@ -53,11 +63,13 @@
   },
   {
     "sponsor": "Digital Page",
-    "logo": "sponsor-logos/digitalpage-logo.png"
+    "logo": "sponsor-logos/digitalpage-logo.png",
+    "blurb": "Inspire. Educate. Empower.<br/>Digital Page's mission is to empower young women to develop future design-minded technology leaders and build tomorrow’s people-focused digital solutions."
   },
   {
     "sponsor": "Wolfram Alpha",
-    "logo": "sponsor-logos/wolframalpha-logo.png"
+    "logo": "sponsor-logos/wolframalpha-logo.png",
+    "blurb": "Inject computational intelligence at every level, on every project. Wolfram Language's ability to unify algorithms, data, notebooks and linguistics—representing, binding and specifying all elements—is unparalleled."
   },
   {
     "sponsor": "EchoAR",
