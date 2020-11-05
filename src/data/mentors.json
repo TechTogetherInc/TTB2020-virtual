@@ -781,5 +781,69 @@
       "JavaScript",    
       "Web Developer"  
     ]
+  },
+  {
+    "photo": "mentors/angela.jpg",
+    "name": "Angela Garabet",
+    "pronouns": "She/her",
+    "universityWorkplace": "OHSU/Harvard",
+    "majorProfession": "UX/Data Science",
+    "skills":[ 
+      "Artificial Intelligence",
+      "Business Design",
+      "Data Analysis",
+      "Machine Learning",
+      "Project Management",
+      "Python", 
+      "UI/UX"
+    ]
+  },
+  {
+    "photo": "mentors/sumita.png",
+    "name": "Sumita Palanisamy",
+    "pronouns": "She/her",
+    "universityWorkplace": "athenahealth",
+    "majorProfession": "Engineering manager",
+    "skills":[    
+      "Back End",    
+      "C/C++/C#",    
+      "Github",    
+      "Java",     
+      "SQL",
+      "Visual Studio"
+    ]
+  },
+  {
+    "photo": "mentors/ro.jpeg",
+    "name": "Ro Encarnación",
+    "pronouns": "She/her",
+    "universityWorkplace": "Capital One",
+    "majorProfession": "Software Engineer",
+    "skills":[        
+      "Back End",   
+      "Bootstrap",    
+      "C/C++/C#",   
+      "Github",    
+      "HTML/CSS",    
+      "Java",    
+      "Python",
+      "R",      
+      "Shell Scripting",
+      "Web Developer"
+    ]
+  },
+  {
+    "photo": "mentors/john.jpg",
+    "name": "John Gervasi",
+    "pronouns": "He/Him",
+    "universityWorkplace": "Goodbaby International",
+    "majorProfession": "Sr. Design Engineer",
+    "skills":[        
+      "Adobe Photoshop", 
+      "Arduino",
+      "Hardware",
+      "Raspberry Pi",
+      "Robotics"
+    ]
   }
 ]
