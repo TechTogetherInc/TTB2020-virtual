@@ -14,6 +14,7 @@ import Alyssa from "../../images/speakers/Alyssa.png";
 import Rashmili from "../../images/speakers/Rashmili.png";
 import Daniela from "../../images/speakers/daniela.png";
 import Anum from "../../images/speakers/anum.png";
+import Fang from "../../images/speakers/fang.png";
 
 const photos = {
     Richard,
@@ -22,7 +23,7 @@ const photos = {
     Charis,
     Liat,
     Kim,
-    Amy, Alon, Sara, Alyssa, Rashmili, Daniela, Anum
+    Amy, Alon, Sara, Alyssa, Rashmili, Daniela, Anum, Fang
 };
 
 const Speaker = (props) => (
