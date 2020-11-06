@@ -54,7 +54,7 @@
       "Github",
       "Java",
       "Matlab",
-      "Raspberry Pi" ]
+      "Raspberry Pi", "Ruby" ]
   },
   {
     "photo": "mentors/olivia.jpg",
@@ -845,6 +845,123 @@
       "Hardware",
       "Raspberry Pi",
       "Robotics"
+    ]
+  },
+  {
+    "photo": "mentors/deepansh.jpg",
+    "name": "Deepansh Sachdeva",
+    "pronouns": "He/Him",
+    "universityWorkplace": "Northeastern University",
+    "majorProfession": "MS Information Systems",
+    "skills":[        
+      "Alexa",
+      "AWS",
+      "Back End",
+      "Bootstrap",
+      "Github",
+      "HTML/CSS",
+      "Java",
+      "JavaScript",
+      "Shell Scripting",
+      "SQL",
+      "Web Developer"
+    ]
+  },
+  {
+    "photo": "mentors/suchita.jpg",
+    "name": "Suchita Mudholkar",
+    "pronouns": "She/Her",
+    "universityWorkplace": "MathWorks",
+    "majorProfession": "Software Quality Engineer",
+    "skills":[        
+      "AWS", 
+      "Bootstrap",  
+      "Front End", 
+      "HTML/CSS",    
+      "JavaScript",   
+      "Matlab",    
+      "Raspberry Pi",    
+      "UI/UX",
+      "Web Developer"
+    ]
+  },
+  {
+    "photo": "mentors/michelle.jpg",
+    "name": "Michelle Roxas",
+    "pronouns": "She/Her",
+    "universityWorkplace": "Google",
+    "majorProfession": "Software Engineer",
+    "skills":[        
+      "Front End", 
+      "HTML/CSS",    
+      "JavaScript",   
+      "Web Developer"
+    ]
+  },
+  {
+    "photo": "mentors/placeholder.png",
+    "name": "Keis Bejgo",
+    "pronouns": "She/Her",
+    "universityWorkplace": "Pegasystems",
+    "majorProfession": "Software Engineer",
+    "skills":[           
+      "Artificial Intelligence", 
+      "Back End",    
+      "Data Analysis",
+      "Data Visualization",   
+      "Github",   
+      "Java",
+      "Machine Learning",    
+      "Python",
+      "R",   
+      "SQL",
+      "Statistics"
+    ]
+  },
+  {
+    "photo": "mentors/kris.png",
+    "name": "Kris Fedorenko",
+    "pronouns": "She/Her",
+    "universityWorkplace": "MathWorks",
+    "majorProfession": "Software Engineer",
+    "skills":[           
+      "Artificial Intelligence", 
+      "C/C++/C#",   
+      "Github",   
+      "Java",   
+      "Machine Learning",
+      "Matlab",   
+      "Project Management"
+    ]
+  },
+  {
+    "photo": "mentors/lance.png",
+    "name": "Lance McCarthy",
+    "pronouns": "He/Him",
+    "universityWorkplace": "Progress Software",
+    "majorProfession": "Manager Technical Support (USA)",
+    "skills":[              
+      "App Developer", 
+      "Back End",   
+      "C/C++/C#",    
+      "Data Visualization",    
+      "Front End",   
+      "Github",   
+      "Hardware",    
+      "Raspberry Pi",
+      "Raspbian",     
+      "UI/UX",   
+      "Visual Studio"
+    ]
+  },
+  {
+    "photo": "mentors/christine.jpg",
+    "name": "Christine Robinette",
+    "pronouns": "She/Her",
+    "universityWorkplace": "Liberty Mutual",
+    "majorProfession": "Manager, Engineering",
+    "skills":[              
+      "Project Management"
     ]
   }
 ]
