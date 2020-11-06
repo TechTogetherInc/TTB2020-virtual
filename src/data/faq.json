@@ -58,6 +58,10 @@
   },
   {
     "question": "I did not get an invite to join discord. How do I get the invite?",
-    "answer": "To receive an invite to join discord email <a target=_blank' href='mailto:info.boston@techtogether.io'>TechTogetherBoston</a>."
+    "answer": "To receive an invite to join discord email <a target=_blank' href='mailto:info.boston@techtogether.io'>TechTogether Boston</a>."
+  },
+  {
+    "question": "What is the project submission deadline?",
+    "answer": "You can submit your project on <a target=_blank' href='https://techtogetherboston-2020.devpost.com/'>DevPost</a>by 12:00 pm on Sunday, Nov 8th."
   }
 ]
