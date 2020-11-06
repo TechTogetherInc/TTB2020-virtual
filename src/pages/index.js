@@ -44,9 +44,23 @@ const App = () => {
                 </h3>
                 <br />
                 <div className="attend-header">
-                  <div className="register-button">
+                  <div
+                    className="register-button"
+                    style={{ margin: "5px 1px", padding: "10px 30px" }}
+                  >
                     <a type="button" href="/attend">
                       VIEW HACKATHON SCHEDULE
+                    </a>
+                  </div>
+                  <div
+                    className="register-button"
+                    style={{ margin: "5px 1px" }}
+                  >
+                    <a
+                      type="button"
+                      href="https://techtogetherboston-2020.devpost.com/"
+                    >
+                      SUBMIT PROJECT ON DEVPOST
                     </a>
                   </div>
                 </div>
