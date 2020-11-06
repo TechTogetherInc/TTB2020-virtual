@@ -66,7 +66,15 @@ const ActualSponsor = () => {
           <Image filename={"sponsor-logos/pegasystem-logo.jpg"} />
         </div>
 
-        <div style={{ width: "225px", margin: "auto" }}>
+        <div
+          style={{ width: "225px", margin: "auto" }}
+          onClick={() =>
+            openModal(
+              "Capital One",
+              "In our 25 years as a founder-led public company, Capital One has grown from a small, credit card start-up that pioneered the use of predictive modeling into one of the largest, fastest-growing, and most dynamic financial technology companies. At Capital One, we believe our success is fueled by data-driven insights, deep customer understanding, and innovative business strategy.  We’ve helped transform cities and communities by attracting incredibly talented associates with the audacity to think they can change the world and the humility to understand they need a whole lot of help to make it happen."
+            )
+          }
+        >
           <Image filename={"sponsor-logos/capitalone-logo.png"} />
         </div>
 
