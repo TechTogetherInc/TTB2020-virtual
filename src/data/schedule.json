@@ -118,18 +118,23 @@
         "company": "Google Cloud"
       },
       {
+        "time": "2:00pm",
+        "title": "The Science Behind Alexa",
+        "company": "Amazon"
+      },
+      {
         "time": "3:00pm",
         "title": "Offer Negotiation",
         "company": "Careers DeCoded"
       },
       {
-        "time": "4:00pm",
+        "time": "3:00pm",
         "title": "Build a Cloud-Connected AR/VR App in 15 Minutes or Less",
         "company": "EchoAR"
       },
       {
-        "time": "3:00pm",
-        "title": "",
+        "time": "4:00pm",
+        "title": "Capital One Kahoot Trivia",
         "company": "Capital One"
       },
       {
@@ -141,6 +146,11 @@
         "time": "4:00pm",
         "title": "Capture the Flag",
         "company": "MLH"
+      },
+      {
+        "time": "5:00pm",
+        "title": "Building an AWS-powered Web App with AWS Amplify",
+        "company": "Amazon"
       },
       {
         "time": "5:00pm",
