@@ -114,6 +114,11 @@
       },
       {
         "time": "2:00pm",
+        "title": "The Science behind Alexa",
+        "company": "Amazon"
+      },
+      {
+        "time": "2:00pm",
         "title": "Getting Started with Google Maps Platform",
         "company": "Google Cloud"
       },
@@ -123,18 +128,18 @@
         "company": "Careers DeCoded"
       },
       {
-        "time": "4:00pm",
+        "time": "3:00pm",
         "title": "Build a Cloud-Connected AR/VR App in 15 Minutes or Less",
         "company": "EchoAR"
       },
       {
-        "time": "3:00pm",
-        "title": "",
+        "time": "4:00pm",
+        "title": "Capital One Kahoot Trivia",
         "company": "Capital One"
       },
       {
         "time": "4:00pm",
-        "title": "LGBTQ+",
+        "title": "LGBTQ+ Meetup",
         "company": "TechTogether Boston"
       },
       {
@@ -146,6 +151,11 @@
         "time": "5:00pm",
         "title": "VS Code to Venture Capital",
         "company": "CodeBar"
+      },
+      {
+        "time": "5:00pm",
+        "title": "Building an AWS-powered Web App with AWS Amplify",
+        "company": "Amazon"
       },
       {
         "time": "6:00pm",

@@ -5,9 +5,15 @@ const Schedule = () => {
   return (
     <div className="schedule">
       <h1 style={{ marginBottom: "3px" }}>Schedule</h1>
-      <div style={{ textAlign: "center", fontStyle: "italic" }}>
+      <div style={{ textAlign: "center", fontStyle: "italic", fontWeight: "bold" }}>
         All times in EST
       </div>
+      <div style={{ textAlign: "center", fontStyle: "italic" }}>
+        All sessions will take place on Zoom.
+        The links for sessions will be shared on Discord 10 minutes prior to the sessions.
+        If you have not received an invite to join Discord, <a target="_blank" href="https://boston.techtogether.io/mentors">Email Us</a>
+      </div>
+      <br />
       {scheduleData.map((day) => (
         <Day key={day["date"]} date={day["date"]} events={day["events"]} />
       ))}

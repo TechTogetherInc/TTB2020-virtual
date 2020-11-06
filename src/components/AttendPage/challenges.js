@@ -7,6 +7,8 @@ const Challenges = () => {
     <div className="display-container">
       <h1>Challenges</h1>
       <div style={{ textAlign: "center" }}>
+        All winners will be featured on our website after the event. 
+        <br /> 
         <a href="https://techtogetherboston-2020.devpost.com/">
           techtogetherboston-2020.devpost.com/
         </a>
