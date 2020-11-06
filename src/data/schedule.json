@@ -114,6 +114,11 @@
       },
       {
         "time": "2:00pm",
+        "title": "The Science behind Alexa",
+        "company": "Amazon"
+      },
+      {
+        "time": "2:00pm",
         "title": "Getting Started with Google Maps Platform",
         "company": "Google Cloud"
       },
@@ -139,7 +144,7 @@
       },
       {
         "time": "4:00pm",
-        "title": "LGBTQ+",
+        "title": "LGBTQ+ Meetup",
         "company": "TechTogether Boston"
       },
       {
@@ -156,6 +161,11 @@
         "time": "5:00pm",
         "title": "VS Code to Venture Capital",
         "company": "CodeBar"
+      },
+      {
+        "time": "5:00pm",
+        "title": "Building an AWS-powered Web App with AWS Amplify",
+        "company": "Amazon"
       },
       {
         "time": "6:00pm",

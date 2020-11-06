@@ -38,5 +38,26 @@
   {
     "question": "What software will I need?",
     "answer": "We will have our main communication over Discord and  Zoom. We recommend a place with stable internet connection so that you can attend all workshops and communicate effectively with your team. We are working on solutions for those who do not have access to a place with a stable internet connection."
+  },
+
+  {
+    "question": "How do I find a team to join?",
+    "answer": "Please attend the Team Formation events on Friday and Saturday and also a #team-formation on Discord."
+  },
+  {
+    "question": "Where do I submit my solution/project?",
+    "answer": "You can submit you solution/project on <a target=_blank' href='https://techtogetherboston-2020.devpost.com/'>DevPost</a>."
+  },
+  {
+    "question": "Where do I go to attend a session?",
+    "answer": "To attend a session make sure to visit Discord! The Zoom link will be sent 10 minutes prior to the workshop start time."
+  },
+  {
+    "question": "How to I find a mentor for help?",
+    "answer": "1. You can visit the <a target=_blank' href='https://boston.techtogether.io/mentors'>Mentors Page</a> to search mentors by skills. <br /> 2. Click the 'Contact A Mentor' button at the top of the page, submit a form and a Mentor will contact you on Discord. <br />3. You can also find mentors directly in the #ask-a-mentor channel on Discord."
+  },
+  {
+    "question": "I did not get an invite to join discord. How do I get the invite?",
+    "answer": "To receive an invite to join discord email <a target=_blank' href='mailto:info.boston@techtogether.io'>TechTogetherBoston</a>."
   }
 ]
