@@ -2,10 +2,9 @@ import React from "react";
 import AttendStats from "../components/AttendPage/attendStats";
 import Schedule from "../components/AttendPage/schedule";
 import Challenges from "../components/AttendPage/challenges";
-// import { Link } from "gatsby";
+import ZoomBackgrounds from "../components/AttendPage/zoomBackgrounds"
 
 import Layout from "../components/layout";
-// import SEO from "../components/seo";
 export default () => (
   <Layout>
     <Attend />
@@ -21,10 +20,7 @@ const Attend = () => {
             <Schedule />
             <AttendStats />
             <Challenges />
-
-            {/* <div style={{ textAlign: "center", height: "500px" }}>
-              Details coming!
-            </div> */}
+            <ZoomBackgrounds />
           </div>
         </section>
       </div>

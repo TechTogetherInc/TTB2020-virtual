@@ -9,9 +9,7 @@ const Schedule = () => {
         All times in EST
       </div>
       <div style={{ textAlign: "center", fontStyle: "italic" }}>
-        All sessions will take place on Zoom.
-        The links for sessions will be shared on Discord 10 minutes prior to the sessions.
-        If you have not received an invite to join Discord, <a target="_blank" href="https://boston.techtogether.io/mentors">Email Us</a>
+        All sessions will take place on Zoom. The links for sessions will be shared on Discord 10 minutes prior to the sessions on #event-announcements channel on Discord. If you have not received an invite to join Discord, email <a target="_blank" href="mailto:info.boston@techtogether.io">Email Us</a>
       </div>
       <br />
       {scheduleData.map((day) => (
