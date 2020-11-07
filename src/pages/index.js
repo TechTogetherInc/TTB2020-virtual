@@ -63,6 +63,17 @@ const App = () => {
                       SUBMIT PROJECT ON DEVPOST
                     </a>
                   </div>
+                  <div
+                    className="register-button"
+                    style={{ margin: "5px 1px", padding: "10px 63px" }}
+                  >
+                    <a
+                      type="button"
+                      href="https://drive.google.com/drive/folders/1AYFc5NadNDdIWgi1Hhv7LqlRCWLqK6Zx"
+                    >
+                      SESSION RECORDINGS
+                    </a>
+                  </div>
                 </div>
                 <a target="_blank" href="https://pinnacle.us.org/">
                   <img
