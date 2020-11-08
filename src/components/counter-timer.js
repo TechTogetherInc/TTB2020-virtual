@@ -69,6 +69,9 @@ const CountdownTimer = () => {
             <p className="time-text">Seconds</p>
           </div>
         </div>
+        <div style={{ textAlign: "center", paddingBottom: "20px" }}>
+          UNTIL PROJECT SUBMISSION
+        </div>
       </div>
     </div>
   );
