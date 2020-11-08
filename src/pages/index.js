@@ -95,11 +95,11 @@ const App = () => {
                 />{" "}
               </div>
             </div>
-            <div className="row" style={{ borderTop: "1px solid" }}>
+            {/* <div className="row" style={{ borderTop: "1px solid" }}>
               <div className="col-12">
                 <CountdownTimer />
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
         <section className="attend">
