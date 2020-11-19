@@ -100,6 +100,11 @@ const ActualSponsor = () => {
             <Image filename={sponsor.logo} />
           </div>
         ))}
+        <div style={{ width: "150px", margin: "auto", padding: "5px" }}>
+          <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank">
+            <Image filename={"sponsor-logos/stickermule-logo.png"} />
+          </a>
+        </div>
       </div>
     </div>
   );
